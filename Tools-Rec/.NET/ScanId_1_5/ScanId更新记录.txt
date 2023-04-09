@@ -1,0 +1,51 @@
+声明:
+本软件大部分功能来源开源的项目(De4dot)而后自己增加了点新功能,过阵子增加对一些常用壳的识别,稳定后会公开源代码..
+君临
+09-16/2014
+
+
+当前发布版本校验:
+MD5值:1377B027BF483EDC15E488167D4A0672
+SHA1值:2F492025FF3F3BEC0E3FF1FC5AC45D2E286CC7CD
+
+ScanId 1.0  09-15/2014
+界面开发完成(虽然丑了点.)
+检测功能已完成...
+
+ScanId 1.1  09-15/2014
+增加 De4dot支持 检测
+增加 运行时版本 检测
+增加 强名       检测
+增加 IL信息     检测 
+增加 元数据     映射
+
+ScanId 1.5  09-15/2014
+增加 从SendTo(发送到)启动程序
+增加 允许拖入程序界面
+增加 模糊扫描混淆器
+
+
+目前支持以下混淆器混淆识别:
+Agile.NET (aka CliSecure)
+Babel.NET
+CodeFort
+CodeVeil
+CodeWall
+CryptoObfuscator
+Confuser
+ConfuserEx
+DNGuard
+DeepSea Obfuscator
+Dotfuscator
+.NET Reactor
+Eazfuscator.NET
+Goliath.NET
+ILProtector
+MaxtoCode
+MPRESS
+Obfuscator 
+Rummage
+Skater.NET
+SmartAssembly
+Spices.Net
+Xenocode
