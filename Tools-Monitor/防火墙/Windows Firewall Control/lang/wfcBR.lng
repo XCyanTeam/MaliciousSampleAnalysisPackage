@@ -1,0 +1,406 @@
+﻿// Author: Hélio de Souza
+// Version: 6.1.0.0 (04.01.2020)
+
+// General
+
+000 = Português (Brasil)
+001 = Sim
+002 = Não
+003 = OK
+004 = Sair
+005 = Painel Principal
+006 = Painel de Regras
+007 = Procure pelo programa que deseja permitir
+008 = Procure pelo programa que deseja bloquear
+009 = Clique na janela do programa para permitir conexão
+010 = Clique na janela do programa para bloquear conexão
+011 = Ou clique neste diálogo para cancelar esta operação
+012 = Uma nova regra foi criada com sucesso para permitir conexões para
+013 = Uma nova regra foi criada com sucesso para bloquear conexões de
+016 = Uma diretiva completa foi importada com sucesso de
+017 = Uma diretiva completa foi exportada com sucesso para
+018 = A diretiva padrão foi restaurada com sucesso.
+021 = Especifique o caminho completo do arquivo que coincide com esta regra
+022 = Uma diretiva parcial foi importada com sucesso de
+023 = Uma diretiva parcial foi exportada com sucesso para
+024 = Falha ao importar o arquivo de diretivas
+025 = Falha ao exportar o arquivo de diretivas
+028 = Conectado ao local
+029 = Manual do usuário
+030 = Bloquear estado do Firewall do Windows
+031 = Desbloquear estado do Firewall do Windows
+032 = Bloquear
+033 = Desbloquear
+034 = Cancelar
+035 = Por favor, defina sua senha
+036 = Forneça a senha para desbloquear
+037 = Senha inválida
+038 = Exibir senha
+039 = Abrir o site
+040 = Gerenciar regras do Firewall do Windows
+042 = Deseja desativar a proteção do Firewall do Windows?
+043 = Não exibir novamente
+044 = Somente leitura
+045 = As regras de entrada com o EdgeTraversal definido como 'Submeter ao usuário' suportam apenas uma personalização limitada, portanto algumas propriedades serão desativadas. Você quer continuar?
+046 = Deseja realmente excluir estas regras?
+050 = Propriedades estendidas
+051 = Esta regra possui propriedades extras configuráveis apenas a partir de WFwAS
+053 = Nenhum
+052 = Contagem
+060 = Atualizar configurações
+061 = Atualizar automaticamente
+070 = Painel
+071 = Testar o Malwarebytes Premium
+072 = Abrir Malwarebytes
+073 = Firewall do Windows
+074 = Ativado
+075 = Desativado
+076 = Conexões de entrada
+077 = Conexões de saída
+078 = Permitir todas
+079 = Permitir
+080 = Bloquear
+081 = Bloquear todas
+
+// Tab items
+
+100 = Perfis
+200 = Notificações
+300 = Opções
+400 = Regras
+500 = Ferramentas
+600 = Sobre
+
+// Profiles
+
+101 = O nível de filtragem especifica quais conexões devem ser bloqueadas e quais podem ser permitidas
+102 = Filtragem Alta
+103 = Todas as conexões de entrada e saída são bloqueadas. Este perfil bloqueia todas as tentativas de conexão com seu computador.
+104 = Filtragem Média (recomendada)
+105 = Conexões de saída que não coincidam com uma regra são bloqueadas. Somente programas com uma regra de permissão são permitidos.
+106 = Filtragem Baixa
+107 = Conexões de saída que não coincidam com uma regra são permitidas. Somente programas com uma regra de bloqueio são bloqueados.
+108 = Sem Filtragem
+109 = O Firewall do Windows é desativado. Evite usar esta configuração a menos que tenha outro firewall em execução.
+110 = Filtragem Média
+111 = Especifique o perfil que será revertido no caso de ser alterado para um perfil de filtragem menor para fins de instalação/atualização
+112 = Definido automaticamente
+113 = após
+114 = minutos
+
+// Notifications
+
+201 = O modo de notificações especifica quais conexões de saída bloqueadas devem ser exibidas ao usuário
+204 = Exibir notificações
+205 = Exibe notificações para todas as conexões de saída bloqueadas, mas não exibe para os programas definidos abaixo
+206 = Modo de aprendizagem
+207 = Automaticamente cria regras de permissão de saída para programas com assinatura digital e exibe notificações somente para programas sem assinatura
+208 = Desativado
+209 = Não exibe nenhuma notificação.
+210 = Opções de notificação
+211 = Fechar notificação automaticamente após
+212 = segundos.
+213 = Tempo limite personalizado para regras temporárias é
+214 = Reproduz um som padrão quando uma nova notificação é gerada
+215 = Reproduzir som padrão
+216 = Reproduzir som personalizado
+217 = Por favor, selecione um som de notificação
+220 = Exibir notificações no topo de outras janelas
+221 = Configurações avançadas de notificações
+222 = Redefinir padrão de configurações avançadas
+223 = Usa regras de permissão ao pesquisar por regras correspondentes. Recomendado para compatibilidade com outros programas de segurança, caso notificações duplicadas sejam exibidas.
+224 = Usa regras de bloqueio genéricas ao pesquisar por regras correspondentes. Se uma regra de bloqueio que se aplica a todos os programas corresponder à conexão bloqueada, as notificações não serão exibidas.
+225 = Usa regras desativadas ao pesquisar por regras correspondentes. Se uma regra desativada correspondente for encontrada, as notificações não serão exibidas.
+230 = Regra criada pelo Modo de aprendizagem
+240 = Defina abaixo os programas e pastas para os quais não serão exibidas notificações
+241 = Exceções de notificação
+242 = Adicionar exceção
+243 = Remover exceção
+244 = Defina aqui uma nova exceção
+245 = Adicionar às exceções de notificação
+246 = Excluir arquivo
+247 = Excluir pasta
+
+// Options
+
+301 = Especifique abaixo as opções para aplicar em todas as contas de usuário do computador local
+302 = Integração do Explorer
+303 = Integra o programa ao menu de contexto de arquivos executáveis e de seus atalhos.
+304 = Iniciar automaticamente ao fazer login
+305 = Ao usar o recurso Trocar Usuário, esta opção é aplicada ao primeiro login do usuário.
+308 = Teclas de Atalho Globais
+309 = Teclas de Atalho Globais são atalhos de teclado que você pode usar a partir de qualquer aplicativo em execução.
+321 = O perfil de Alta Filtragem está habilitado. As conexões de rede são bloqueadas até que o perfil seja alterado manualmente.
+324 = Importar, exportar ou restaurar configurações do usuário
+325 = Importar configurações do usuário de um arquivo
+326 = Exportar configurações do usuário para um arquivo
+327 = Redefinir todas as configurações para os valores padrão
+328 = Configurações do usuário exportadas com sucesso para
+329 = Após confirmar esta ação, o programa irá reiniciar para recarregar todas as configurações. Deseja continuar?
+330 = Permitir pelo Firewall do Windows
+331 = Bloquear pelo Firewall do Windows
+340 = Idioma da interface do usuário
+
+// Rules
+
+401 = Especifique a direção na qual a nova regra será aplicada ao criar uma nova regra:
+402 = Saída (recomendado)
+403 = Por padrão, cria somente regras de saída ao criar novas regras para permitir ou bloquear aplicativos.
+404 = Entrada
+405 = Por padrão, cria somente regras de entrada. Use esta opção com cuidado. O acesso de entrada é geralmente necessário para servidores.
+406 = Saída e entrada
+407 = Por padrão, cria ambos os tipos de regras. (Não recomendado)
+408 = Especifique os locais na qual a nova regra é aplicada ao criar uma nova regra:
+409 = Importar, exportar ou restaurar regras do firewall
+410 = Importar regras do Firewall do Windows de um arquivo
+411 = Exportar regras do Firewall do Windows para um arquivo
+412 = Restaurar as regras padrão do Firewall do Windows
+413 = Restaurar as regras recomendadas pelo Windows Firewall Control
+414 = Um arquivo completo de diretivas foi selecionado. Importar regras do firewall de uma política completa irá substituir todas as regras atuais do Firewall do Windows. Se deseja salvar uma cópia das regras atuais, então você deve primeiro exportá-las para um arquivo. Deseja importar as regras a partir de um arquivo agora?
+415 = Restaurar as regras padrão irá redefinir todas as alterações feitas nas configurações do Firewall do Windows desde que o sistema foi instalado. Isto pode fazer com que alguns programas parem de funcionar. Deseja continuar?
+416 = Importar do arquivo...
+417 = Exportar para arquivo...
+418 = As regras recomendadas do WFC foram recriadas com sucesso.
+419 = Por favor, atualize as regras no Painel de Regras. Obrigado.
+420 = Esta ação irá apagar todas as gravações atuais do Firewall do Windows. Deseja continuar ?
+421 = Um arquivo de diretivas parcial foi selecionado. Importar regras do firewall deste arquivo não irá alterar as regras atuais e as regras contidas neste arquivo serão adicionadas ao conjunto atual. Deseja importar as regras do arquivo selecionado?
+422 = O arquivo não está acessível ou possui um formato inválido!
+423 = Restaurar as regras recomendadas do WFC irá recriar estas regras novamente. As regras existentes permanecerão inalteradas. Deseja continuar?
+
+// Security
+
+450 = Segurança
+451 = Especifique abaixo as melhorias de segurança que serão aplicadas pelo Windows Firewall Control
+452 = Boot Seguro
+453 = Automaticamente define o perfil de Filtragem Alta ao desligar o sistema. Ao iniciar o Windows, as conexões de rede serão bloqueadas até que o usuário altere o perfil manualmente.
+454 = Regras Seguras
+455 = Ativa a proteção contra regras do firewall que não foram criadas nos grupos autorizados definidos abaixo. Isto aplica-se às novas regras de firewall criadas e para as existentes..
+456 = Grupos autorizados
+457 = Adicionar  grupo
+458 = Remover grupo
+459 = Defina aqui um novo grupo autorizado
+460 = Aviso. Todas as regras de firewall, incluindo regras padrão do Firewall do Windows, que possuem o nome do grupo diferente dos  grupos autorizados definidos serão excluídos. É recomendado criar um backup das suas regras atuais. Deseja continuar?
+461 = Importar nome dos grupos das regras existentes atuais
+466 = Foram detectadas regras sem grupo. Para preservá-las, você deseja adicionar essas regras ao Grupo de Controle do Firewall do Windows antes de habilitar as Regras Seguras?
+467 = Autorizar grupo
+470 = Perfil Seguro
+471 = Proteja o Firewall do Windows de adulteração externa. Quando este recurso está ativado, importar regras de firewall e alterar o modo de filtragem podem ser feitos somente através deste software.
+475 = Excluir regras não autorizadas
+476 = Desabilitar regras não autorizadas
+477 = Permitir regras da Windows Store
+
+// Tools
+
+501 = Use os atalhos abaixo para iniciar utilitários do sistema. Estes programas serão executados com os maiores privilégios disponíveis.
+502 = Firewall do Windows com Segurança Avançada
+503 = Visualizador de Eventos
+504 = Monitor de Recursos
+505 = Aplicação Windows Firewall do Painel de Controle
+510 = Especifique abaixo os serviços de URL usados para verificações online
+511 = URL para verificar a reputação de um endereço IP
+512 = URL para verificar um arquivo baseado em seu hash SHA256
+513 = URL para iniciar uma consulta WHOIS
+514 = URL para ler mais sobre uma porta específica
+520 = Copiar...
+521 = Todos
+
+// About
+
+601 = Sobre o programa
+602 = Verificar atualizações do programa
+603 = Não foi possível conectar ao servidor de atualização. Certifique-se de possuir a regra necessária para permitir conexões deste programa e uma configuração proxy correta, se necessário.
+605 = Você está usando a versão mais recente!
+606 = Uma nova versão do Windows Firewall Control está disponível
+607 = Gostaria de baixar e atualizar para a nova versão?
+608 = Ver log de alterações
+610 = Todos os direitos reservados
+611 = Avisos de terceiros
+612 = Contrato de licença de usuário final (EULA)
+621 = Tipos de interface
+622 = Todos os tipos de interface
+623 = Tipos específicos de interface
+624 = Rede Local
+625 = Acesso Remoto
+626 = Wireless
+627 = Entrada
+628 = Saída
+629 = Ambos
+640 = Percurso de borda
+641 = Configurações ICMP
+642 = Bloquear primeira coluna
+680 = Entradas
+681 = Todas as entradas
+682 = Última entrada
+690 = Verificar atualizações automaticamente
+691 = Usar configuração proxy
+692 = Configuração proxy
+693 = Endereço
+694 = Usuário
+695 = Senha
+699 = Processo pai
+
+// Manage Rules
+
+700 = ID do Processo
+701 = Nome
+702 = Grupo
+703 = Programa
+704 = Local
+705 = Habilitado
+706 = Ação
+707 = Direção
+708 = Endereços locais
+709 = Portas locais
+710 = Endereços remotos
+711 = Portas remotas
+712 = Protocolo
+713 = Serviço
+714 = Descrição
+715 = Tempo gerado
+716 = Ações
+717 = Atualizar lista
+718 = Exibir regras inválidas
+719 = Limpar log
+720 = Pesquisar regras
+721 = Registro de Conexões
+722 = Ver registro de conexões do Firewall do Windows
+723 = Visualizar
+724 = Exibir
+725 = Últimas 100 conexões
+726 = Últimas 500 conexões
+727 = Todas as conexões
+728 = conexões
+729 = Configuração de colunas
+730 = Exibição
+731 = regras
+732 = Todas as regras
+733 = Regras de entrada
+734 = Regras de saída
+735 = Regras criadas pelo usuário
+736 = Filtrar
+737 = Sem filtragem
+738 = Filtrar por habilitado
+739 = Filtrar por desativado
+740 = Pesquisar
+741 = Registro de conexões
+742 = Políticas
+743 = Importar regra de arquivo
+744 = Exportar todas as regras
+745 = Exportar regras selecionadas
+746 = Restaurar regras padrão
+747 = Restaurar regras recomendadas
+748 = Conexões permitidas
+749 = Conexões bloqueadas
+750 = Criar nova regra
+751 = Procurar para permitir
+752 = Clicar para permitir
+753 = Procurar para bloquear
+754 = Clicar para bloquear
+755 = Permitir este programa
+756 = Bloquear este programa
+757 = Regra em branco
+758 = Personalizar e criar
+759 = Desativar o registro para conexões bloqueadas irá também desativar as notificações. Deseja continuar?
+760 = Opções
+761 = Permitir
+762 = Bloquear
+763 = Habilitar
+764 = Desativar
+765 = Excluir
+766 = Propriedades
+767 = Duplicar regra
+768 = Geral
+769 = Avançado
+770 = Aplicar
+771 = Protocolos e portas
+772 = Endereços IP locais e remotos
+773 = Entrada
+774 = Saída
+775 = Domínio
+776 = Particular
+777 = Público
+778 = Todos
+779 = Criar
+780 = Qualquer um
+781 = Todas as portas
+782 = Portas Personalizadas
+783 = Endereços Personalizados
+784 = Todos os Programas
+785 = Este programa
+786 = Procurar...
+787 = Ex: 80,443,9-29
+788 = Ex: 66.198.240.5
+792 = Use o botão 'Atualizar lista' ou a tecla F5 para carregar os dados
+793 = Por favor, aguarde...
+794 = Adicionar ao grupo
+795 = Redefinir classificação
+796 = Conexões
+797 = Recém bloqueado
+798 = Recém permitido
+799 = Exibir regras duplicadas
+
+// Notification Dialog
+
+800 = Conexão de saída bloqueada
+801 = Origem
+802 = Remoto
+803 = Assinado
+804 = IP Remoto
+805 = Personalize esta regra antes de criá-la
+806 = Permitir este programa
+807 = Sempre permitir o programa acessar a Internet
+808 = Bloquear este programa
+809 = Sempre bloquear o programa acessar a Internet
+810 = Bloquear agora e perguntar mais tarde
+811 = Permitir temporariamente
+812 = Verificar este arquivo
+813 = Iniciar uma consulta WHOIS
+814 = Verificar este endereço IP
+815 = Abrir local do arquivo
+816 = Abrir propriedades do arquivo
+817 = Copiar caminho para a área de transferência
+818 = Leia mais sobre portas
+819 = Voltar para detalhes da regra
+823 = Permitir temporariamente
+824 = Bloquear temporariamente
+825 = Até reiniciar o WFC
+830 = Combinar regras
+831 = Regra combinada
+840 = Aplicar para todos os programas e serviços
+841 = Aplicar apenas aos serviços
+850 = Endereço de origem
+851 = Porta de origem
+852 = Endereço de destino
+853 = Porta de destino
+
+// Validations
+
+920 = Por favor, forneça o nome da regra
+921 = Espaços vazios não são permitidos
+922 = A porta deve ser um valor entre 0 e 65535
+923 = Por favor, forneça um intervalo de IP válido
+924 = Por favor, forneça um endereço de IP válido
+925 = Parâmetros duplicados não são permitidos
+926 = Parâmetros vazios não são permitidos
+927 = Parâmetros negativos não são permitidos
+928 = Intervalo de porta inválido
+929 = Campo não pode estar vazio
+930 = Este arquivo não existe
+931 = Extensões suportadas
+932 = Este campo deve ser um valor numérico entre 0 e 999
+933 = Máscara de sub-rede inválida
+934 = Este campo deve ser um valor numérico entre 1 e 60
+935 = Campo obrigatório
+936 = Regra inválida. O caminho do programa para qual esta regra foi definida não existe no disco.
+940 = Não foi possível conectar ao serviço do Malwarebytes Windows Firewall Control
+
+// Uninstall
+
+950 = Desinstalar
+951 = Isto irá remover o programa do seu computador. Por favor, escolha o que você gostaria de fazer com as configurações do Firewall do Windows atuais:
+952 = Redefinir para as configurações padrão do Firewall do Windows. Todos as regras criadas pelo usuário serão excluídas e serão mantidas apenas regras padrão do Firewall do Windows.
+953 = Restaurar ao estado anterior a instalação deste programa. Todas as regras anteriores encontradas na instalação do programa serão restauradas.
+954 = Manter as regras do firewall e configurações atuais. Remover somente este programa e manter todas as outras configurações e regras como estão no momento.
+956 = Desativar log do Firewall do Windows
+957 = Desinstalação em progresso...
+958 = A desinstalação não é permitida enquanto o programa está bloqueado com uma senha. Por favor, abra o programa e tente novamente. Não tente forçar a desinstalação usando um software de terceiros, pois você vai fazer com que o Firewall do Windows fique inutilizável.

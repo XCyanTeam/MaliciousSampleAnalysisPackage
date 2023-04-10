@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GBK"?>
+<root>
+    <RefreshTime val="3000"/>
+    <Sound val="1" file=""/>
+    <IPInfo ip="127.0.0.1" port="80" remark="本机80端口"/>
+    <IPInfo ip="127.0.0.1" port="3306" remark="本机Mysql"/>
+    <IPInfo ip="www.lcean.cf" port="80" remark="我的网站"/>
+    <IPInfo ip="127.0.0.1" port="3443" remark="Awvs"/>
+</root>

@@ -1,0 +1,9 @@
+tcpvcon.exe为Tcpview.exe的命令行版本
+Tcpview.exe使用说明：
+使用方法：tcpvcon[-a][-c][-n][进程名称或PID]
+-a
+显示所有端点（默认为显示已确定的TCP连接）。
+-c
+打印输出为CSV对照文本。
+-n
+不解析地址。

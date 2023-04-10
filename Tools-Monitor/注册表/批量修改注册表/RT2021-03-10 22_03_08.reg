@@ -1,0 +1,1913 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\grvopen\DefaultIcon]
+@="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\OneDrive\\OneDrive.exe"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\b9eced6f.armourycrate_qmba6cd70vzyy\Internet Settings\Cache\Extensible Cache\DOMStore]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Packages\\b9eced6f.armourycrate_qmba6cd70vzyy\\AC\\Microsoft\\Internet Explorer\\DOMStore"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.aad.brokerplugin_cw5n1h2txyewy\Internet Settings\Cache\Extensible Cache\DOMStore]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Packages\\microsoft.aad.brokerplugin_cw5n1h2txyewy\\AC\\Microsoft\\Internet Explorer\\DOMStore"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.microsoftofficehub_8wekyb3d8bbwe\Internet Settings\Cache\Extensible Cache\DOMStore]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Packages\\microsoft.microsoftofficehub_8wekyb3d8bbwe\\AC\\Microsoft\\Internet Explorer\\DOMStore"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.windows.cloudexperiencehost_cw5n1h2txyewy\Internet Settings\Cache\Extensible Cache\DOMStore]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Packages\\microsoft.windows.cloudexperiencehost_cw5n1h2txyewy\\AC\\Microsoft\\Internet Explorer\\DOMStore"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.windows.contentdeliverymanager_cw5n1h2txyewy\Internet Settings\Cache\Extensible Cache\BackgroundTransferApi]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Packages\\microsoft.windows.contentdeliverymanager_cw5n1h2txyewy\\AC\\INetHistory\\BackgroundTransferApi"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.windows.contentdeliverymanager_cw5n1h2txyewy\Internet Settings\Cache\Extensible Cache\BackgroundTransferApiGroup]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Packages\\microsoft.windows.contentdeliverymanager_cw5n1h2txyewy\\AC\\INetHistory\\BackgroundTransferApiGroup"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.windows.search_cw5n1h2txyewy\Internet Settings\Cache\Extensible Cache\BackgroundTransferApi]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Packages\\microsoft.windows.search_cw5n1h2txyewy\\AC\\INetHistory\\BackgroundTransferApi"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.windows.search_cw5n1h2txyewy\Internet Settings\Cache\Extensible Cache\BackgroundTransferApiGroup]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Packages\\microsoft.windows.search_cw5n1h2txyewy\\AC\\INetHistory\\BackgroundTransferApiGroup"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.windows.search_cw5n1h2txyewy\Internet Settings\Cache\Extensible Cache\DOMStore]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Packages\\microsoft.windows.search_cw5n1h2txyewy\\AC\\Microsoft\\Internet Explorer\\DOMStore"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.windowscommunicationsapps_8wekyb3d8bbwe\Internet Settings\Cache\Extensible Cache\BackgroundTransferApiGroup]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Packages\\microsoft.windowscommunicationsapps_8wekyb3d8bbwe\\AC\\INetHistory\\BackgroundTransferApiGroup"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.windowsstore_8wekyb3d8bbwe\Internet Settings\Cache\Extensible Cache\DOMStore]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Packages\\microsoft.windowsstore_8wekyb3d8bbwe\\AC\\Microsoft\\Internet Explorer\\DOMStore"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.xboxapp_8wekyb3d8bbwe\Internet Settings\Cache\Extensible Cache\BackgroundTransferApi]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Packages\\microsoft.xboxapp_8wekyb3d8bbwe\\AC\\INetHistory\\BackgroundTransferApi"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.xboxapp_8wekyb3d8bbwe\Internet Settings\Cache\Extensible Cache\BackgroundTransferApiGroup]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Packages\\microsoft.xboxapp_8wekyb3d8bbwe\\AC\\INetHistory\\BackgroundTransferApiGroup"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.xboxgamingoverlay_8wekyb3d8bbwe\Internet Settings\Cache\Extensible Cache\BackgroundTransferApi]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Packages\\microsoft.xboxgamingoverlay_8wekyb3d8bbwe\\AC\\INetHistory\\BackgroundTransferApi"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.xboxgamingoverlay_8wekyb3d8bbwe\Internet Settings\Cache\Extensible Cache\BackgroundTransferApiGroup]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Packages\\microsoft.xboxgamingoverlay_8wekyb3d8bbwe\\AC\\INetHistory\\BackgroundTransferApiGroup"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.zunevideo_8wekyb3d8bbwe\Internet Settings\Cache\Extensible Cache\BackgroundTransferApi]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Packages\\microsoft.zunevideo_8wekyb3d8bbwe\\AC\\INetHistory\\BackgroundTransferApi"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.zunevideo_8wekyb3d8bbwe\Internet Settings\Cache\Extensible Cache\BackgroundTransferApiGroup]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Packages\\microsoft.zunevideo_8wekyb3d8bbwe\\AC\\INetHistory\\BackgroundTransferApiGroup"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\0168e95a-f9af-444a-9543-425b53cfbf1a.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\429a85afb54de87efc00ac2f5a5dc55488b897e7567e50fba9cbce9c6f8982ce"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\04446a90-3213-4c98-b22f-6f243d4a8591.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\3c2485209220092dcd094f262ba58150024c8656270fdf11f4e1f65888b078e3"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\05974c38-d534-4a4b-81b1-141d4e7457ab.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\411a2be166b760d1012f7a12465bc4f01ab42d3325003fcc1ad628164a4e441a"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\05982d6d-e2ed-4586-b685-386a23d9ba45.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\b941f74b38b0b24263ca095965df7b1a581863ca83fe89d42be7f0f2ec2c2471"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\09632e67-d774-463d-8bcd-8ddfff579a8c.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\abb84da1175a2e4a7149e26bbc6e32e4a752a9647cfd57b27c7e1642735f2e19"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\09c0c3e9-51e1-4398-9059-ced1a27c25ee.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\a86a6147c0e2429065620cedf97e8b619bdc452c83fa87a39fdb38f11f67b3fc"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\0a0ae402-c1b3-4292-b54c-fabeb2b53561.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\b84b41993baf16c2b0cdecea7dd3d840219cf4179c9fed8edc1ed853d036daed"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\0a6ff904-c192-453c-ab47-998dc1c82a56.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\76428f1f9c2a4b5a7be440237abf82988013d810ed64269a94caba6cc3c9ea5d"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\0c1b5d0d-2a66-4858-b6b3-64e615ace558.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\08c1191de02ac4843c41ea9dcb6490e23cc4615cbbbc255d807c25b0a33bb8bd"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\0e3db79b-8106-4e4b-9fdc-3eda05b22b68.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\4ed418c10ea61d8ed8442a4e9ba90d7e2201c19e10ef459316e822f0f910f6af"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\0fcd90d6-d5d1-44fa-b715-98d2d292ea8c.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\51ae002e492ff36c54dc300138d5f406887b1f04a2ca50debc94bef06a5ee750"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\11fd664b-9d30-4ea5-a97f-b66ef5c749ef.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\e4855a981cfbeb3fa557374278056c07d450ba0a12297df02aa679f2826653a8"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\12ba239f-2325-4858-8ec0-cbd6cdf8474a.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\16a159f6a8274fa9d1b60c5afca6d1d82204512c217b12d083d0b923e13f52dc"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\15561fc4-c556-45e4-90ad-5cf437f78875.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\26afa7dd78cc0b4724df5f2c4dfbe1972ebf22aaf3b2f2d3de7dccae270ae010"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\18c62fd3-53b4-407d-9bfe-8686db2efa46.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\cf7fbfa5f6d2ff49c06f62f31b580689b9406adc040950443685384c47bf9753"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\1a2e2f5e-ef60-4ce2-9f81-b286f1430fd9.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\f2fcf66dd31b802e7839b014e66fee919e5b3d7f73008219bc95ce9ca04c248d"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\1b430f21-0780-4e4f-85b8-ac6911d5203a.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\f257eb437781bc99814ffc6b6ebd0989be50d6314f777e7188f35a5a7277d620"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\1b73225f-721e-428f-942a-5f0d1d2ee005.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\86528dd6cdd9bb9f486cb20fe5b4ea13d9e3b96699ea54910fb4d59b70c2a0cf"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\1bad794d-45a5-4a58-ab4b-3836d6248e1d.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\8e76b61aee742aac9c0eaffc5dc2bc23e8c593b5d11ee09ffa37b4b812fcfabb"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\1ca2e3de-9270-49bb-8fce-07fe0c1817e4.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\e746e4315d0aa26af780e8cbb7fca91a4ff489c852e682a3b833bf3ef24468b4"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\1cdcc363-e526-481d-9f8e-e5ce45088064.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\a3d39421a11dcecfddffb3febc557e9f8a950efdef6d79eb43fe22c8480ead92"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\21d077fc-db41-4864-ae77-a6d0d1e28446.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\429a85afb54de87efc00ac2f5a5dc55488b897e7567e50fba9cbce9c6f8982ce"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\24c10619-ab78-4c58-83bd-b11a89964b22.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\ecb2884db30366796c750ba76e728dc356e8676396dec6ec0a79b254d86d78b3"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\27d764b3-6649-4f8c-80fe-111a9cf7aa2c.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\95fa3edd07789beaa81f584f69a8445c56710178b3a5257179cd84ad7a36dd73"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\295bed9d-867c-4232-80f6-f4a31fc5425c.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\8f3799e75650c46e281746e93dfd1f3612099a15f0487b81a663b4869f51a49f"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\29fdf737-de8a-439a-8fe7-edb04a0d25e0.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\42dda5788710df872665f835270dae10ec3af3b88f0417a93bf045d6a348b05e"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\2b46e5a3-04b8-4342-a810-005b89b7de99.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\d18a02dfe1d745519930080349c53430eef5305b0353e870ef8924e52b4ded90"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\2b4ade65-c857-4159-b732-73e1500b8e7b.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\a98c5163e234e3f74682a8c554f0806813794c6c02cb710bc027983cabba7a1d"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\2b8f49ae-8e75-449d-a721-880508f5a592.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\9e8b85f640b463cd6617ccca8f1f87d00800efdc6c0880ce7f0941965608c094"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\300579af-9777-4ac1-967b-8c1cc7962e57.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\988dac8bb38e8c38d030790eacbad0c51216e4a7e7282387290868a05c236c58"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\307dfd70-cc2f-41fc-bea8-8b52b95176ff.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\42ed0cdf80111860edb0fd0ebedc4d61ab0bbab864bd8fbe52ed44a027f7850c"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\3236110e-a8b5-41be-a09b-d39ab6a31c61.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\db36a06ec269bec18a94dbbd037821c3a4d7b3302144ea9670bdb5f63e415864"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\3261928f-3a6a-4f63-9383-28afa90002b4.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\8feec4c315581f637adf18d9a622efe6ba19c32122712178b0d495a817d8bc8c"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\34faa802-4a71-4753-bfd6-e1369761ddcf.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\cc36253495285c3193e08736e287a93cc12f0eb20b80357d7ed52f6c492a7400"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\36163c0e-f427-4d63-881a-011f66763bd5.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\9cd75c5e8e7aa3154a74d3f730cde7d715d214ae3e899fada0521f5936edcd22"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\388a0926-2650-4b6f-b070-951ed88a6ac0.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\a48b65589f2727feb93b12693ffeccb5d4aa1c0b6bbc1dff4d503ff28eba5a4c"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\3b248f2b-f037-4d0a-b8dc-5e9cce5d389c.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\92f0188dac0d15adee054f83a2d4dafaff6dc632cbbffd408cc3cfbb8b88b10b"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\3c7281c7-086f-4047-9b97-8a02ed1d0230.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\358bc1521cc9ac4cb41f1d02ef1a94c87d23c55b5d93f399ea44d63ed3d22d13"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\3dc206d7-10f6-4db1-9321-cb1c20a1a785.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\2cd39e54cc21e01dd500062708f14fcad2045835f0f0a6b010d535bb99b41bc5"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\3e612846-04ce-409e-b705-9066c198f83a.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\4c65192306efda1899191e0a65170f654677175ae5f13ab2ea95a78dd92d026b"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\3f1b5075-f90b-4d1d-8443-0085e5352093.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\3d3d7adb0df41da0125abc8b46c728339190c14b7002ed0a3a73f582d059152e"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\41f82818-d38e-4b25-85e5-e40a7c673cd7.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\358bc1521cc9ac4cb41f1d02ef1a94c87d23c55b5d93f399ea44d63ed3d22d13"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\420d1b97-e9e0-415c-917c-5e3b740aeb54.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\069474c70f7b48ea2dde5ff7333a895f0ff3d12e2aa51f998cd836233de3602e"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\420f11bf-8dff-4bce-a740-c8d797eda90e.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\e4f59a8d185308e278a4237bfbb1e95a0c8b8f14bf51917869c9be0877970cc6"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\433f875e-5265-4b80-972f-16211a3e00c4.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\7729d07e90efdd753a9ec59f932ef1762cc4dd95151a298f3abd93231624cdb7"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\4561dcdd-85fc-4be9-ab6d-ea2230914b86.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\21aa62ab8f1f1bed46a4fd72932243d9e326ef0faadaf4d6bf3756ea091c39d7"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\45e7793c-0fe4-41bb-8dad-01a6c4dd4f24.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\ff0d5590790d5e35777bdb64a33a1660aac572317c56e0abc1017bd6cf8b8401"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\46492b2d-8f69-46df-82a5-fd30032d5a70.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\16a159f6a8274fa9d1b60c5afca6d1d82204512c217b12d083d0b923e13f52dc"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\46d13ed7-8907-4707-b0a5-9d6de99fe88f.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\cc21afd87678eb1ed725f5144f66289267c6de5c6cd88844adf364df334fa9f7"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\48916716-7412-4c69-879e-af5e434fb8e2.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\aa280a3fca6e21d8123ff1f5fd20bdb45f181fce9f5db77f7f483af5fdcfbef7"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\49b04cbb-5737-40b8-8d9e-9802637f5495.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\f14af4efe4f77d72631cbf904b43d314b32555603f02940bcf788d07bb5977cd"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\49e142c1-43c8-41fc-be23-0726ff683eb8.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\a71512ef6d58f8c8278afbeb597d2163624eea7fbbe639157807c9d36591bbb0"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\4b1d8dd0-b88b-47b8-879d-e68425c7d6fb.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\c813a2c18159a1219e2ac89b987dc0bded05b94633bd4110ed5a55bb62ebe11d"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\4c127c49-e5f5-47ab-9391-6af8abd6fd1c.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\9e02f2ca3fd46bae0bdb74e07237864d37ec6191538af955cdf1adec6fa899a2"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\4d08030e-eb42-4492-af1d-6756fa4e7701.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\a50db6af1dfbc8265bb672723fcb1db38b58a812240fd4807b2e50d24180e760"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\4df9e7fe-00e2-4959-84cb-7dca1fe705c6.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\839c706f02b921fc24f04cebd01255d51e615ec113c58a8f61fe72866dc5341d"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\4e5e0323-56e2-4cb3-bb3f-56059a54ed93.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\69f74de4adc861e6b3cab3f55b2f413be990a9befd5a82d30bb278c835b52177"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\500f9731-6bac-424a-8ed7-0581b571e752.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\f84ea50a41301b1ffdfe1dc03d71184903b025fe219d26443b038d3f106447a1"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\5015faee-c5c3-4c3d-82ea-127a5ebed7fc.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\e6101142e0d7178d9465b710c98be979ad4016156a207b6430e03bd9944491b9"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\519bb5a2-e6dd-436f-b501-f30443186ef8.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\6702582d50c12cb5e8d1ae4588cc7c04dfdd2c1691cde3448d6f0aae91e2e6b7"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\51da618d-dac0-4d5e-96ee-f971e74b31f7.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\96b1ad08d4cdf371c5fcf8dc48c8017550b1797905b9119b766d19674f0bfb75"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\52bb5ed9-c3a5-49d5-9d97-ff118b9be890.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\8018dbff3bfc45b164843af4ac5a58a74364a0f3d5a46539d6dc1650ada11f29"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\5375df2f-93c8-45cb-a43c-f871ffcbd01a.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\cf254fbf66c1f65c7964783ed330a8c787ce16561c74af9d3ac303290e82d07a"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\59aaa806-348d-4f8c-bd9c-76bc6483543e.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\d46955c763ae667b89ba8ed47311f6354691fdb1c690b7fde41e6429373ca893"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\5a99029c-83ec-4651-bb5e-b625fba51504.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\6299aff7a6ade37caa20542bc51e38cdab9a49abe2827438d67acdcd931c8378"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\5b184da2-0050-4e18-bbcf-3e2b384d396e.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\3383b3262748a5940c87f523f33d09c519ba1c62270990fe7e0f465ce16ebf23"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\5b502c62-1d95-4945-b5ae-d0d384545ef7.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\3be5d8ce4609e874cd4e5c6379b475fa1793134f90addf1bceb7def21a61728c"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\5b8cac38-929e-4169-bda4-4e88319030ea.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\2d8d48ecd93ab8aca6573328d879aa8f8c80b35b28d0ee97d8a65765c8ed6ed8"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\5c2d675a-ce0c-4d2a-849a-507b3315c96d.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\e22bc764686b0e9eb2ddc3f9cf9f8016aa3bea2bb9a224246be872cb38bd51b1"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\5c6e8a94-fbcd-4602-b5ea-f40cfef131f3.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\dd829c0dc0583339471a7ad53951288110105735c590fbe4960e719bd45deecd"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\60dbf5cd-984b-4935-852a-30f8d7136eaf.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\dd829c0dc0583339471a7ad53951288110105735c590fbe4960e719bd45deecd"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\61e2ed9f-faa6-4204-80e1-780b86c0a1c3.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\a8ac9f096bcd63ace445bee90dcf775b87b3285be583efbecdb8e4a3a1ad931f"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\6297968c-6693-4556-a1a2-a00ec658bbb8.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\df2e8a3871930360adad925df3e25e36803ad135a93f5ff40050da7505a06543"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\65f35a30-a59c-4825-96ce-026eead038d6.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\69c66c559049d3505ac52f28803ba339bae88fecfb20598e7500170ff4241e11"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\66936854-47eb-449d-bdfb-d751789723f9.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\3ad5f692adbd86e6ed8b86056a94176fde4468c86fb54a36388fd39a96b4f89d"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\66eba456-4408-465d-bc2d-06f0a39d8c16.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\5d3be9d4f3a73f46d62f5403eea0f0713e3a71c3dfbc090121dbc9b015493ee6"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\67845b85-d9a3-4a1a-bea7-eaa0543a7c13.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\83175ef783399fd0e2d154a44dbad99ff4a095026bfb21cb6de0a1a5d406ea08"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\69bfc4c1-4893-4968-a4d9-ad31bef3bf40.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\77e9cc501243a8b7dbb4565169b8f07782edbba71ca1d4e083dba512a313b52c"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\6c954bce-b44d-436b-9df8-c7ef3a45674f.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\61e030ca5106db3731eb1058432c6bbb7b4b5d3efbfe63001fbd56d9ae288daf"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\6ce44883-ae54-4665-bec0-e2707d307911.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\75eae37de95f53598a6d3e897a793eb9e3bdf63ce3af5bdd5d98580f3caee0a3"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\6d781e17-f98d-4b67-aab5-a1148d1f0828.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\195f794ae3ad80bcf2603264b1e6de0dc68520ea01fc1caf548d1e40e1cf99a1"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\7010de4b-2f61-460d-97c1-c0cc808f6222.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\f8bf8aeab3653931865bc2e2cb1934daaa6873e9c423255bcc808f2848b0c1fc"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\70ffd60a-9aa4-4867-84a9-67cc1c84f571.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\7908def340a510f7fef81a24f3597ead65b7de2b3d7f55876585e61580f88dc5"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\7223bda6-310b-4a20-91ec-e5eebc740bcc.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\5609a4950c1a820b4c673de6b0940941f613be6effd38607061cab565ee03e94"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\734bb7b6-024d-4338-9993-2cf986d106f0.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\4022c9bcd8136d3437e153a9a1d15aa829961690a85bd3c53d63e9a84c5631ee"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\75158326-9ec5-4f8f-a327-c4e9e3f1d51b.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\05aa331cde6a92cb4fabffc30aa8220c943f049c2a80c6e26c017acccfa7d79a"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\75380efa-139c-4fa6-a577-3d2f1522573e.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\513f3bbb4e9d222a52ea4fbc1e28fa24e01c2c50e95f2cdcd37d6cfa68c23403"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\7545556b-ae8d-4a2a-8c04-01b49d241136.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\90c2dcff65faceb126195ea225ff7c02c8489fb402411e09375251850d650288"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\770d906b-de3f-4c5a-ab81-703ce2b1f80b.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\42c0cfebfc989c8249dda26a3cf4ddd0de69786c17ab35bd86c7855f5643a3ed"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\792d653f-1cd3-4d17-ad91-7709502dab52.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\4b156b5a9f83bf95ffe8ce09b9e87ddd8775b73a4de7c92fe459624bc1e0b87f"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\795950bf-b618-454c-9dc0-c9191da7a26c.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\0ea49f3431788835bf23fee674412ef7dccfe026c24b58aee2b9ac0ba183d63c"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\7b160498-2a59-41a3-9405-f3457abc5955.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\33df212cad32187fc4d6e94ddade29b4c0c28c7570fb98ad9f23d47e28a49dd7"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\80ba40ad-bf9f-4a9b-9c7a-1a1f8a3ffd8a.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\57f3fc2a26ab990126d7942b157c98243a51b7f8751710803f03059e23451ecb"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\84341abc-d569-4553-b544-994c6dc965df.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\a21f116ec063ce4e42a47546495158a8d9a9d1a8b6e1fbdf2a5116d5a80b0fac"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\888161c1-52bc-426e-8b2a-e41e2e0304c5.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\6202964b5be81d595d0d8bf54788330eeaf82d5a9e3afec37f61d5b8a6cc350f"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\8b477275-ca9f-4997-90c7-effaa54bbf4a.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\ba38ecd50695dec45f249bf44cfc549988d02a2902d920f50a34e3f2bbe86028"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\8c873a8f-68a9-4997-93fa-b1b8b55c6cbd.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\78249ea92088d2da4d084ebda46550c2a079002aab1ed7aba5519cf6ea02536b"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\8f3dcca8-1edc-48c4-9269-4976c709fb41.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\5dd58e2041eaf93ed2ad5e8ed1540e614d1719a76aa74cb89cc356fb9a2739ad"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\911304f9-46c6-4d52-99cc-3c6b94ca771a.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\6d13655a7c5ce400094676d6955024eb09fd5eb71025182b9458e4678bdba0d5"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\966d645e-977a-44cb-99ec-25e66ad9aac0.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\00b06537974143664c10613ced6b93ead2fb9eda04d787c844a9a6274220cba2"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\982c92ce-f1e0-4e5f-9a09-aba717829080.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\9cc45bcb577476a6f52ee48788da3ce5cb10e24416b2f7ee02130f22207cec6c"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\98ea3826-55b2-4bec-9876-7112cfc38d29.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\4b156b5a9f83bf95ffe8ce09b9e87ddd8775b73a4de7c92fe459624bc1e0b87f"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\9a369462-428d-4146-9864-06fe1eb78c8b.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\1c5b7f047ed1863158e6b3a197d4a00a6ced03214d84e464ae0cbb2c449a82af"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\9af8629f-aadf-4647-aaeb-215c225cd954.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\408ffdc28b8500e9d25df868a80328d0c887157945be5a580575c54f31847578"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\9b275130-7d4c-4cc5-8043-877ca3f9da98.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\8e7642247bf0f527e684bc359adda422a4a0252cc00076bf0b8347f04fef9688"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\9c3928f0-89af-41a2-945b-796816d5655a.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\feaf479fee2db539bb09977f9fa4c4d24d0fde25baeabb179e9c56c329739841"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\9e48e69f-d442-40f2-a6a9-01420e7fb1e7.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\adb5d671f581742d69fefab280e8bce898d9e9da81a6a51c3f997a4087e83237"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\9f0fc498-c819-4eb5-860a-852aa2aeec4a.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\9d83dae9ea294148f102c01584d226fe4defc83007e4335709ec14b9a77f8f6b"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\a05ae1b6-edf3-4736-bbba-241cfdff2811.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\c67e7e03ac128cf2d640faaa4abd6c257dfe521fe60af2e469d37e17ab68e953"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\a0d42541-d87a-4b06-a8f9-6f41e785e330.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\e0daa42989ad12e11eb9f54baaa523d1c6ba3fb46f2415218ea6c97ae6ff61dd"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\a2511a42-34df-4f26-9b03-9f84cab319cd.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\7b193809d3951c7e2a60c40c133e6c13e637fde81b3d9c0e3bdb9b8321759eb9"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\a37923b6-d42c-4c2d-8991-c0840b67d871.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\64e4b9bdb3786bbd9a21b1e9bfd75f206f47e6da1bd091d71f72e6be098d93e2"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\a4f511f9-370c-4ed4-b55d-440d42232520.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\dcde5723f93ff1ff0f85e949ac474a69540cb7e0679ce3f5bc2d4115e2879c4a"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\a8b49c6a-9dd6-4ab7-a056-54711b1429a1.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\86ab1a8be1702ac4f54324fda622e63a9aabf6e1c1715cc45b2d77c6cb11763f"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\b0139f47-4019-4afb-ac38-49d87c005305.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\bd54d2488b4dd8042576247a21201d57c5a0e983fc4d3b31121dbc8b8e35739d"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\b072e4ee-86ec-4c78-8e11-fc48832bfdda.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\9038dab947f7e52e39f086a2e29d74f848d0189575b3640fb2ec0a0a452ad188"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\b2b739c0-0e5e-4f5a-9736-db3ee700346b.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\772b727127d3937093c5b0b0621e9e5f1a916b0b25d613ac8e96b192e26522b2"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\b32295c3-5c08-40a8-98e9-0ecbb02747f4.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\103a733e3f89062da963e879e5491db202d005320635452878a3cb0284bf8c73"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\b35d23ce-a32f-411e-bdde-abfbce2ea643.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\46d77400f15df143b54fc70ce0102cd2fafe354987ad360308cead79a0dfcafa"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\b9a6582b-40ed-43e1-83b2-9ee9071f5791.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\92eb194366aa2d75dedbb0b810d59438503ea9401c9111c7f514c0e63e137938"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\bb7521f8-0220-426c-b45d-dcc1c9001361.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\57f3fc2a26ab990126d7942b157c98243a51b7f8751710803f03059e23451ecb"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\bdcd8d7f-4dab-427c-bf16-9d5dca125db3.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\07be429946c840f0b3117a850b69536bed62afa56d5fe2406cc7d4373b4a4217"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\bdd1614c-3f7c-4a79-b354-37b34d18cc73.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\e9adc3ccf98f367f8d74748a756fe78906b01273545527735193c94b7d63c106"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\c042e31e-43ad-4787-8a4f-eba94dd38698.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\fb67fc26c566e3c51a978319de3eb1155c5c3b81484be3aaf21663b1f707b5fc"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\c1f32e76-ac9c-4e21-a36f-58e16605173f.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\29d7855b2ec0d4123cee3d7adf30f3aa87978af72e83ffc92b229d52bcc975dc"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\c1f906b4-6b29-4288-9051-59f1f0fb4779.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\d993c250bf993a6bcab610d25c6b6739f09be34ce23c7f47140b0ace2765787a"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\c225b1a5-ee27-419f-a292-a6120f1b4889.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\e30be317af2e1aa911078b958f29ef432310f7aef5f9837ffc39cd73ba4edd48"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\c2f66e49-a148-4140-be71-925cc53eb666.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\a2b59aa4fda1cba8e0dcede7f1fd5613f21834c54bfb48f1c473f5b9c8e1c54d"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\c3650ca6-2999-4c2c-94ee-ab1a2ceb7c6a.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\feff3df4974af6fc85a6241917e113eeb13725f7f4a30f2799000d1c258dc66b"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\c4cc9e51-66b0-4eb4-9186-3d7b7b59abef.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\a75a3923723afc5751eac4e4db02cf8de8b2328fac1789a79306bf5573742b5d"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\c6818a59-6e4e-47a4-8074-e11df720108c.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\c6bacb9b8be6d1c2e0d208ea237066f934b8c44e354b18d7c2abba2fc81747bc"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\c7d2dc14-b395-4b10-838c-645a716f9f10.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\3771c0a989defb8c562cafa1bc4d74dbc1f265f7bbdf225953c3ec64315a0a64"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\cbaa5c00-1473-499e-b3ee-c7dffdc290fc.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\b6934c2998b79eed7bd0ca9092df60931237220be6a1955bfde8f2a952035348"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\cee4ce14-8e14-450e-a592-fae6d1719a72.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\f94493440499771b7f465d01453405f6e32e09f2e83abbbd5d2a7314bbb02149"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\cfbe8c55-ca63-4b35-9556-66d766638476.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\dd9cd780264c74a9b56ad1cfabb9b1fa90f44f902d9999dae8a55ce3809786fc"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\d23b6e26-0eda-4df4-a37c-daf2d2c9280a.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\187601ee3341368b2770ccd67fd4303ebfb251b16f61d7d9198081062d357566"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\d4b169f8-d2a1-46d7-96eb-9e4e5d6c5263.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\95865c22decb93465d735f0e98689b88c70598e4caae47a56ac62a1a177fa621"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\d4e83b49-7267-474e-9fa2-164a0b8f0c5a.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\19770be9a573590cb235acda662dc0a81657670d0bc91c1038d7521d171a3316"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\d7a4190a-37cd-4058-8957-b54708912500.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\d960c69720668752adb959030e39c02d4674146bab74e857f74ee4c4ad0848b9"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\d866eec0-540d-4bb2-aaa4-3ee3f5b0a58d.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\c192fe3d25dca3df54ce9a42ec37526b56aff445c1b27d7472aafa85eda66be5"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\d973343c-ee8b-4aad-985e-d450eaaa6990.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\05aa331cde6a92cb4fabffc30aa8220c943f049c2a80c6e26c017acccfa7d79a"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\de2e3782-74d7-4f60-9a8f-54ec822d60a7.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\1fe62da484dfbe105bc0a6de04fa9fe7ae05e4919caec0a8dddbc0432383384e"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\e0acb259-190c-43ba-8aed-f4ebc8e215fe.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\3e4053da57df9646d6443e6337cfa1c935667334acab0a3da01c1be6128000cf"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\e2055364-e6ad-46b4-8950-566bb87ee7e0.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\f87db1ab4129fe6ae3116cd10f0efe8002e064b9fe2d632788d667aa5c18c2d2"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\e3903ddc-3b20-4311-bc94-9d066d2bd90b.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\4f6879d8598fc2c32e859be7d3ed4792bacc2772984f08d5453bda589ea1e7df"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\ea2a4613-ef1d-4d41-b273-1316142bad11.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\0f52c320c57244e560324073603023a1fe99eabd7e5ae1ed1980541adc1334c2"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\eb6f7947-191d-4ee9-a4a4-f971011f3784.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\dadf9d47c0627e9678cbe3ef639353c17bf93161e8ae8cf3aec0528114ab8450"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\ecee8e9d-9832-4dad-a9b3-1f23e70487a2.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\4c65192306efda1899191e0a65170f654677175ae5f13ab2ea95a78dd92d026b"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\eeb270cb-5cb1-4a52-bcfe-f9331658edf4.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\9326dcd1720c7af57f4033e0154c6b157c983d21aac957926ca42bbecf5eac3e"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\f043b60d-8d27-47dd-9051-413c68f67ab4.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\cbfc36d521ce5c93a965a2376727e26aa7a3bb8ce8f50e14fcc2e40abe3e7833"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\f0c539e3-fe1a-4509-9f7c-a7e91c30c336.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\5c25429ff6dc6d2019bfa35a0df13c06bcc4490649e44e3b589848a5c4c4ecb2"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\f0c6cdd0-f2fa-4726-bf99-ca6201ea2fce.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\413f23e8192107ad241ad343f8e56e07b0997fb4c0c218b4d1cf469d20c2d54c"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\f27935e6-19e0-4a31-87aa-3d7b1dca908e.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\34951bd22c27f5b6d1623edb2eb1a8ee4bd84440d6a40cd812ff81ea49514611"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\f365f046-0c61-4781-b70c-2fc7917db84c.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\74848977e2b05d6898f5985ed8b337c997e1df5ba86375da5e8e6e4dd99beb99"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\f45ae382-c516-4e8d-9fdd-1f00575ad503.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\00ef9493dd23c38e566f0f02e3c6f474d72dc9c5bc5f16cf00fb4567c9123b3f"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\f545a3f5-2014-4478-bf18-52b3a9d9f5ba.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\3e4053da57df9646d6443e6337cfa1c935667334acab0a3da01c1be6128000cf"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\f6782a39-cb5f-40c8-bc83-c61b7c97a5fe.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\d5a3c39bfabcc635375621af6f99bd2b919055361376153070f510eeecefdb86"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\f88840b0-f058-4a01-870b-f36a6c9042bd.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\f84ea50a41301b1ffdfe1dc03d71184903b025fe219d26443b038d3f106447a1"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\fa53f510-a081-4ce2-8d91-1bf6c81bb27f.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\5f48a58d2476ec73a2bf08f752f88c358c16067b1aeed076dcd72b91fb0d625f"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\fdc0ee77-c7f7-486c-9d31-98f37bbff1b9.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\2fa10a908bbdf18aa2f57e50ac113124ef6192627e2e0819ec2e7cb00458debe"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\febd21d2-ca11-4f4a-beb3-2764912f5aa4.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\1b54b334e1d9908b6edc8d4b982d69af190e31c832bee560aed835ba5eb4f47f"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\PersistedStorageItemTable\System\ff805b99-763c-4e3c-a374-2646d67d0452.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\StagedAssets\\66b709cc80355e2d89ab31396d3ba991c013e5bb352f80dbf3b8537f5cd01192"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\0286dd11-845b-42c7-9f9f-0c11abb56448.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\0290cf95-c113-467e-8777-1678766dd316.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\058c529d-a371-4148-827e-6cfdaf484f91.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\0f91a754-bb47-44a1-9391-4fc61abb90da.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\157e1518-cdc5-45ba-91b5-59b6af399b85.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\22626f40-be70-4fee-9b43-8206ea596855.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\2568d0f9-cf3b-4d73-8eb6-1fe9c3d7cc42.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\2af88003-59e5-476c-a68f-7dc5dd36e4bd.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\2be34561-2dbc-49f6-ac9e-8dd57ab15990.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\2c77fd6a-353b-46bd-8874-60730f53efae.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\357bccb0-8694-492c-9cf7-a6255232c0b4.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\47f4d381-1e03-4104-a24e-e100970a48c5.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\58d9f0f1-d057-4090-aea5-25dd04cf86d6.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\61482d46-e89d-46ef-bb81-1396a2923b78.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\62664945-0eda-4373-9aef-1108a020d1fd.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\69f0b6d4-3912-4f96-b1fe-2d2da0fbe955.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\6f04b9fd-4f8b-49e3-a09f-70de5c157205.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\6f93f9c2-8db5-4cd6-a18d-ba8da9563325.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\7a526172-2f7b-4795-b712-10926e4cc576.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\8f5df32e-8503-40c1-bce7-f103370c6080.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\9451f460-946a-4482-9f31-f33b2c3d621e.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\9be4eb09-994f-4418-8791-4373ad2a1a32.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\a8c27aa5-11bd-4ceb-a85b-07890725ad0e.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\a8f75f65-1e95-4cbc-a254-5dc63909d845.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\b8006f03-a5cf-427d-8a81-af7b1502e9d7.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\b99b43cf-859c-40de-9e55-5f95ea935a58.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\bf479dc6-aca7-4679-97d7-102ed825d4d2.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\cb195138-0be2-40d2-899e-34a2223b98c4.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\cdf450f9-d936-485e-a1d4-30e4f5e54cbe.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\d0c7a9f6-ef5f-466b-a266-a648688fc53a.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\dd643054-1826-4351-ac1d-946d8222e883.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\e166534c-8cd6-4f0e-a3e9-ef2f253e3b08.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\e28e91d2-0139-468c-9762-999ba80510a3.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\ef386897-6e2e-4405-be31-9004ad0ba472.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\PersistedStorageItemTable\System\ef6190f8-e3cd-4751-991a-42e16c5bd44e.Response.0]
+"FilePath"="\\\\?\\Volume{6E3D84C4-C50C-4712-AF3D-85F4CF714277}\\Users\\grw13\\AppData\\Local\\Packages\\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\\LocalCache\\kglDL.bin"
+
+[HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\Shell\MuiCache]
+"C:\\Users\\LceAn\\AppData\\Roaming\\WiseCare365\\WiseCare365.exe.FriendlyAppName"=
+"C:\\Users\\grw13\\AppData\\Roaming\\WiseCare365\\WiseCare365.exe.FriendlyAppName"="Wise Care 365"
+"C:\\Users\\LceAn\\AppData\\Roaming\\WiseCare365\\WiseCare365.exe.ApplicationCompany"=
+"C:\\Users\\grw13\\AppData\\Roaming\\WiseCare365\\WiseCare365.exe.ApplicationCompany"="WiseCleaner.com"
+"C:\\Users\\LceAn\\Desktop\\debug.exe.FriendlyAppName"=
+"C:\\Users\\grw13\\Desktop\\debug.exe.FriendlyAppName"="debug.exe"
+"C:\\Users\\LceAn\\Downloads\\Programs\\TXSSOSetup.exe.FriendlyAppName"=
+"C:\\Users\\grw13\\Downloads\\Programs\\TXSSOSetup.exe.FriendlyAppName"="Tencent SSO Platform"
+"C:\\Users\\LceAn\\Downloads\\Programs\\TXSSOSetup.exe.ApplicationCompany"=
+"C:\\Users\\grw13\\Downloads\\Programs\\TXSSOSetup.exe.ApplicationCompany"="Tencent"
+"C:\\Users\\LceAn\\Downloads\\Programs\\syzs_installer_1000208831_smzhsy.exe.FriendlyAppName"=
+"C:\\Users\\grw13\\Downloads\\Programs\\syzs_installer_1000208831_smzhsy.exe.FriendlyAppName"="Tencent Game Downloader"
+"C:\\Users\\LceAn\\Downloads\\Programs\\syzs_installer_1000208831_smzhsy.exe.ApplicationCompany"=
+"C:\\Users\\grw13\\Downloads\\Programs\\syzs_installer_1000208831_smzhsy.exe.ApplicationCompany"="Tencent"
+"C:\\users\\LceAn\\downloads\\programs\\sunloginclient_11.0.0.33826.exe.FriendlyAppName"=
+"C:\\users\\grw13\\downloads\\programs\\sunloginclient_11.0.0.33826.exe.FriendlyAppName"="向日葵远程控制"
+"C:\\users\\LceAn\\downloads\\programs\\sunloginclient_11.0.0.33826.exe.ApplicationCompany"=
+"C:\\users\\grw13\\downloads\\programs\\sunloginclient_11.0.0.33826.exe.ApplicationCompany"="上海贝锐信息科技股份有限公司"
+"C:\\Users\\LceAn\\AppData\\Local\\Temp\\geek64.exe.FriendlyAppName"=
+"C:\\Users\\grw13\\AppData\\Local\\Temp\\geek64.exe.FriendlyAppName"="Geek Un?nstaller"
+"C:\\Users\\LceAn\\AppData\\Local\\Temp\\geek64.exe.ApplicationCompany"=
+"C:\\Users\\grw13\\AppData\\Local\\Temp\\geek64.exe.ApplicationCompany"="Geek Un?nstaller"
+"C:\\Users\\LceAn\\Desktop\\搞机助手_V2.0.exe.FriendlyAppName"=
+"C:\\Users\\grw13\\Desktop\\搞机助手_V2.0.exe.FriendlyAppName"="搞机助手"
+
+[HKEY_CLASSES_ROOT\Python.File\Shell\editwithidle\shell\edit38\command]
+@="\"C:\\Users\\grw13\\AppData\\Local\\Programs\\Python\\Python38\\pythonw.exe\" -m idlelib \"%L\" %*"
+
+[HKEY_CLASSES_ROOT\Python.NoConFile\Shell\editwithidle\shell\edit38\command]
+@="\"C:\\Users\\grw13\\AppData\\Local\\Programs\\Python\\Python38\\pythonw.exe\" -m idlelib \"%L\" %*"
+
+[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}\DefaultIcon]
+@="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\OneDrive\\OneDrive.exe,0"
+
+[HKEY_CURRENT_USER\Environment]
+"OneDrive"=hex(2):43,3a,5c,55,73,65,72,73,5c,67,72,77,31,33,5c,4f,6e,65,44,72,\
+  69,76,65,00,00,00,69,6f,6e,2e,42,72,69,67,68,74,6e,65,73,73,3a,66,61,6c,73,\
+  65,00,00
+"OneDriveConsumer"=hex(2):43,3a,5c,55,73,65,72,73,5c,67,72,77,31,33,5c,4f,6e,\
+  65,44,72,69,76,65,00,00,00,53,6f,75,6e,64,00,00,00,00,00,ff,ff,00,04,ff,3a,\
+  ff,00,00,00,00,00
+
+[HKEY_CURRENT_USER\EUDC\936]
+"SystemDefaultEUDCFont"="C:\\Users\\grw13\\AppData\\LocalLow\\SogouPY\\EUDC\\SGPYEUDC_1.TTE"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\100]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev34_baidupan_com_100\\dev34_baidupan_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev34_baidupan_com_100\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev34_baidupan_com_100\\log_100.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\101]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev46_baidupan_com_101\\dev46_baidupan_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev46_baidupan_com_101\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev46_baidupan_com_101\\log_101.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\102]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\qdct02_baidupcs_com_102\\qdct02_baidupcs_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\qdct02_baidupcs_com_102\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\qdct02_baidupcs_com_102\\log_102.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\103]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\xact02_baidupcs_com_103\\xact02_baidupcs_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\xact02_baidupcs_com_103\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\xact02_baidupcs_com_103\\log_103.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\104]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\xdown-2.0.0.9_104\\xdown-2.0.0.9.zip"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\xdown-2.0.0.9_104\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\xdown-2.0.0.9_104\\xdown-2_104.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\105]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev95_baidupan_com_105\\dev95_baidupan_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev95_baidupan_com_105\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev95_baidupan_com_105\\log_105.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\106]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\developer01_baidupan_com_106\\developer01_baidupan_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\developer01_baidupan_com_106\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\developer01_baidupan_com_106\\log_106.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\107]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\sh-download_weiyun_com_107\\sh-download_weiyun_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\sh-download_weiyun_com_107\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\sh-download_weiyun_com_107\\log_107.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\108]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\zjy2_icve_com_cn_108\\zjy2_icve_com_cn"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\zjy2_icve_com_cn_108\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\zjy2_icve_com_cn_108\\log_108.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\110]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\surfacecdn_support_services_microsoft_com_110\\surfacecdn_support_services_microsoft_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\surfacecdn_support_services_microsoft_com_110\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\surfacecdn_support_services_microsoft_com_110\\log_110.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\112]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\XunLeiWebSetup11.1.5.1218gw.ex_112\\XunLeiWebSetup11.1.5.1218gw.ex.exe"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\XunLeiWebSetup11.1.5.1218gw.ex_112\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\XunLeiWebSetup11.1.5.1218gw.ex_112\\XunLeiWebSetup11_112.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\114]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\3DMGAME-c&cra2v1006+4tr_114\\3DMGAME-c&cra2v1006+4tr.rar"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\3DMGAME-c&cra2v1006+4tr_114\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\3DMGAME-c&cra2v1006+4tr_114\\3DMGAME-c&cra2v1006+4tr_114.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\116]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\yqcm02_baidupcs_com_116\\yqcm02_baidupcs_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\yqcm02_baidupcs_com_116\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\yqcm02_baidupcs_com_116\\log_116.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\122]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\cdn2018_ehuixue_cn_122\\cdn2018_ehuixue_cn"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\cdn2018_ehuixue_cn_122\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\cdn2018_ehuixue_cn_122\\log_122.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\127]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\file_icve_com_cn_127\\file_icve_com_cn"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\file_icve_com_cn_127\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\file_icve_com_cn_127\\log_127.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\134]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\SamsungDeXSetupWin_134\\SamsungDeXSetupWin.exe"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\SamsungDeXSetupWin_134\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\SamsungDeXSetupWin_134\\SamsungDeXSetupWin_134.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\136]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\136_136\\136"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\136_136\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\136_136\\log_136.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\137]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\master_137\\master"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\master_137\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\master_137\\log_137.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\138]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\master_138\\master"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\master_138\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\master_138\\log_138.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\139]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\master_139\\master"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\master_139\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\master_139\\log_139.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\140]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\read-more_140\\read-more.zip"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\read-more_140\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\read-more_140\\read-more_140.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\141]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\businessx.1.0.5.7_141\\businessx.1.0.5.7.zip"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\businessx.1.0.5.7_141\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\businessx.1.0.5.7_141\\businessx_141.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\142]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\47_103_217_240_142\\47_103_217_240"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\47_103_217_240_142\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\47_103_217_240_142\\log_142.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\143]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\i4Tools_v7.98.25_Setup_143\\i4Tools_v7.98.25_Setup.exe"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\i4Tools_v7.98.25_Setup_143\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\i4Tools_v7.98.25_Setup_143\\i4Tools_v7_143.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\145]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev8apk_baidupan_com_145\\dev8apk_baidupan_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev8apk_baidupan_com_145\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev8apk_baidupan_com_145\\log_145.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\146]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\fileTypeImages_158201150096008_146\\fileTypeImages_158201150096008.zip"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\fileTypeImages_158201150096008_146\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\fileTypeImages_158201150096008_146\\fileTypeImages_158201150096008_146.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\147]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\itunes_147\\itunes.exe"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\itunes_147\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\itunes_147\\itunes_147.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\148]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\iTunes_Download1100120206_148\\iTunes_Download1100120206.exe"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\iTunes_Download1100120206_148\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\iTunes_Download1100120206_148\\iTunes_Download1100120206_148.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\149]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\iCloudSetup_149\\iCloudSetup.exe"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\iCloudSetup_149\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\iCloudSetup_149\\iCloudSetup_149.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\150]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\iTunes64_150\\iTunes64.zip"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\iTunes64_150\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\iTunes64_150\\iTunes64_150.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\151]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\abcydia_AltDeploy_1.1_151\\abcydia_AltDeploy_1.1.zip"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\abcydia_AltDeploy_1.1_151\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\abcydia_AltDeploy_1.1_151\\abcydia_AltDeploy_1_151.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\152]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\AltServer-alpha-Windows_152\\AltServer-alpha-Windows.zip"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\AltServer-alpha-Windows_152\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\AltServer-alpha-Windows_152\\AltServer-alpha-Windows_152.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\153]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\2039_153\\2039"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\2039_153\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\2039_153\\log_153.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\154]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\github-releases_githubusercontent_com_154\\github-releases_githubusercontent_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\github-releases_githubusercontent_com_154\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\github-releases_githubusercontent_com_154\\log_154.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\156]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\Burp_Suite_Pro_v1.7.37_Loader__156\\Burp_Suite_Pro_v1.7.37_Loader_.zip"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\Burp_Suite_Pro_v1.7.37_Loader__156\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\Burp_Suite_Pro_v1.7.37_Loader__156\\Burp_Suite_Pro_v1_156.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\157]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\TIM3.3.0.22020_157\\TIM3.3.0.22020.exe"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\TIM3.3.0.22020_157\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\TIM3.3.0.22020_157\\TIM3_157.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\158]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\files_buuoj_cn_158\\files_buuoj_cn"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\files_buuoj_cn_158\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\files_buuoj_cn_158\\log_158.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\159]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\files_buuoj_cn_159\\files_buuoj_cn"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\files_buuoj_cn_159\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\files_buuoj_cn_159\\log_159.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\2]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\QMProxyAcc_Setup_3.0.7903.134__2\\QMProxyAcc_Setup_3.0.7903.134_.exe"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\QMProxyAcc_Setup_3.0.7903.134__2\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\QMProxyAcc_Setup_3.0.7903.134__2\\QMProxyAcc_Setup_3_2.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\20]
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\c2rsetup_officeapps_live_com_20\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\c2rsetup_officeapps_live_com_20\\log_20.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\34]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\HeiShaV7_Onekey4_34\\HeiShaV7_Onekey4.exe"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\HeiShaV7_Onekey4_34\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\HeiShaV7_Onekey4_34\\HeiShaV7_Onekey4_34.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\35]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\TXSSOSetup_35\\TXSSOSetup.exe"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\TXSSOSetup_35\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\TXSSOSetup_35\\TXSSOSetup_35.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\36]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\KiteSetup_36\\KiteSetup.exe"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\KiteSetup_36\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\KiteSetup_36\\KiteSetup_36.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\38]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\cn-jszj-dx-v-08_bilivideo_com_38\\cn-jszj-dx-v-08_bilivideo_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\cn-jszj-dx-v-08_bilivideo_com_38\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\cn-jszj-dx-v-08_bilivideo_com_38\\log_38.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\41]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\gsf-fl_softonic_com_41\\gsf-fl_softonic_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\gsf-fl_softonic_com_41\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\gsf-fl_softonic_com_41\\log_41.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\42]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\MouseKeyboardCenter_64bit_CHS__42\\MouseKeyboardCenter_64bit_CHS_.exe"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\MouseKeyboardCenter_64bit_CHS__42\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\MouseKeyboardCenter_64bit_CHS__42\\MouseKeyboardCenter_64bit_CHS__42.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\43]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\460.79-notebook-win10-64bit-in_43\\460.79-notebook-win10-64bit-in.exe"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\460.79-notebook-win10-64bit-in_43\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\460.79-notebook-win10-64bit-in_43\\460_43.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\45]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dl_dell_com_45\\dl_dell_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dl_dell_com_45\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dl_dell_com_45\\log_45.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\46]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dl_dell_com_46\\dl_dell_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dl_dell_com_46\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dl_dell_com_46\\log_46.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\48]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dl_dell_com_48\\dl_dell_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dl_dell_com_48\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dl_dell_com_48\\log_48.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\49]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\5f9c195f-223a-4e33-8bb3-535f2e_49\\5f9c195f-223a-4e33-8bb3-535f2e.rar"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\5f9c195f-223a-4e33-8bb3-535f2e_49\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\5f9c195f-223a-4e33-8bb3-535f2e_49\\5f9c195f-223a-4e33-8bb3-535f2e_49.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\51]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\MediaCreationTool20H2_51\\MediaCreationTool20H2.exe"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\MediaCreationTool20H2_51\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\MediaCreationTool20H2_51\\MediaCreationTool20H2_51.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\52]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\webinstallers_gog-statics_com_52\\webinstallers_gog-statics_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\webinstallers_gog-statics_com_52\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\webinstallers_gog-statics_com_52\\log_52.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\55]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\cdn_winscp_net_55\\cdn_winscp_net"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\cdn_winscp_net_55\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\cdn_winscp_net_55\\log_55.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\56]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\chs_56\\chs.zip"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\chs_56\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\chs_56\\chs_56.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\57]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\ccda63071ef41fcfd513f12172a10512_dlied1_cdntips_net_57\\ccda63071ef41fcfd513f12172a10512_dlied1_cdntips_net"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\ccda63071ef41fcfd513f12172a10512_dlied1_cdntips_net_57\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\ccda63071ef41fcfd513f12172a10512_dlied1_cdntips_net_57\\log_57.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\58]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\Dell-Mobile-Connect-Driver_WC6_58\\Dell-Mobile-Connect-Driver_WC6.exe"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\Dell-Mobile-Connect-Driver_WC6_58\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\Dell-Mobile-Connect-Driver_WC6_58\\Dell-Mobile-Connect-Driver_WC6_58.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\59]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\syzs_installer_1000208831_smzh_59\\syzs_installer_1000208831_smzh.exe"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\syzs_installer_1000208831_smzh_59\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\syzs_installer_1000208831_smzh_59\\syzs_installer_1000208831_smzh_59.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\61]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\index_61\\index.m3u8"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\index_61\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\index_61\\index_61.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\65]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\master_65\\master"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\master_65\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\master_65\\log_65.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\66]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\ALI213-GTASA.Wuming.Win7.Cn.Be_66\\ALI213-GTASA.Wuming.Win7.Cn.Be.rar"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\ALI213-GTASA.Wuming.Win7.Cn.Be_66\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\ALI213-GTASA.Wuming.Win7.Cn.Be_66\\ALI213-GTASA_66.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\67]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\ALI213-gta_cn.beta7_67\\ALI213-gta_cn.beta7.rar"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\ALI213-gta_cn.beta7_67\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\ALI213-gta_cn.beta7_67\\ALI213-gta_cn_67.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\69]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\XiaDaoLieCheShouShengAnDiLieSi_69\\XiaDaoLieCheShouShengAnDiLieSi.rar"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\XiaDaoLieCheShouShengAnDiLieSi_69\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\XiaDaoLieCheShouShengAnDiLieSi_69\\XiaDaoLieCheShouShengAnDiLieSi_69.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\70]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\xact02_baidupcs_com_70\\xact02_baidupcs_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\xact02_baidupcs_com_70\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\xact02_baidupcs_com_70\\log_70.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\71]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\qdct02_baidupcs_com_71\\qdct02_baidupcs_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\qdct02_baidupcs_com_71\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\qdct02_baidupcs_com_71\\log_71.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\72]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\xact02_baidupcs_com_72\\xact02_baidupcs_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\xact02_baidupcs_com_72\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\xact02_baidupcs_com_72\\log_72.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\73]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\3DMGame_SparkIV-0.6.2_73\\3DMGame_SparkIV-0.6.2.zip"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\3DMGame_SparkIV-0.6.2_73\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\3DMGame_SparkIV-0.6.2_73\\3DMGame_SparkIV-0_73.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\74]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\3DMGAME-SparkIV.0.7.0.BETA.CHS_74\\3DMGAME-SparkIV.0.7.0.BETA.CHS.7z"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\3DMGAME-SparkIV.0.7.0.BETA.CHS_74\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\3DMGAME-SparkIV.0.7.0.BETA.CHS_74\\3DMGAME-SparkIV_74.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\75]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\3DMGAME-GTA4.LP720-4v1.0_75\\3DMGAME-GTA4.LP720-4v1.0.rar"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\3DMGAME-GTA4.LP720-4v1.0_75\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\3DMGAME-GTA4.LP720-4v1.0_75\\3DMGAME-GTA4_75.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\76]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\yqct02_baidupcs_com_76\\yqct02_baidupcs_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\yqct02_baidupcs_com_76\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\yqct02_baidupcs_com_76\\log_76.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\77]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\3DMGame_GTA4_rain&storm_by_-E3_77\\3DMGame_GTA4_rain&storm_by_-E3.zip"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\3DMGame_GTA4_rain&storm_by_-E3_77\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\3DMGame_GTA4_rain&storm_by_-E3_77\\3DMGame_GTA4_rain&storm_by_-E3_77.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\78]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\3DMGame_Asiloader_78\\3DMGame_Asiloader.rar"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\3DMGame_Asiloader_78\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\3DMGame_Asiloader_78\\3DMGame_Asiloader_78.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\79]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\3DMGame_GTA4_Environment_mod_v_79\\3DMGame_GTA4_Environment_mod_v.zip"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\3DMGame_GTA4_Environment_mod_v_79\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\3DMGame_GTA4_Environment_mod_v_79\\3DMGame_GTA4_Environment_mod_v_79.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\80]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\GTA-20Environment-20mod-204.ra_80\\GTA-20Environment-20mod-204.ra.rar"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\GTA-20Environment-20mod-204.ra_80\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\GTA-20Environment-20mod-204.ra_80\\GTA-20Environment-20mod-204_80.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\81]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\master_81\\master"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\master_81\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\master_81\\log_81.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\82]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\master_82\\master"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\master_82\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\master_82\\log_82.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\84]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\SunloginClient_11.0.0.33826.ex_84\\SunloginClient_11.0.0.33826.ex.exe"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\SunloginClient_11.0.0.33826.ex_84\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\SunloginClient_11.0.0.33826.ex_84\\SunloginClient_11_84.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\85]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\SW_DVD5_Win_Pro_7w_SP1_32BIT_C_85\\SW_DVD5_Win_Pro_7w_SP1_32BIT_C.ISO"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\SW_DVD5_Win_Pro_7w_SP1_32BIT_C_85\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\SW_DVD5_Win_Pro_7w_SP1_32BIT_C_85\\SW_DVD5_Win_Pro_7w_SP1_32BIT_C_85.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\86]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\167-ctc-aa_tv002_com_86\\167-ctc-aa_tv002_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\167-ctc-aa_tv002_com_86\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\167-ctc-aa_tv002_com_86\\log_86.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\87]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\ctfile_87\\ctfile.exe"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\ctfile_87\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\ctfile_87\\ctfile_87.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\88]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev53_baidupan_com_88\\dev53_baidupan_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev53_baidupan_com_88\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev53_baidupan_com_88\\log_88.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\89]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\rcsetup1.53.0.1087_89\\rcsetup1.53.0.1087.exe"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\rcsetup1.53.0.1087_89\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\rcsetup1.53.0.1087_89\\rcsetup1_89.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\90]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\spksmprint_90\\spksmprint.aspx"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\spksmprint_90\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\spksmprint_90\\spksmprint_90.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\91]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev53_baidupan_com_91\\dev53_baidupan_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev53_baidupan_com_91\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev53_baidupan_com_91\\log_91.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\92]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\yqall01_baidupcs_com_92\\yqall01_baidupcs_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\yqall01_baidupcs_com_92\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\yqall01_baidupcs_com_92\\log_92.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\93]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev46_baidupan_com_93\\dev46_baidupan_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev46_baidupan_com_93\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev46_baidupan_com_93\\log_93.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\94]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\xact02_baidupcs_com_94\\xact02_baidupcs_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\xact02_baidupcs_com_94\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\xact02_baidupcs_com_94\\log_94.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\95]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev34_baidupan_com_95\\dev34_baidupan_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev34_baidupan_com_95\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev34_baidupan_com_95\\log_95.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\96]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev05_baidupan_com_96\\dev05_baidupan_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev05_baidupan_com_96\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev05_baidupan_com_96\\log_96.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\97]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev05_baidupan_com_97\\dev05_baidupan_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev05_baidupan_com_97\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev05_baidupan_com_97\\log_97.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\98]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev53_baidupan_com_98\\dev53_baidupan_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev53_baidupan_com_98\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev53_baidupan_com_98\\log_98.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager\99]
+"LocalFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev16_baidupan_com_99\\dev16_baidupan_com"
+"LocalPath"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev16_baidupan_com_99\\"
+"LogFileName"="C:\\Users\\grw13\\AppData\\Roaming\\IDM\\DwnlData\\A\\dev16_baidupan_com_99\\log_99.log"
+
+[HKEY_CURRENT_USER\SOFTWARE\JavaSoft\Prefs\burp]
+"suite.temp/Dir/Pending/Deletion0"="/C:///Users//grw13///App/Data///Local///Temp//burp1293095830735879244.tmp"
+"workingdirectory"="/C:///Users//grw13///Downloads"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\Common\Backup]
+"AutoRecoverFilePath"="C:\\Users\\grw13\\AppData\\Roaming\\Kingsoft\\office6\\backup"
+"EtOldAutoRecoverFilePath"="C:\\Users\\grw13\\AppData\\Roaming\\Kingsoft\\office6/backup"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\Common\FileDialog\RecentFolder\1]
+"path"="C:\\Users\\grw13\\Documents"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\Common\spellcheck\dicts\en_CH\1]
+"dictpath"="C:\\Users\\grw13\\AppData\\Roaming\\Kingsoft\\office6/en_CH/CUSTOM.DIC"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\Common\UserInfo]
+"UserName"="grw13"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\et\Application Settings]
+"AutoRecoverFilePath"="C:\\Users\\grw13\\AppData\\Roaming\\kingsoft\\office6\\backup"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\et\RecentFiles\files\11]
+"path"="C:\\Users\\grw13\\Documents\\Tencent Files\\1175821335\\FileRecv\\购书.xlsx"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\et\RecentFiles\files\12]
+"path"="C:\\Users\\grw13\\Documents\\tencent files\\1175821335\\filerecv\\安徽.xlsx"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\et\RecentFiles\files\14]
+"path"="C:\\Users\\grw13\\Documents\\Tencent Files\\1175821335\\FileRecv\\信安成员登记表(1).xlsx"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\et\RecentFiles\files\15]
+"path"="C:\\Users\\grw13\\Documents\\Tencent Files\\1175821335\\FileRecv\\信安成员登记表.xlsx"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\et\RecentFiles\files\16]
+"path"="C:\\Users\\grw13\\Documents\\tencent files\\1175821335\\filerecv\\安徽职业技术学院2019级安全教育学习情况1027.xls"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\et\RecentFiles\files\6]
+"path"="C:\\Users\\grw13\\Downloads\\user.csv"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\et\RecentFiles\files\8]
+"path"="C:\\Users\\grw13\\Downloads\\233d342b-398f-4c90-a848-5f57ad791148.xls"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\et\RecentFiles\files_bak\11]
+"path"="C:\\Users\\grw13\\Documents\\Tencent Files\\1175821335\\FileRecv\\购书.xlsx"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\et\RecentFiles\files_bak\12]
+"path"="C:\\Users\\grw13\\Documents\\tencent files\\1175821335\\filerecv\\安徽.xlsx"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\et\RecentFiles\files_bak\14]
+"path"="C:\\Users\\grw13\\Documents\\Tencent Files\\1175821335\\FileRecv\\信安成员登记表(1).xlsx"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\et\RecentFiles\files_bak\15]
+"path"="C:\\Users\\grw13\\Documents\\Tencent Files\\1175821335\\FileRecv\\信安成员登记表.xlsx"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\et\RecentFiles\files_bak\16]
+"path"="C:\\Users\\grw13\\Documents\\tencent files\\1175821335\\filerecv\\安徽职业技术学院2019级安全教育学习情况1027.xls"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\et\RecentFiles\files_bak\6]
+"path"="C:\\Users\\grw13\\Downloads\\user.csv"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\et\RecentFiles\files_bak\8]
+"path"="C:\\Users\\grw13\\Downloads\\233d342b-398f-4c90-a848-5f57ad791148.xls"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\et\RecentFiles\Sequence]
+"C:/Users/LceAn/Desktop/签到.xlsx"=
+"C:/Users/grw13/Desktop/签到.xlsx"="1603774276"
+"C:/Users/LceAn/Documents/tencent files/1175821335/filerecv/安徽职业技术学院2019级安全教育学习情况1027.xls"=
+"C:/Users/grw13/Documents/tencent files/1175821335/filerecv/安徽职业技术学院2019级安全教育学习情况1027.xls"="1603775026"
+"C:/Users/LceAn/Desktop/报名表.xlsx"=
+"C:/Users/grw13/Desktop/报名表.xlsx"="1604121153"
+"C:/Users/LceAn/Documents/Tencent Files/1175821335/FileRecv/信安成员登记表.xlsx"=
+"C:/Users/grw13/Documents/Tencent Files/1175821335/FileRecv/信安成员登记表.xlsx"="1604576574"
+"C:/Users/LceAn/Documents/Tencent Files/1175821335/FileRecv/信安成员登记表(1).xlsx"=
+"C:/Users/grw13/Documents/Tencent Files/1175821335/FileRecv/信安成员登记表(1).xlsx"="1604576772"
+"C:/Users/LceAn/Documents/tencent files/1175821335/filerecv/安徽.xlsx"=
+"C:/Users/grw13/Documents/tencent files/1175821335/filerecv/安徽.xlsx"="1605436821"
+"C:/Users/LceAn/Documents/Tencent Files/1175821335/FileRecv/购书.xlsx"=
+"C:/Users/grw13/Documents/Tencent Files/1175821335/FileRecv/购书.xlsx"="1605703901"
+"C:/Users/LceAn/Downloads/233d342b-398f-4c90-a848-5f57ad791148.xls"=
+"C:/Users/grw13/Downloads/233d342b-398f-4c90-a848-5f57ad791148.xls"="1608121894"
+"C:/Users/LceAn/Downloads/user.csv"=
+"C:/Users/grw13/Downloads/user.csv"="1608705053"
+"C:/Users/LceAn/Documents/WPS Cloud Files/9409634/根/信息表/19总.xls"=
+"C:/Users/grw13/Documents/WPS Cloud Files/9409634/根/信息表/19总.xls"="1610422180"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\pdf\Application Settings]
+"DocumentsPath"="C:\\Users\\grw13\\Documents"
+"TempDocPath"="C:\\Users\\grw13\\AppData\\Roaming\\Kingsoft\\office6\\pdf\\temp"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\pdf\RecentFiles\files\10]
+"path"="C:\\Users\\grw13\\Downloads\\Documents\\063a5f56-9b1f-43bd-8f5f-c6763300ec5c.pdf"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\pdf\RecentFiles\files\12]
+"path"="C:\\Users\\grw13\\Documents\\Tencent Files\\1175821335\\FileRecv\\关于“2020年全国电信和互联网行业网络安全管理职业技能竞赛（第九届）”安徽选拔赛决赛有关事项的通知(1).pdf"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\pdf\RecentFiles\files\13]
+"path"="C:\\Users\\grw13\\Documents\\Tencent Files\\1175821335\\FileRecv\\CTF-web漏洞综合利用.pdf"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\pdf\RecentFiles\files\16]
+"path"="C:\\Users\\grw13\\Documents\\Tencent Files\\1175821335\\FileRecv\\攻防竞赛之AWD竞赛指南.pdf"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\pdf\RecentFiles\files\17]
+"path"="C:\\Users\\grw13\\Documents\\Tencent Files\\1175821335\\FileRecv\\安徽省通信行业暨互联网协会关于举办“2020年全国电信和互联网行业网络安全管理职业技能竞赛（第九届）”安徽选拔赛培训班的通知.pdf"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\pdf\RecentFiles\files\18]
+"path"="C:\\Users\\grw13\\Documents\\Tencent Files\\1175821335\\FileRecv\\网络安全法律法规基础.pdf"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\pdf\RecentFiles\files\20]
+"path"="C:\\Users\\grw13\\Documents\\Tencent Files\\1175821335\\FileRecv\\作品赛决赛名单.pdf"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\pdf\RecentFiles\files\3]
+"path"="C:\\Users\\grw13\\Downloads\\Documents\\video.pdf"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\pdf\RecentFiles\files\4]
+"path"="C:\\Users\\grw13\\Downloads\\Documents\\341224200011016823.pdf"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\pdf\RecentFiles\files_bak\10]
+"path"="C:\\Users\\grw13\\Downloads\\Documents\\063a5f56-9b1f-43bd-8f5f-c6763300ec5c.pdf"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\pdf\RecentFiles\files_bak\12]
+"path"="C:\\Users\\grw13\\Documents\\Tencent Files\\1175821335\\FileRecv\\关于“2020年全国电信和互联网行业网络安全管理职业技能竞赛（第九届）”安徽选拔赛决赛有关事项的通知(1).pdf"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\pdf\RecentFiles\files_bak\13]
+"path"="C:\\Users\\grw13\\Documents\\Tencent Files\\1175821335\\FileRecv\\CTF-web漏洞综合利用.pdf"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\pdf\RecentFiles\files_bak\16]
+"path"="C:\\Users\\grw13\\Documents\\Tencent Files\\1175821335\\FileRecv\\攻防竞赛之AWD竞赛指南.pdf"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\pdf\RecentFiles\files_bak\17]
+"path"="C:\\Users\\grw13\\Documents\\Tencent Files\\1175821335\\FileRecv\\安徽省通信行业暨互联网协会关于举办“2020年全国电信和互联网行业网络安全管理职业技能竞赛（第九届）”安徽选拔赛培训班的通知.pdf"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\pdf\RecentFiles\files_bak\18]
+"path"="C:\\Users\\grw13\\Documents\\Tencent Files\\1175821335\\FileRecv\\网络安全法律法规基础.pdf"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\pdf\RecentFiles\files_bak\20]
+"path"="C:\\Users\\grw13\\Documents\\Tencent Files\\1175821335\\FileRecv\\作品赛决赛名单.pdf"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\pdf\RecentFiles\files_bak\3]
+"path"="C:\\Users\\grw13\\Downloads\\Documents\\video.pdf"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\pdf\RecentFiles\files_bak\4]
+"path"="C:\\Users\\grw13\\Downloads\\Documents\\341224200011016823.pdf"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\pdf\RecentFiles\Sequence]
+"C:/Users/LceAn/Documents/Tencent Files/1175821335/FileRecv/作品赛决赛名单.pdf"=
+"C:/Users/grw13/Documents/Tencent Files/1175821335/FileRecv/作品赛决赛名单.pdf"="1603868456"
+"C:/Users/LceAn/Documents/Tencent Files/1175821335/FileRecv/安徽省通信行业暨互联网协会关于举办“2020年全国电信和互联网行业网络安全管理职业技能竞赛（第九届）”安徽选拔赛培训班的通知.pdf"=
+"C:/Users/grw13/Documents/Tencent Files/1175821335/FileRecv/安徽省通信行业暨互联网协会关于举办“2020年全国电信和互联网行业网络安全管理职业技能竞赛（第九届）”安徽选拔赛培训班的通知.pdf"="1604410420"
+"C:/Users/LceAn/Documents/Tencent Files/1175821335/FileRecv/CTF-web漏洞综合利用.pdf"=
+"C:/Users/grw13/Documents/Tencent Files/1175821335/FileRecv/CTF-web漏洞综合利用.pdf"="1605491605"
+"C:/Users/LceAn/Documents/Tencent Files/1175821335/FileRecv/网络安全法律法规基础.pdf"=
+"C:/Users/grw13/Documents/Tencent Files/1175821335/FileRecv/网络安全法律法规基础.pdf"="1604410383"
+"C:/Users/LceAn/Documents/Tencent Files/1175821335/FileRecv/攻防竞赛之AWD竞赛指南.pdf"=
+"C:/Users/grw13/Documents/Tencent Files/1175821335/FileRecv/攻防竞赛之AWD竞赛指南.pdf"="1604410432"
+"C:/Users/LceAn/Documents/Tencent Files/1175821335/FileRecv/关于“2020年全国电信和互联网行业网络安全管理职业技能竞赛（第九届）”安徽选拔赛决赛有关事项的通知(1).pdf"=
+"C:/Users/grw13/Documents/Tencent Files/1175821335/FileRecv/关于“2020年全国电信和互联网行业网络安全管理职业技能竞赛（第九届）”安徽选拔赛决赛有关事项的通知(1).pdf"="1605491696"
+"C:/Users/LceAn/Downloads/Documents/063a5f56-9b1f-43bd-8f5f-c6763300ec5c.pdf"=
+"C:/Users/grw13/Downloads/Documents/063a5f56-9b1f-43bd-8f5f-c6763300ec5c.pdf"="1606298561"
+"C:/Users/LceAn/Desktop/“庐园杯”合肥市老年游戏创意比赛(1).pdf"=
+"C:/Users/grw13/Desktop/“庐园杯”合肥市老年游戏创意比赛(1).pdf"="1606481672"
+"C:/Users/LceAn/Documents/WPS Cloud Files/.9409634/cachedata/E9E45FC4784F4FB495909D5DC7F6AF6B/攻防管理端使用手册V1.0.pdf"=
+"C:/Users/grw13/Documents/WPS Cloud Files/.9409634/cachedata/E9E45FC4784F4FB495909D5DC7F6AF6B/攻防管理端使用手册V1.0.pdf"="1606987891"
+"C:/Users/LceAn/Downloads/Documents/341224200011016823.pdf"=
+"C:/Users/grw13/Downloads/Documents/341224200011016823.pdf"="1610103495"
+"C:/Users/LceAn/Downloads/Documents/video.pdf"=
+"C:/Users/grw13/Downloads/Documents/video.pdf"="1610979162"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\plugins\kicontheme]
+"IconThemePath"="C:\\Users\\grw13\\AppData\\Roaming\\Kingsoft\\office6\\iconthemes\\default"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\wpp\Application Settings]
+"DefaultFileLocation"="C:\\Users\\grw13\\Documents"
+"AutoRecoverFilePath"="C:\\Users\\grw13\\AppData\\Roaming\\Kingsoft\\office6\\backup"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\wpp\RecentFiles\files\1]
+"path"="C:\\Users\\grw13\\Documents\\Tencent Files\\1175821335\\FileRecv\\大班-数学-10以内数学加减法-课件（互动版）.pptx"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\wpp\RecentFiles\files_bak\1]
+"path"="C:\\Users\\grw13\\Documents\\Tencent Files\\1175821335\\FileRecv\\大班-数学-10以内数学加减法-课件（互动版）.pptx"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\wpp\RecentFiles\Sequence]
+"C:/Users/LceAn/Documents/Tencent Files/1175821335/FileRecv/大班-数学-10以内数学加减法-课件（互动版）.pptx"=
+"C:/Users/grw13/Documents/Tencent Files/1175821335/FileRecv/大班-数学-10以内数学加减法-课件（互动版）.pptx"="1604971111"
+"C:/Users/LceAn/Desktop/1/大班-数学-10以内数学加减法-课件（互动版）.pptx"=
+"C:/Users/grw13/Desktop/1/大班-数学-10以内数学加减法-课件（互动版）.pptx"="1604973479"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\wps\Application Settings]
+"DocumentsPath"="C:\\Users\\grw13\\Documents"
+"UserTemplatePath"="C:\\Users\\grw13\\AppData\\Roaming\\Kingsoft\\office6\\templates\\wps\\zh_CN"
+"DefaultTemplateFile"="C:\\Users\\grw13\\AppData\\Roaming\\Kingsoft\\office6\\templates\\wps\\zh_CN/Normal.dotm"
+"AutoRecoverFilePath"="C:\\Users\\grw13\\AppData\\Roaming\\Kingsoft\\office6\\backup"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\wps\RecentFiles\files\6]
+"path"="C:\\Users\\grw13\\AppData\\Local\\Temp\\baiduyunguanjia\\onlinedit\\cache\\dcd0a02b9006af2e65370576636b2cf8\\题解.docx"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\wps\RecentFiles\files\7]
+"path"="C:\\Users\\grw13\\AppData\\Local\\Temp\\baiduyunguanjia\\onlinedit\\cache\\262d067b1ad96f086326d9c92c10c56d\\sql2题解(tips).docx"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\wps\RecentFiles\files\8]
+"path"="C:\\Users\\grw13\\Downloads\\第三章  习题作业.doc"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\wps\RecentFiles\files_bak\6]
+"path"="C:\\Users\\grw13\\AppData\\Local\\Temp\\baiduyunguanjia\\onlinedit\\cache\\dcd0a02b9006af2e65370576636b2cf8\\题解.docx"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\wps\RecentFiles\files_bak\7]
+"path"="C:\\Users\\grw13\\AppData\\Local\\Temp\\baiduyunguanjia\\onlinedit\\cache\\262d067b1ad96f086326d9c92c10c56d\\sql2题解(tips).docx"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\wps\RecentFiles\files_bak\8]
+"path"="C:\\Users\\grw13\\Downloads\\第三章  习题作业.doc"
+
+[HKEY_CURRENT_USER\SOFTWARE\Kingsoft\Office\6.0\wps\RecentFiles\Sequence]
+"C:/Users/LceAn/Desktop/CTF笔记.docx"=
+"C:/Users/grw13/Desktop/CTF笔记.docx"="1604467083"
+"C:/Users/LceAn/Desktop/随便组个队.docx"=
+"C:/Users/grw13/Desktop/随便组个队.docx"="1604284332"
+"C:/Users/LceAn/Desktop/python爬虫.docx"=
+"C:/Users/grw13/Desktop/python爬虫.docx"="1604467023"
+"C:/Users/LceAn/Desktop/python笔记.docx"=
+"C:/Users/grw13/Desktop/python笔记.docx"="1611049556"
+"C:/Users/LceAn/Desktop/逻辑思维题库.docx"=
+"C:/Users/grw13/Desktop/逻辑思维题库.docx"="1605408992"
+"C:/Users/LceAn/Desktop/w.docx"=
+"C:/Users/grw13/Desktop/w.docx"="1609221576"
+"C:/Users/LceAn/Downloads/第三章  习题作业.doc"=
+"C:/Users/grw13/Downloads/第三章  习题作业.doc"="1610631583"
+"C:/Users/LceAn/AppData/Local/Temp/baiduyunguanjia/onlinedit/cache/dcd0a02b9006af2e65370576636b2cf8/题解.docx"=
+"C:/Users/grw13/AppData/Local/Temp/baiduyunguanjia/onlinedit/cache/dcd0a02b9006af2e65370576636b2cf8/题解.docx"="1612259159"
+"C:/Users/LceAn/AppData/Local/Temp/baiduyunguanjia/onlinedit/cache/262d067b1ad96f086326d9c92c10c56d/sql2题解(tips).docx"=
+"C:/Users/grw13/AppData/Local/Temp/baiduyunguanjia/onlinedit/cache/262d067b1ad96f086326d9c92c10c56d/sql2题解(tips).docx"="1612259136"
+
+[HKEY_CURRENT_USER\SOFTWARE\Martin Prikryl\WinSCP 2\Configuration\History\LocalTarget]
+"0"="C:%5CUsers%5Cgrw13%5CDesktop%5C*.*"
+
+[HKEY_CURRENT_USER\SOFTWARE\Martin Prikryl\WinSCP 2\Configuration\Interface\Explorer]
+"LastLocalTargetDirectory"="C:%5CUsers%5Cgrw13%5CDocuments"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\IdentityCRL\UserExtendedProperties\LceAn14@outlook.com]
+"RT_Rename_Key"="HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\IdentityCRL\\UserExtendedProperties\\grw1314@outlook.com"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\IntelliType Pro\AppSpecific\Frija.exe]
+"Path"="C:\\Users\\grw13\\Desktop\\Frija_V1.4.3.0\\Frija.exe"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\IntelliType Pro\AppSpecific\hadesFirm.exe]
+"Path"="C:\\Users\\grw13\\Desktop\\hadesFirm-0.3.6.1\\hadesFirm.exe"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\IntelliType Pro\AppSpecific\REDlauncher.exe]
+"Path"="C:\\Users\\grw13\\AppData\\Local\\Programs\\CD Projekt Red\\REDlauncher\\REDlauncher.exe"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\LowRegistry\Audio\PolicyConfig\PropertyStore\da9e22d6_0]
+@="{2}.\\\\?\\hdaudio#func_01&ven_10ec&dev_0294&subsys_10431381&rev_1000#{6994ad04-93ef-11d0-a3cc-00a0c9223196}\\singlelineouttopo/00010001|\\Device\\HarddiskVolume3\\Users\\grw13\\AppData\\Local\\Programs\\CD Projekt Red\\REDlauncher\\REDlauncher.exe%b{00000000-0000-0000-0000-000000000000}"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\LowRegistry\IEShims\NormalizedPaths]
+"C:\\Users\\LceAn"=
+"C:\\Users\\grw13"=hex(0):
+"C:\\Users\\LceAn\\$RECYCLE.BIN"=
+"C:\\Users\\grw13\\$RECYCLE.BIN"=hex(0):
+"C:\\Users\\LceAn\\Favorites"=
+"C:\\Users\\grw13\\Favorites"=hex(0):
+"C:\\Users\\LceAn\\AppData\\LocalLow"=
+"C:\\Users\\grw13\\AppData\\LocalLow"=hex(0):
+"C:\\Users\\LceAn\\AppData\\Roaming\\Microsoft\\Windows\\Cookies"=
+"C:\\Users\\grw13\\AppData\\Roaming\\Microsoft\\Windows\\Cookies"=hex(0):
+"C:\\Users\\LceAn\\AppData\\Local\\Microsoft\\Windows\\History"=
+"C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Windows\\History"=hex(0):
+"C:\\Users\\LceAn\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Low"=
+"C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Low"=hex(0):
+"C:\\Users\\LceAn\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Low"=
+"C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Low"=hex(0):
+"C:\\Users\\LceAn\\AppData\\Local\\Microsoft\\Windows\\WER"=
+"C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Windows\\WER"=hex(0):
+"C:\\Users\\LceAn\\AppData\\Local\\Microsoft\\Feeds"=
+"C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Feeds"=hex(0):
+"C:\\Users\\LceAn\\AppData\\Local\\Temp\\Low"=
+"C:\\Users\\grw13\\AppData\\Local\\Temp\\Low"=hex(0):
+"C:\\Users\\LceAn\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Virtualized"=
+"C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Virtualized"=hex(0):
+"C:\\Users\\LceAn\\AppData\\Local\\Microsoft\\PlayReady"=
+"C:\\Users\\grw13\\AppData\\Local\\Microsoft\\PlayReady"=hex(0):
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Main\WindowsSearch]
+"User Favorites Path"="file:///C:\\Users\\grw13\\Favorites\\"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\MediaPlayer\Preferences]
+"ObfuscatedSyncPlaylistsPath"="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Media Player\\Sync Playlists\\zh-CN\\000A10B8"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Common\Identity\Identities\3d3653c9b0160be0_LiveId]
+"EmailAddresses"="[\"grw1314@outlook.com\",\"grw1314@outlook.com\"]"
+"DisplayEmailAddress"="grw1314@outlook.com"
+"EmailAddress"="grw1314@outlook.com"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Common\Licensing\OlsToken\Identity\HomeStudent2019Retail]
+"emailAddress"="grw1314@outlook.com"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Common\ServicesManagerCache\Identities\3d3653c9b0160be0_LiveId\WLINBOX_SKYDRIVE_3d3653c9b0160be0_97]
+"ConnectionUserUpn"="grw1314@outlook.com"
+"UserDisplayName"="grw1314@outlook.com"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Excel\DocumentTemplateCache\zh-CN{756B803E-B09E-4FB1-9757-62E5BE8D460B}]
+"CacheFolderPath"="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Office\\16.0\\DTS\\zh-CN{F3EC5065-3193-419B-AE3A-39DBDE24FB5F}"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Excel\DocumentTemplateCache\zh-CN{756B803E-B09E-4FB1-9757-62E5BE8D460B}\TM04014209\Images]
+"ImageData0000"="{\"path\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F3EC5065-3193-419B-AE3A-39DBDE24FB5F}\\\\{E8BECC5A-BB70-481D-8C80-C246F588AD22}mt04014209.png\",\"type\":2,\"aspectRatio\":1.298701,\"localUrl\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F3EC5065-3193-419B-AE3A-39DBDE24FB5F}\\\\{E8BECC5A-BB70-481D-8C80-C246F588AD22}mt04014209.png\",\"staleFilePath\":\"\",\"checksum\":\"39845A62283A8D23ADA61EFC82B0598B4CAA5EB9FF66CDCD66CCA3504F656A91\",\"downloadUrl\":\"https://binaries.templates.cdn.office.net/support/templates/zh-cn/mt04014209.png\"}"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Excel\DocumentTemplateCache\zh-CN{756B803E-B09E-4FB1-9757-62E5BE8D460B}\TM10000137\Images]
+"ImageData0000"="{\"path\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F3EC5065-3193-419B-AE3A-39DBDE24FB5F}\\\\{202B3570-E4F0-40AC-AF9F-459A3539339E}mt10000137.png\",\"type\":2,\"aspectRatio\":1.298701,\"localUrl\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F3EC5065-3193-419B-AE3A-39DBDE24FB5F}\\\\{202B3570-E4F0-40AC-AF9F-459A3539339E}mt10000137.png\",\"staleFilePath\":\"\",\"checksum\":\"CF46AB8882454C8D2561415C22A7E9F3537AC79F6D30A9D83CFE36B9ECFD9143\",\"downloadUrl\":\"https://binaries.templates.cdn.office.net/support/templates/zh-cn/mt10000137.png\"}"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Excel\DocumentTemplateCache\zh-CN{756B803E-B09E-4FB1-9757-62E5BE8D460B}\TM11829122\Images]
+"ImageData0000"="{\"path\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F3EC5065-3193-419B-AE3A-39DBDE24FB5F}\\\\{EAF2BAC0-28FD-4D07-B91E-E30C7C1699B6}mt11829122.png\",\"type\":2,\"aspectRatio\":1.298701,\"localUrl\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F3EC5065-3193-419B-AE3A-39DBDE24FB5F}\\\\{EAF2BAC0-28FD-4D07-B91E-E30C7C1699B6}mt11829122.png\",\"staleFilePath\":\"\",\"checksum\":\"F55659B08151C9D093C4F63DA12255EB0C598DFA82AB142092EB1D335891ADE8\",\"downloadUrl\":\"https://binaries.templates.cdn.office.net/support/templates/zh-cn/mt11829122.png\"}"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Excel\DocumentTemplateCache\zh-CN{756B803E-B09E-4FB1-9757-62E5BE8D460B}\TM16400647\Images]
+"ImageData0000"="{\"path\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F3EC5065-3193-419B-AE3A-39DBDE24FB5F}\\\\{E2B1B00D-E45F-440C-A26E-55F9EEEB8D7C}mt16400647.png\",\"type\":2,\"aspectRatio\":1.298701,\"localUrl\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F3EC5065-3193-419B-AE3A-39DBDE24FB5F}\\\\{E2B1B00D-E45F-440C-A26E-55F9EEEB8D7C}mt16400647.png\",\"staleFilePath\":\"\",\"checksum\":\"15C92963D6183D7633604E7E1D3122CA668408F19146E571590311CB8E4B67C0\",\"downloadUrl\":\"https://binaries.templates.cdn.office.net/support/templates/zh-cn/mt16400647.png\"}"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Excel\DocumentTemplateCache\zh-CN{756B803E-B09E-4FB1-9757-62E5BE8D460B}\TM16400656\Images]
+"ImageData0000"="{\"path\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F3EC5065-3193-419B-AE3A-39DBDE24FB5F}\\\\{E7D34FFC-13A2-4878-9E5F-432CFC6E693A}mt16400656.png\",\"type\":2,\"aspectRatio\":1.298701,\"localUrl\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F3EC5065-3193-419B-AE3A-39DBDE24FB5F}\\\\{E7D34FFC-13A2-4878-9E5F-432CFC6E693A}mt16400656.png\",\"staleFilePath\":\"\",\"checksum\":\"55DDD1DAE4865C78EA9372041BE491BE3959A4399BD8D9021997E83BE75CBC77\",\"downloadUrl\":\"https://binaries.templates.cdn.office.net/support/templates/zh-cn/mt16400656.png\"}"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Excel\DocumentTemplateCache\zh-CN{756B803E-B09E-4FB1-9757-62E5BE8D460B}\TM33398600\Images]
+"ImageData0000"="{\"path\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F3EC5065-3193-419B-AE3A-39DBDE24FB5F}\\\\{EDD244A8-9859-4747-88CB-F9B8A711E598}mt33398600.png\",\"type\":2,\"aspectRatio\":1.298701,\"localUrl\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F3EC5065-3193-419B-AE3A-39DBDE24FB5F}\\\\{EDD244A8-9859-4747-88CB-F9B8A711E598}mt33398600.png\",\"staleFilePath\":\"\",\"checksum\":\"D2EC7AEA692395E9740C16D15CF5DFDBA28C70541329C5337C04C492C1641509\",\"downloadUrl\":\"https://binaries.templates.cdn.office.net/support/templates/zh-cn/mt33398600.png\"}"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Excel\DocumentTemplateCache\zh-CN{756B803E-B09E-4FB1-9757-62E5BE8D460B}\TM34128371\Images]
+"ImageData0000"="{\"path\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F3EC5065-3193-419B-AE3A-39DBDE24FB5F}\\\\{95CDEA38-1518-445A-82E7-1A974018C00F}mt34128371.png\",\"type\":2,\"aspectRatio\":1.298701,\"localUrl\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F3EC5065-3193-419B-AE3A-39DBDE24FB5F}\\\\{95CDEA38-1518-445A-82E7-1A974018C00F}mt34128371.png\",\"staleFilePath\":\"\",\"checksum\":\"C88D4AB0B93AEDB9EB0B536BAC059082D0FDCDAC165B2805869E1B42682CF7FA\",\"downloadUrl\":\"https://binaries.templates.cdn.office.net/support/templates/zh-cn/mt34128371.png\"}"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Excel\DocumentTemplateCache\zh-CN{756B803E-B09E-4FB1-9757-62E5BE8D460B}\TM45299826\Images]
+"ImageData0000"="{\"path\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F3EC5065-3193-419B-AE3A-39DBDE24FB5F}\\\\{BD384CAE-2038-43ED-A8D0-3AB67C41A1AB}mt45299826.png\",\"type\":2,\"aspectRatio\":1.298701,\"localUrl\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F3EC5065-3193-419B-AE3A-39DBDE24FB5F}\\\\{BD384CAE-2038-43ED-A8D0-3AB67C41A1AB}mt45299826.png\",\"staleFilePath\":\"\",\"checksum\":\"A500F4BE3695176F42C76150413FAB5E7FBBB84754D0991B2208EF9E633BAC8B\",\"downloadUrl\":\"https://binaries.templates.cdn.office.net/support/templates/zh-cn/mt45299826.png\"}"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Excel\File MRU]
+"FOLDERID_Desktop"="C:\\Users\\grw13\\Desktop\\"
+"FOLDERID_Documents"="C:\\Users\\grw13\\Documents\\"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Excel\Place MRU]
+"FOLDERID_Desktop"="C:\\Users\\grw13\\Desktop\\"
+"FOLDERID_Documents"="C:\\Users\\grw13\\Documents\\"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Excel\User MRU\LiveId_C335B097C064A78F55BC0D831268FB55544BB0BD727F879E4EBF9957D1F4F597\File MRU]
+"FOLDERID_Desktop"="C:\\Users\\grw13\\Desktop\\"
+"FOLDERID_Documents"="C:\\Users\\grw13\\Documents\\"
+"Item 2"="[F00000000][T01D6E34B27EEEBB0][O00000000]*C:\\Users\\grw13\\Desktop\\信息表.xlsx"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Word\DocumentTemplateCache\zh-CN{157E46C8-7A0F-4988-BA47-891651511B48}]
+"CacheFolderPath"="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Office\\16.0\\DTS\\zh-CN{F79428A2-8E1D-41C6-AEE2-C819155D7E8A}"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Word\DocumentTemplateCache\zh-CN{5C36360C-8D74-4CB6-84E2-542566868F2F}]
+"CacheFolderPath"="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Office\\16.0\\DTS\\zh-CN{F79428A2-8E1D-41C6-AEE2-C819155D7E8A}"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Word\DocumentTemplateCache\zh-CN{5C36360C-8D74-4CB6-84E2-542566868F2F}\TM00546271\Images]
+"ImageData0000"="{\"path\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F79428A2-8E1D-41C6-AEE2-C819155D7E8A}\\\\{695F2B64-A6FA-426E-A8FE-99AB1154C583}mt00546271.png\",\"type\":2,\"aspectRatio\":0.770000,\"localUrl\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F79428A2-8E1D-41C6-AEE2-C819155D7E8A}\\\\{695F2B64-A6FA-426E-A8FE-99AB1154C583}mt00546271.png\",\"staleFilePath\":\"\",\"checksum\":\"CCB8CE947D523E194DB75F8720582C88CFC9F38C782508B40A1A9D9F276DF0B2\",\"downloadUrl\":\"https://binaries.templates.cdn.office.net/support/templates/zh-cn/mt00546271.png\"}"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Word\DocumentTemplateCache\zh-CN{5C36360C-8D74-4CB6-84E2-542566868F2F}\TM02786999\Images]
+"ImageData0000"="{\"path\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F79428A2-8E1D-41C6-AEE2-C819155D7E8A}\\\\{7A9B7EB0-DD23-406F-9449-52BEB65A401A}mt02786999.png\",\"type\":2,\"aspectRatio\":0.770000,\"localUrl\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F79428A2-8E1D-41C6-AEE2-C819155D7E8A}\\\\{7A9B7EB0-DD23-406F-9449-52BEB65A401A}mt02786999.png\",\"staleFilePath\":\"\",\"checksum\":\"4FDCCE106CBC2D6F85FD0D0597D61CF8779000D2851084E7A1F8E7A266ACF366\",\"downloadUrl\":\"https://binaries.templates.cdn.office.net/support/templates/zh-cn/mt02786999.png\"}"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Word\DocumentTemplateCache\zh-CN{5C36360C-8D74-4CB6-84E2-542566868F2F}\TM10002117\Images]
+"ImageData0000"="{\"path\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F79428A2-8E1D-41C6-AEE2-C819155D7E8A}\\\\{B978F32D-F209-4366-873C-87853E4E5BCC}mt10002117.png\",\"type\":2,\"aspectRatio\":0.770000,\"localUrl\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F79428A2-8E1D-41C6-AEE2-C819155D7E8A}\\\\{B978F32D-F209-4366-873C-87853E4E5BCC}mt10002117.png\",\"staleFilePath\":\"\",\"checksum\":\"4E056963B76E50F27C6906829F74204753D5F28335E17B85A2A855117049A7ED\",\"downloadUrl\":\"https://binaries.templates.cdn.office.net/support/templates/zh-cn/mt10002117.png\"}"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Word\DocumentTemplateCache\zh-CN{5C36360C-8D74-4CB6-84E2-542566868F2F}\TM16382941\Images]
+"ImageData0000"="{\"path\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F79428A2-8E1D-41C6-AEE2-C819155D7E8A}\\\\{04CD30F3-4137-465B-89A6-C415E3A4431C}mt16382941.png\",\"type\":2,\"aspectRatio\":0.770000,\"localUrl\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F79428A2-8E1D-41C6-AEE2-C819155D7E8A}\\\\{04CD30F3-4137-465B-89A6-C415E3A4431C}mt16382941.png\",\"staleFilePath\":\"\",\"checksum\":\"277751F946F2ADE65F148ABB92C37D3AF1C287F8D595BFB28B57A0264BF5A464\",\"downloadUrl\":\"https://binaries.templates.cdn.office.net/support/templates/zh-cn/mt16382941.png\"}"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Word\DocumentTemplateCache\zh-CN{5C36360C-8D74-4CB6-84E2-542566868F2F}\TM16392877\Images]
+"ImageData0000"="{\"path\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F79428A2-8E1D-41C6-AEE2-C819155D7E8A}\\\\{4737DB0B-ED7E-403C-990A-24F179864616}mt16392877.png\",\"type\":2,\"aspectRatio\":0.770000,\"localUrl\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F79428A2-8E1D-41C6-AEE2-C819155D7E8A}\\\\{4737DB0B-ED7E-403C-990A-24F179864616}mt16392877.png\",\"staleFilePath\":\"\",\"checksum\":\"405EDF38A6A0F6D10492FC815C5598F10AB1417AA264C4A7B50A68CB580466D5\",\"downloadUrl\":\"https://binaries.templates.cdn.office.net/support/templates/zh-cn/mt16392877.png\"}"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Word\DocumentTemplateCache\zh-CN{5C36360C-8D74-4CB6-84E2-542566868F2F}\TM16402488\Images]
+"ImageData0000"="{\"path\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F79428A2-8E1D-41C6-AEE2-C819155D7E8A}\\\\{3D225428-3FA7-4CA7-8B03-9148857B2247}mt16402488.png\",\"type\":2,\"aspectRatio\":0.770000,\"localUrl\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F79428A2-8E1D-41C6-AEE2-C819155D7E8A}\\\\{3D225428-3FA7-4CA7-8B03-9148857B2247}mt16402488.png\",\"staleFilePath\":\"\",\"checksum\":\"AB824AE3E78046D77015FA8750CB497E2044A6529BCD06E3F2D01F9D63C20D4D\",\"downloadUrl\":\"https://binaries.templates.cdn.office.net/support/templates/zh-cn/mt16402488.png\"}"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Word\DocumentTemplateCache\zh-CN{5C36360C-8D74-4CB6-84E2-542566868F2F}\TM45325165\Images]
+"ImageData0000"="{\"path\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F79428A2-8E1D-41C6-AEE2-C819155D7E8A}\\\\{6860C05E-E014-4197-B2B7-9B40724ACC90}mt45325165.png\",\"type\":2,\"aspectRatio\":0.770000,\"localUrl\":\"C:\\\\Users\\\\grw13\\\\AppData\\\\Local\\\\Microsoft\\\\Office\\\\16.0\\\\DTS\\\\zh-CN{F79428A2-8E1D-41C6-AEE2-C819155D7E8A}\\\\{6860C05E-E014-4197-B2B7-9B40724ACC90}mt45325165.png\",\"staleFilePath\":\"\",\"checksum\":\"17F114D29FD18195B52DDD3FDB8E0D407BC6BC5B54A4DAEECB2334309C217AF3\",\"downloadUrl\":\"https://binaries.templates.cdn.office.net/support/templates/zh-cn/mt45325165.png\"}"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Word\File MRU]
+"FOLDERID_Desktop"="C:\\Users\\grw13\\Desktop\\"
+"FOLDERID_Documents"="C:\\Users\\grw13\\Documents\\"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Word\Place MRU]
+"FOLDERID_Desktop"="C:\\Users\\grw13\\Desktop\\"
+"FOLDERID_Documents"="C:\\Users\\grw13\\Documents\\"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Word\Reading Locations\Document 0]
+"File Path"="C:\\Users\\grw13\\Desktop\\逻辑思维题库.docx"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Word\Reading Locations\Document 1]
+"File Path"="C:\\Users\\grw13\\Desktop\\python爬虫.docx"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Word\Reading Locations\Document 2]
+"File Path"="C:\\Users\\grw13\\Desktop\\JavaScript.docx"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Word\Reading Locations\Document 3]
+"File Path"="C:\\Users\\grw13\\Desktop\\Web安全.docx"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Word\Reading Locations\Document 4]
+"File Path"="C:\\Users\\grw13\\Desktop\\java笔记.docx"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Word\User MRU\LiveId_9D08ACA9A9E98F28618F471700CDE053026D1DDC8F5A8CCAE84865269777A3CB\File MRU]
+"FOLDERID_Desktop"="C:\\Users\\grw13\\Desktop\\"
+"FOLDERID_Documents"="C:\\Users\\grw13\\Documents\\"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Word\User MRU\LiveId_9D08ACA9A9E98F28618F471700CDE053026D1DDC8F5A8CCAE84865269777A3CB\Place MRU]
+"FOLDERID_Desktop"="C:\\Users\\grw13\\Desktop\\"
+"FOLDERID_Documents"="C:\\Users\\grw13\\Documents\\"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Word\User MRU\LiveId_C335B097C064A78F55BC0D831268FB55544BB0BD727F879E4EBF9957D1F4F597\File MRU]
+"FOLDERID_Desktop"="C:\\Users\\grw13\\Desktop\\"
+"FOLDERID_Documents"="C:\\Users\\grw13\\Documents\\"
+"Item 2"="[F00000000][T01D6DE7F9D1CEDE0][O00000000]*C:\\Users\\grw13\\Desktop\\java笔记.docx"
+"Item 3"="[F00000000][T01D6D9AD2905E4B0][O00000000]*C:\\Users\\grw13\\Desktop\\Web安全.docx"
+"Item 4"="[F00000000][T01D6D9AD1C1005B0][O00000000]*C:\\Users\\grw13\\Desktop\\JavaScript.docx"
+"Item 5"="[F00000000][T01D6D9AD01481880][O00000000]*C:\\Users\\grw13\\Desktop\\python爬虫.docx"
+"Item 6"="[F00000000][T01D6BAF61DFD50B0][O00000000]*C:\\Users\\grw13\\Desktop\\逻辑思维题库.docx"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Word\User MRU\LiveId_C335B097C064A78F55BC0D831268FB55544BB0BD727F879E4EBF9957D1F4F597\Place MRU]
+"FOLDERID_Desktop"="C:\\Users\\grw13\\Desktop\\"
+"FOLDERID_Documents"="C:\\Users\\grw13\\Documents\\"
+"Item 2"="[F00000000][T01D6DE7F9D1CEDE0][O00000000]*C:\\Users\\grw13\\Desktop\\"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\OneDrive]
+"UserFolder"="C:\\Users\\grw13\\OneDrive"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\OneDrive\Accounts\Personal]
+"UserFolder"="C:\\Users\\grw13\\OneDrive"
+"UserEmail"="grw1314@outlook.com"
+"VaultShortcutPath"="C:\\Users\\grw13\\OneDrive\\个人保管库.lnk"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\OneDrive\Accounts\Personal\ScopeIdToMountPointPathCache]
+"3D3653C9B0160BE0!251"="C:\\Users\\grw13\\OneDrive"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\OneDrive\Accounts\Personal\Tenants\OneDrive]
+"C:\\Users\\LceAn\\OneDrive"=
+"C:\\Users\\grw13\\OneDrive"=dword:00001d07
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Shared Tools\Proofing Tools\1.0\Custom Dictionaries]
+"1_16_3d3653c9b0160be0_LiveId"="C:\\Users\\grw13\\AppData\\Roaming\\Microsoft\\Office\\16.0\\d72aea1e\\Proofing\\RoamingCustom.dic"
+"3_16_3d3653c9b0160be0_LiveId"="C:\\Users\\grw13\\AppData\\Roaming\\Microsoft\\Spelling\\en-US\\default.dic"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\microphone\NonPackaged\C:#Users#LceAn#AppData#Local#Programs#utools#uTools.exe]
+"RT_Rename_Key"="HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\microphone\\NonPackaged\\C:#Users#grw13#AppData#Local#Programs#utools#uTools.exe"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\AutoplayHandlers\Handlers\OneDriveAutoPlay]
+"DefaultIcon"="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\OneDrive\\OneDrive.exe"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CD Burning\StagingInfo\Volume{b060a832-2d44-11eb-9650-00bb60ba4ccf}]
+"StagingPath"="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Windows\\Burn\\Burn"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FeatureUsage\AppSwitched]
+"C:\\Users\\LceAn\\Downloads\\TIM3.2.0.21856.exe"=
+"C:\\Users\\grw13\\Downloads\\TIM3.2.0.21856.exe"=dword:00000001
+"C:\\Users\\LceAn\\Downloads\\Programs\\UplayInstaller.exe"=
+"C:\\Users\\grw13\\Downloads\\Programs\\UplayInstaller.exe"=dword:00000001
+"C:\\Users\\LceAn\\Documents\\Tencent Files\\1175821335\\FileRecv\\安徽省计算机考试2019下模拟setup.exe"=
+"C:\\Users\\grw13\\Documents\\Tencent Files\\1175821335\\FileRecv\\安徽省计算机考试2019下模拟setup.exe"=dword:00000001
+"C:\\Users\\LceAn\\AppData\\Local\\Temp\\cetrainers\\CET9FB3.tmp\\extracted\\Don't Starve Trainer.exe"=
+"C:\\Users\\grw13\\AppData\\Local\\Temp\\cetrainers\\CET9FB3.tmp\\extracted\\Don't Starve Trainer.exe"=dword:00000001
+"C:\\Users\\LceAn\\AppData\\Roaming\\WiseCare365\\WiseCare365.exe"=
+"C:\\Users\\grw13\\AppData\\Roaming\\WiseCare365\\WiseCare365.exe"=dword:00000003
+"C:\\Users\\LceAn\\AppData\\Local\\Programs\\CD Projekt Red\\REDlauncher\\REDlauncher.exe"=
+"C:\\Users\\grw13\\AppData\\Local\\Programs\\CD Projekt Red\\REDlauncher\\REDlauncher.exe"=dword:00000001
+"C:\\Users\\LceAn\\Downloads\\Programs\\DellDockingStationFwUp_1.0.4_TB16_20200210.exe"=
+"C:\\Users\\grw13\\Downloads\\Programs\\DellDockingStationFwUp_1.0.4_TB16_20200210.exe"=dword:00000001
+"C:\\Users\\LceAn\\Downloads\\Programs\\Realtek-USB-GBE-Ethernet-Controller-Driver_7VDGG_WIN_2.45.2020.0601_A20_02.exe"=
+"C:\\Users\\grw13\\Downloads\\Programs\\Realtek-USB-GBE-Ethernet-Controller-Driver_7VDGG_WIN_2.45.2020.0601_A20_02.exe"=dword:00000002
+"C:\\Users\\LceAn\\AppData\\Local\\Temp\\geek64.exe"=
+"C:\\Users\\grw13\\AppData\\Local\\Temp\\geek64.exe"=dword:0000000b
+"C:\\Users\\LceAn\\AppData\\Local\\Temp\\7ZipSfx.000\\computerz_cn.exe"=
+"C:\\Users\\grw13\\AppData\\Local\\Temp\\7ZipSfx.000\\computerz_cn.exe"=dword:00000001
+"C:\\Users\\LceAn\\AppData\\Local\\Temp\\assistant\\搞机助手.exe"=
+"C:\\Users\\grw13\\AppData\\Local\\Temp\\assistant\\搞机助手.exe"=dword:00000001
+"C:\\Users\\LceAn\\Desktop\\Odin3_v3.14.1\\Odin3_v3.14.1.exe"=
+"C:\\Users\\grw13\\Desktop\\Odin3_v3.14.1\\Odin3_v3.14.1.exe"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FeatureUsage\ShowJumpView]
+"C:\\Users\\LceAn\\AppData\\Roaming\\WiseCare365\\WiseCare365.exe"=
+"C:\\Users\\grw13\\AppData\\Roaming\\WiseCare365\\WiseCare365.exe"=dword:00000002
+"C:\\Users\\LceAn\\AppData\\Local\\Temp\\geek64.exe"=
+"C:\\Users\\grw13\\AppData\\Local\\Temp\\geek64.exe"=dword:00000002
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders]
+"AppData"="C:\\Users\\grw13\\AppData\\Roaming"
+"Local AppData"="C:\\Users\\grw13\\AppData\\Local"
+"CD Burning"="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Windows\\Burn\\Burn"
+"{1B3EA5DC-B587-4786-B4EF-BD1DC332AEAE}"="C:\\Users\\grw13\\AppData\\Roaming\\Microsoft\\Windows\\Libraries"
+"My Video"="C:\\Users\\grw13\\Videos"
+"My Pictures"="C:\\Users\\grw13\\Pictures"
+"Desktop"="C:\\Users\\grw13\\Desktop"
+"History"="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Windows\\History"
+"NetHood"="C:\\Users\\grw13\\AppData\\Roaming\\Microsoft\\Windows\\Network Shortcuts"
+"{56784854-C6CB-462B-8169-88E350ACB882}"="C:\\Users\\grw13\\Contacts"
+"{00BCFC5A-ED94-4E48-96A1-3F6217F21990}"="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Windows\\RoamingTiles"
+"Cookies"="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Windows\\INetCookies"
+"Favorites"="C:\\Users\\grw13\\Favorites"
+"SendTo"="C:\\Users\\grw13\\AppData\\Roaming\\Microsoft\\Windows\\SendTo"
+"Start Menu"="C:\\Users\\grw13\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+"My Music"="C:\\Users\\grw13\\Music"
+"Programs"="C:\\Users\\grw13\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs"
+"Recent"="C:\\Users\\grw13\\AppData\\Roaming\\Microsoft\\Windows\\Recent"
+"PrintHood"="C:\\Users\\grw13\\AppData\\Roaming\\Microsoft\\Windows\\Printer Shortcuts"
+"{7D1D3A04-DEBB-4115-95CF-2F29DA2920DA}"="C:\\Users\\grw13\\Searches"
+"{374DE290-123F-4565-9164-39C4925E467B}"="C:\\Users\\grw13\\Downloads"
+"{A520A1A4-1780-4FF6-BD18-167343C5AF16}"="C:\\Users\\grw13\\AppData\\LocalLow"
+"Startup"="C:\\Users\\grw13\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup"
+"Administrative Tools"="C:\\Users\\grw13\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools"
+"Personal"="C:\\Users\\grw13\\Documents"
+"{BFB9D5E0-C6A9-404C-B2B2-AE6DB6AF4968}"="C:\\Users\\grw13\\Links"
+"Cache"="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Windows\\INetCache"
+"Templates"="C:\\Users\\grw13\\AppData\\Roaming\\Microsoft\\Windows\\Templates"
+"{4C5C32FF-BB9D-43B0-B5B4-2D72E54EAAA4}"="C:\\Users\\grw13\\Saved Games"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths]
+"url7"="C:\\Users\\grw13\\Downloads"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders]
+"{339719B5-8C47-4894-94C2-D8F77ADD44A6}"=hex(2):43,3a,5c,55,73,65,72,73,5c,67,\
+  72,77,31,33,5c,4f,6e,65,44,72,69,76,65,5c,ff,47,00,00,00,5c,4d,69,63,72,6f,\
+  73,6f,66,74,5c,57,69,6e,64,6f,77,73,5c,54,65,6d,70,6c,61
+"{24D89E24-2F19-4534-9DDE-6A6671FBB8FE}"=hex(2):43,3a,5c,55,73,65,72,73,5c,67,\
+  72,77,31,33,5c,4f,6e,65,44,72,69,76,65,5c,ff,63,00,00,00,6f,72,69,74,65,73,\
+  00,57,35,00,05,ff,ff,ff,00,11,00,11,00,00,00,74,6c,48,4b
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Wallpapers]
+"BackgroundHistoryPath2"="c:\\users\\grw13\\appdata\\local\\packages\\microsoft.windows.photos_8wekyb3d8bbwe\\localstate\\photosappbackground\\149 - rog wallpaper challenge - 4k.jpg"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\Cache\Extensible Cache\DNTException]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Windows\\INetCookies\\DNTException"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\Cache\Extensible Cache\DOMStore]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Internet Explorer\\DOMStore"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\Cache\Extensible Cache\EmieSiteList]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Internet Explorer\\EmieSiteList"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\Cache\Extensible Cache\EmieUserList]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Internet Explorer\\EmieUserList"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\Cache\Extensible Cache\feedplat]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Feeds Cache"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\Cache\Extensible Cache\iedownload]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Windows\\IEDownloadHistory"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\Cache\Extensible Cache\ieflipahead]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Internet Explorer\\IEFlipAheadCache"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\Cache\Extensible Cache\IEToEdgeList]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\EdgeBho\\IEToEdge"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\LowCache\Extensible Cache\EmieSiteList]
+"CachePath"="C:\\Users\\grw13\\AppData\\LocalLow\\Microsoft\\Internet Explorer\\EmieSiteList"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\LowCache\Extensible Cache\EmieUserList]
+"CachePath"="C:\\Users\\grw13\\AppData\\LocalLow\\Microsoft\\Internet Explorer\\EmieUserList"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\LowCache\Extensible Cache\iecompat]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Windows\\IECompatCache\\Low"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\LowCache\Extensible Cache\iecompatua]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Windows\\IECompatUaCache\\Low"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\LowCache\Extensible Cache\IEToEdgeList]
+"CachePath"="C:\\Users\\grw13\\AppData\\LocalLow\\Microsoft\\EdgeBho\\IEToEdge"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run]
+"OneDrive"="\"C:\\Users\\grw13\\AppData\\Local\\Microsoft\\OneDrive\\OneDrive.exe\" /background"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\StorageSense\SuggestedFolders\Pictures\Suggestions\{6e3d84c4-c50c-4712-af3d-85f4cf714277}\0]
+"path"="\\Users\\grw13\\Documents\\Tencent Files\\1175821335\\Image"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\StorageSense\SuggestedFolders\Pictures\Suggestions\{6e3d84c4-c50c-4712-af3d-85f4cf714277}\1]
+"path"="\\Users\\grw13\\Documents\\Tencent Files\\441737326"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\StorageSense\SuggestedFolders\Pictures\Suggestions\{6e3d84c4-c50c-4712-af3d-85f4cf714277}\2]
+"path"="\\Users\\grw13\\Documents\\Tencent Files\\2691032001\\Image"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{7258BA11-600C-430E-A759-27E2C691A335}-REDlauncher_is1]
+"Inno Setup: App Path"="C:\\Users\\grw13\\AppData\\Local\\Programs\\CD Projekt Red\\REDlauncher"
+"InstallLocation"="C:\\Users\\grw13\\AppData\\Local\\Programs\\CD Projekt Red\\REDlauncher\\"
+"DisplayIcon"="C:\\Users\\grw13\\AppData\\Local\\Programs\\CD Projekt Red\\REDlauncher\\unins000.exe"
+"UninstallString"="\"C:\\Users\\grw13\\AppData\\Local\\Programs\\CD Projekt Red\\REDlauncher\\unins000.exe\""
+"QuietUninstallString"="\"C:\\Users\\grw13\\AppData\\Local\\Programs\\CD Projekt Red\\REDlauncher\\unins000.exe\" /SILENT"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows Media\WMSDK\Namespace]
+"LocalBase"="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Windows Media\\12.0\\WMSDKNS.XML"
+"DTDFile"="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Windows Media\\12.0\\WMSDKNS.DTD"
+"LocalDelta"="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Windows Media\\12.0\\WMSDKNSD.XML"
+"RemoteDelta"="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\Windows Media\\12.0\\WMSDKNSR.XML"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Persisted]
+"C:\\Users\\LceAn\\AppData\\Roaming\\kingsoft\\office6\\update\\down\\diff_2052_11.1.0.10228_Trial_to_11.1.0.10314_Trial.exe"=
+"C:\\Users\\grw13\\AppData\\Roaming\\kingsoft\\office6\\update\\down\\diff_2052_11.1.0.10228_Trial_to_11.1.0.10314_Trial.exe"=dword:00000001
+"C:\\Users\\LceAn\\Downloads\\Programs\\XunLeiWebSetup11.1.5.1218gw.exe"=
+"C:\\Users\\grw13\\Downloads\\Programs\\XunLeiWebSetup11.1.5.1218gw.exe"=dword:00000001
+"C:\\Users\\LceAn\\AppData\\Local\\Temp\\OnlineInstall\\11.1.5.1218\\XunLeiSetup11.1.5.1218.exe"=
+"C:\\Users\\grw13\\AppData\\Local\\Temp\\OnlineInstall\\11.1.5.1218\\XunLeiSetup11.1.5.1218.exe"=dword:00000001
+"C:\\Users\\LceAn\\AppData\\Local\\Temp\\Thunder\\APlayerCodecs3Embed.exe"=
+"C:\\Users\\grw13\\AppData\\Local\\Temp\\Thunder\\APlayerCodecs3Embed.exe"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Store]
+"C:\\Users\\LceAn\\AppData\\Roaming\\kingsoft\\office6\\update\\down\\diff_2052_11.1.0.10228_Trial_to_11.1.0.10314_Trial.exe"=
+"C:\\Users\\grw13\\AppData\\Roaming\\kingsoft\\office6\\update\\down\\diff_2052_11.1.0.10228_Trial_to_11.1.0.10314_Trial.exe"=hex:53,\
+  41,43,50,01,00,00,00,00,00,00,00,07,00,00,00,28,00,00,00,88,e0,50,01,c7,30,\
+  51,01,01,00,00,00,00,00,00,00,00,00,00,0a,00,21,00,00,50,bb,64,ed,dd,ac,d5,\
+  01,00,00,00,00,00,00,00,00,02,00,00,00,28,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,53,56,e2,00,00,00,00,00,01,\
+  00,00,00,01,00,00,00
+"C:\\Users\\LceAn\\Downloads\\Programs\\MediaCreationTool20H2.exe"=
+"C:\\Users\\grw13\\Downloads\\Programs\\MediaCreationTool20H2.exe"=hex:53,41,\
+  43,50,01,00,00,00,00,00,00,00,07,00,00,00,28,00,00,00,18,fd,28,01,80,08,29,\
+  01,01,00,00,00,00,00,00,00,00,00,00,0a,00,21,00,00,50,bb,64,ed,dd,ac,d5,01,\
+  00,00,00,00,00,00,00,00,02,00,00,00,28,00,00,00,00,00,00,00,00,00,00,40,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,ac,fc,37,03,00,00,00,00,03,00,\
+  00,00,03,00,00,00
+"C:\\Users\\LceAn\\Downloads\\Programs\\XunLeiWebSetup11.1.5.1218gw.exe"=
+"C:\\Users\\grw13\\Downloads\\Programs\\XunLeiWebSetup11.1.5.1218gw.exe"=hex:53,\
+  41,43,50,01,00,00,00,00,00,00,00,07,00,00,00,28,00,00,00,50,1e,4f,00,93,1f,\
+  4f,00,01,00,00,00,00,00,00,00,00,00,00,0a,00,21,00,00,50,bb,64,ed,dd,ac,d5,\
+  01,00,00,00,00,00,00,00,00
+"C:\\Users\\LceAn\\Downloads\\Programs\\rcsetup1.53.0.1087.exe"=
+"C:\\Users\\grw13\\Downloads\\Programs\\rcsetup1.53.0.1087.exe"=hex:53,41,43,\
+  50,01,00,00,00,00,00,00,00,07,00,00,00,28,00,00,00,d0,8c,74,00,3e,db,74,00,\
+  01,00,00,00,00,00,00,00,00,00,01,06,00,01,00,00,50,bb,64,ed,dd,ac,d5,01,00,\
+  00,00,00,00,00,00,00,02,00,00,00,28,00,00,00,00,00,00,00,00,00,00,40,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,e4,4a,00,00,00,00,00,00,01,00,00,\
+  00,01,00,00,00
+"C:\\Users\\LceAn\\Downloads\\Programs\\RenameZ-setup-v1.1.2.exe"=
+"C:\\Users\\grw13\\Downloads\\Programs\\RenameZ-setup-v1.1.2.exe"=hex:53,41,43,\
+  50,01,00,00,00,00,00,00,00,07,00,00,00,28,00,00,00,db,73,c7,03,00,00,00,00,\
+  01,00,00,00,00,00,00,00,00,00,00,0a,00,21,00,00,50,bb,64,ed,dd,ac,d5,01,00,\
+  00,00,00,00,00,00,00,02,00,00,00,28,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,de,31,00,00,00,00,00,00,01,00,00,\
+  00,01,00,00,00
+"C:\\Users\\LceAn\\Downloads\\Programs\\SamsungDeXSetupWin.exe"=
+"C:\\Users\\grw13\\Downloads\\Programs\\SamsungDeXSetupWin.exe"=hex:53,41,43,\
+  50,01,00,00,00,00,00,00,00,07,00,00,00,28,00,00,00,b8,c9,d8,06,22,7b,d9,06,\
+  01,00,00,00,00,00,00,00,00,00,00,0a,00,21,00,00,50,bb,64,ed,dd,ac,d5,01,00,\
+  00,00,00,00,00,00,00,02,00,00,00,28,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,ff,8b,01,00,00,00,00,00,01,00,00,\
+  00,01,00,00,00
+"C:\\Users\\LceAn\\Downloads\\Programs\\i4Tools_v7.98.25_Setup.exe"=
+"C:\\Users\\grw13\\Downloads\\Programs\\i4Tools_v7.98.25_Setup.exe"=hex:53,41,\
+  43,50,01,00,00,00,00,00,00,00,07,00,00,00,28,00,00,00,a0,03,7d,08,1a,0b,7d,\
+  08,01,00,00,00,00,00,00,00,00,00,00,0a,00,21,00,00,50,bb,64,ed,dd,ac,d5,01,\
+  00,00,00,00,00,00,00,00,02,00,00,00,28,00,00,00,00,00,00,00,00,00,00,40,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,1c,ca,23,00,00,00,00,00,01,00,\
+  00,00,01,00,00,00
+"C:\\Users\\LceAn\\Downloads\\Programs\\shalou_setup_4.6.2.exe"=
+"C:\\Users\\grw13\\Downloads\\Programs\\shalou_setup_4.6.2.exe"=hex:53,41,43,\
+  50,01,00,00,00,00,00,00,00,07,00,00,00,28,00,00,00,80,c9,0b,08,d6,e4,0b,08,\
+  01,00,00,00,00,00,00,00,00,00,02,06,00,01,00,00,50,bb,64,ed,dd,ac,d5,01,00,\
+  00,00,00,00,00,00,00,02,00,00,00,28,00,00,00,00,00,00,00,00,00,00,40,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,ed,68,03,00,00,00,00,00,01,00,00,\
+  00,01,00,00,00
+"C:\\Users\\LceAn\\Desktop\\checkra1n0.12.2\\软碟通U盘写入工具.exe"=
+"C:\\Users\\grw13\\Desktop\\checkra1n0.12.2\\软碟通U盘写入工具.exe"=hex:53,41,43,50,01,\
+  00,00,00,00,00,00,00,07,00,00,00,28,00,00,00,42,a5,1f,00,ff,dc,1f,00,01,00,\
+  00,00,00,00,00,00,00,00,01,06,00,01,00,00,50,bb,64,ed,dd,ac,d5,01,00,00,00,\
+  00,00,00,00,00,05,00,00,00,10,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,02,00,00,00,28,00,00,00,00,00,00,00,00,00,00,40,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,cf,0b,05,00,00,00,00,00,01,00,00,00,01,00,\
+  00,00
+"C:\\Users\\LceAn\\Desktop\\1\\setup.exe"=
+"C:\\Users\\grw13\\Desktop\\1\\setup.exe"=hex:53,41,43,50,01,00,00,00,00,00,00,\
+  00,07,00,00,00,28,00,00,00,00,10,0c,00,85,1f,08,00,01,00,00,00,00,00,00,00,\
+  00,00,00,0a,00,21,00,00,50,bb,64,ed,dd,ac,d5,01,00,00,00,00,00,00,00,00,02,\
+  00,00,00,28,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,eb,97,00,00,00,00,00,00,05,00,00,00,05,00,00,00
+"C:\\Users\\LceAn\\Downloads\\Programs\\iTunes_Download1100120206.exe"=
+"C:\\Users\\grw13\\Downloads\\Programs\\iTunes_Download1100120206.exe"=hex:53,\
+  41,43,50,01,00,00,00,00,00,00,00,07,00,00,00,28,00,00,00,50,18,2d,00,43,e1,\
+  2d,00,01,00,00,00,00,00,00,00,00,00,01,06,00,01,00,00,50,bb,64,ed,dd,ac,d5,\
+  01,00,00,00,00,00,00,00,00,02,00,00,00,28,00,00,00,00,00,00,00,00,00,00,40,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,40,46,00,00,00,00,00,00,02,\
+  00,00,00,02,00,00,00
+"C:\\Users\\LceAn\\Downloads\\Programs\\iCloudSetup.exe"=
+"C:\\Users\\grw13\\Downloads\\Programs\\iCloudSetup.exe"=hex:53,41,43,50,01,00,\
+  00,00,00,00,00,00,07,00,00,00,28,00,00,00,38,e7,9a,09,41,92,9b,09,01,00,00,\
+  00,00,00,00,00,00,00,01,06,00,01,00,00,50,bb,64,ed,dd,ac,d5,01,00,00,00,00,\
+  00,00,00,00,02,00,00,00,28,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,1e,4b,01,00,00,00,00,00,01,00,00,00,01,00,\
+  00,00
+"C:\\Users\\LceAn\\AppData\\Local\\Temp\\IXP612.TMP\\SetupAdmin.exe"=
+"C:\\Users\\grw13\\AppData\\Local\\Temp\\IXP612.TMP\\SetupAdmin.exe"=hex:53,41,\
+  43,50,01,00,00,00,00,00,00,00,07,00,00,00,28,00,00,00,38,13,02,00,cc,0d,03,\
+  00,01,00,00,00,00,00,00,00,00,00,01,06,00,01,00,00,50,bb,64,ed,dd,ac,d5,01,\
+  00,00,00,00,00,00,00,00,02,00,00,00,28,00,00,00,00,00,00,00,00,00,00,40,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,85,79,00,00,00,00,00,00,01,00,\
+  00,00,01,00,00,00
+"C:\\Users\\LceAn\\AppData\\Local\\Temp\\IXP254.TMP\\SetupAdmin.exe"=
+"C:\\Users\\grw13\\AppData\\Local\\Temp\\IXP254.TMP\\SetupAdmin.exe"=hex:53,41,\
+  43,50,01,00,00,00,00,00,00,00,07,00,00,00,28,00,00,00,48,23,02,00,61,e5,02,\
+  00,01,00,00,00,00,00,00,00,00,00,00,0a,00,21,00,00,50,bb,64,ed,dd,ac,d5,01,\
+  00,00,00,00,00,00,00,00,02,00,00,00,28,00,00,00,00,00,00,00,00,00,00,40,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,ab,15,00,00,00,00,00,00,01,00,\
+  00,00,01,00,00,00
+"C:\\Users\\LceAn\\AppData\\Local\\Programs\\utools\\uTools.exe"=
+"C:\\Users\\grw13\\AppData\\Local\\Programs\\utools\\uTools.exe"=hex:53,41,43,\
+  50,01,00,00,00,00,00,00,00,07,00,00,00,28,00,00,00,a8,c7,9a,06,c9,d6,9a,06,\
+  01,00,00,00,00,00,00,00,00,00,00,0a,00,21,00,00,50,bb,64,ed,dd,ac,d5,01,00,\
+  00,00,00,00,00,00,00
+"C:\\Users\\LceAn\\Desktop\\搞机助手_V2.0.exe"=
+"C:\\Users\\grw13\\Desktop\\搞机助手_V2.0.exe"=hex:53,41,43,50,01,00,00,00,00,00,\
+  00,00,07,00,00,00,28,00,00,00,2f,ab,34,00,00,00,00,00,01,00,00,00,00,00,00,\
+  00,00,00,01,06,71,02,00,00,50,bb,64,ed,dd,ac,d5,01,00,00,00,00,00,00,00,00,\
+  05,00,00,00,10,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,02,\
+  00,00,00,28,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,c4,62,3e,00,00,00,00,00,04,00,00,00,04,00,00,00
+"C:\\Users\\LceAn\\Desktop\\SAMSUNG_USB_Driver_for_Mobile_Phones_ver_1.7.17.0.exe"=
+"C:\\Users\\grw13\\Desktop\\SAMSUNG_USB_Driver_for_Mobile_Phones_ver_1.7.17.0.exe"=hex:53,\
+  41,43,50,01,00,00,00,00,00,00,00,07,00,00,00,28,00,00,00,20,3b,39,01,05,b6,\
+  39,01,01,00,00,00,00,00,00,00,00,00,00,0a,00,21,00,00,50,bb,64,ed,dd,ac,d5,\
+  01,00,00,00,00,00,00,00,00,02,00,00,00,28,00,00,00,00,00,00,00,00,00,00,40,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,39,bd,09,00,00,00,00,00,03,\
+  00,00,00,03,00,00,00
+"C:\\Users\\LceAn\\Desktop\\hadesFirm-0.3.6.1\\hadesFirm.exe"=
+"C:\\Users\\grw13\\Desktop\\hadesFirm-0.3.6.1\\hadesFirm.exe"=hex:53,41,43,50,\
+  01,00,00,00,00,00,00,00,07,00,00,00,28,00,00,00,00,f6,01,00,00,00,00,00,01,\
+  00,00,00,00,00,00,00,00,00,00,0a,71,22,00,00,50,bb,64,ed,dd,ac,d5,01,00,00,\
+  00,00,00,00,00,00,02,00,00,00,28,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,91,f2,06,00,00,00,00,00,01,00,00,00,\
+  01,00,00,00
+"C:\\Users\\LceAn\\Desktop\\Frija_V1.4.3.0\\Frija.exe"=
+"C:\\Users\\grw13\\Desktop\\Frija_V1.4.3.0\\Frija.exe"=hex:53,41,43,50,01,00,\
+  00,00,00,00,00,00,07,00,00,00,28,00,00,00,00,d8,33,00,00,00,00,00,01,00,00,\
+  00,00,00,00,00,00,00,00,0a,71,22,00,00,50,bb,64,ed,dd,ac,d5,01,00,00,00,00,\
+  00,00,00,00,02,00,00,00,28,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,80,eb,02,00,00,00,00,00,01,00,00,00,01,00,\
+  00,00
+"C:\\Users\\LceAn\\Desktop\\Odin3_v3.14.1\\Odin3_v3.14.1.exe"=
+"C:\\Users\\grw13\\Desktop\\Odin3_v3.14.1\\Odin3_v3.14.1.exe"=hex:53,41,43,50,\
+  01,00,00,00,00,00,00,00,07,00,00,00,28,00,00,00,00,56,30,00,00,00,00,00,01,\
+  00,00,00,00,00,00,00,00,00,00,0a,71,22,00,00,50,bb,64,ed,dd,ac,d5,01,00,00,\
+  00,00,00,00,00,00,02,00,00,00,28,00,00,00,00,00,00,00,00,00,00,00,00,00,02,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,a6,45,6a,02,00,00,00,00,08,00,00,00,\
+  08,00,00,00
+"C:\\Users\\LceAn\\Downloads\\Programs\\TIM3.3.0.22020.exe"=
+"C:\\Users\\grw13\\Downloads\\Programs\\TIM3.3.0.22020.exe"=hex:53,41,43,50,01,\
+  00,00,00,00,00,00,00,07,00,00,00,28,00,00,00,68,98,e8,04,28,8c,e9,04,01,00,\
+  00,00,00,00,00,00,00,00,00,0a,00,21,00,00,50,bb,64,ed,dd,ac,d5,01,00,00,00,\
+  00,00,00,00,00,02,00,00,00,28,00,00,00,00,00,00,00,00,00,00,40,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,ed,9b,01,00,00,00,00,00,02,00,00,00,02,\
+  00,00,00
+"C:\\Users\\LceAn\\Downloads\\Programs\\QQMusic_YQQWinPCDL.exe"=
+"C:\\Users\\grw13\\Downloads\\Programs\\QQMusic_YQQWinPCDL.exe"=hex:53,41,43,\
+  50,01,00,00,00,00,00,00,00,07,00,00,00,28,00,00,00,f8,e3,b7,03,a5,59,b8,03,\
+  01,00,00,00,00,00,00,00,00,00,00,0a,00,21,00,00,50,bb,64,ed,dd,ac,d5,01,00,\
+  00,00,00,00,00,00,00,02,00,00,00,28,00,00,00,00,00,00,00,00,00,00,40,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,49,d4,1a,00,00,00,00,00,01,00,00,\
+  00,01,00,00,00
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers]
+"C:\\Users\\LceAn\\AppData\\Roaming\\Kingsoft\\wps\\addons\\pool\\win-i386\\kscreensaverimp_1.0.2.225\\kscreensaverapp.exe"=
+"C:\\Users\\grw13\\AppData\\Roaming\\Kingsoft\\wps\\addons\\pool\\win-i386\\kscreensaverimp_1.0.2.225\\kscreensaverapp.exe"="~ HIGHDPIAWARE"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows Search\ProcessedSearchRoots\0002\Default]
+"SavePath"="C:\\Users\\grw13\\Searches\\winrt--{S-1-5-21-1675742219-2998977966-295364876-1001}-.searchconnector-ms"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\XboxLive]
+"UserName"="grw1314@outlook.com"
+
+[HKEY_CURRENT_USER\SOFTWARE\Samsung\Samsung DeX]
+"DefaultDownloadPath"="C:\\Users\\grw13\\Downloads"
+
+[HKEY_CURRENT_USER\SOFTWARE\SyncEngines\Providers\OneDrive]
+"DisplayNameResource"="@C:\\Users\\grw13\\AppData\\Local\\Microsoft\\OneDrive\\20.201.1005.0009\\FileSync.Resources.dll,-1006"
+"IconResource"="C:\\Users\\grw13\\AppData\\Local\\Microsoft\\OneDrive\\20.201.1005.0009\\FileSync.Resources.dll,-501"
+
+[HKEY_CURRENT_USER\SOFTWARE\SyncEngines\Providers\OneDrive\Personal]
+"MountPoint"="C:\\Users\\grw13\\OneDrive"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.windowscommunicationsapps_8wekyb3d8bbwe\Internet Settings\Cache\Extensible Cache\BackgroundTransferApi]
+"CachePath"="C:\\Users\\grw13\\AppData\\Local\\Packages\\microsoft.windowscommunicationsapps_8wekyb3d8bbwe\\AC\\INetHistory\\BackgroundTransferApi"

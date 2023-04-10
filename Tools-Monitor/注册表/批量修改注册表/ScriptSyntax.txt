@@ -1,0 +1,284 @@
+#               Registry Toolkit Script File Sample
+#                      Funduc Software, Inc.
+#      http://www.funduc.com  http://www.searchandreplace.com
+
+# This file describes the script syntax for Registry Toolkit v 3.6+
+
+# General Comments
+# ======================================================
+# The # character in column 1 is the comment character. 
+# These MUST go in column 1. 
+
+# All switches must start in column 1.
+
+# Scripts are divided into [Action ] sections that are 
+# numbered sequentially, e.g, [Action01], [Action02], 
+# [Action03], ....  They can be in any order in the 
+# script but are processed sequentially by number.
+
+# Scripts can also have an optional [Default] section.  
+# [Default] can be used to specify switches that are to 
+# be used in all [Action ] that do not have that same switch 
+# specified.  A switch specified in an [Action ] always 
+# overrides the counterpart (if any) from [Default].
+
+# All scripts MUST have at least one [Action ] section.  
+# For a single action script, DO NOT USE a [Default]
+# section.  Use [Action1] instead. 
+
+# If your script has multiple actions and if you are 
+# using output file(s), use a different Output/Undo File= 
+# specification for each [Action ].  File writes to the 
+# output file are 'overwrite', not 'append'.
+
+# See [Action3] below for an example of how to specify 
+# multiple s/r's within a single [Action ].
+
+# See F1 hlp for information on performing Exports via 
+# a script.
+
+[Default]
+
+# Use this optional section to specify any switches to be
+# applied to all [Action ]'s.  We suggest new users 
+# omit [Default] entirely and specify all switches within 
+# each [Action ].  You can streamline later if you want by 
+# making a [Default]. 
+
+[Action1]
+# *** HIVE/HEY TO SEARCH ***
+# Specify a top level key name to begin the operation from.
+# Wild card characters * and ? can be used.  It is not necessary
+# to enable Regular Expression mode.  The program will 
+# automatically detect and use wild cards.  See last Action below
+# for example.
+# If you need to reference a remote registry, use UNC style 
+# naming, e.g., Key=\\MainSrv1\HKEY_CURRENT_USER
+# See F1 hlp for more info on Remote Registry.
+Key=HKEY_CURRENT_USER\Software
+
+# *** SEARCH AND REPALCE STRINGS ***
+# It is OK to leave Replace String= blank when conducting 
+# search-only operations.  Results of the search will be 
+# written to the undo file.
+# If you wish to use the undo file to preview the effects 
+# of a replacement, enter a string in Replace String= and 
+# specify Replace=0 (see below).
+Search String=Funduc
+Replace String=
+
+# *** CASE SENSITIVE OPERATION ***
+# 0 = Case Insensitive search
+# 1 = Case Sensitive search
+# If not specified, Default = 0
+Case Sensitive=0
+
+# *** WHOLE WORD OPERATION ***
+# 0 = Whole Word matching for the search string off
+# 1 = Whole Word matching search string on
+# If not specified, Default = 0
+Whole Word=0
+
+# *** REGULAR EXPRESSION OPERATION ***
+# See Registry Operations - Regular Expressions for more info.
+# 0 = Regular Expression mode off
+# 1 = Regular Expression mode on
+# If not specified, Default = 0
+Regular Expression=0
+
+# *** OPERATIONS ON VALUES ***
+# 0 = Do not search (or replace) in registry values
+# 1 = Search (or replace) in registry values
+# If not specified, Default = 0
+Values=1
+
+# *** OPERATIONS ON KEYS ***
+# 0 = Do not search (or replace) registry keys
+# 1 = Search (or replace) registry keys
+# If not specified, Default = 0
+Keys=1
+
+# *** OPERATIONS ON DATA ***
+# 0 = Do not search (or replace) data values
+# 1 = Search (or replace) data values
+# If not specified, Default = 0
+Data=1
+
+# *** OPERATIONS ON STRING DATA ***
+# 0 = Do not search (or replace) REG_SZ data types
+# 1 = Search (or replace) REG_SZ data types
+# If not specified, Default = 0
+String=1
+
+# *** OPERATIONS ON EXPANDED STRING DATA ***
+# 0 = Do not search (or replace) REG_EXPAND_SZ data types
+# 1 = Search (or replace) REG_EXPAND_SZ data types
+# If not specified, Default = 0
+Expanded String=0
+
+# *** OPERATIONS ON MUTLI LINE STRING DATA ***
+# 0 = Do not search (or replace) REG_MULTI_SZ data types
+# 1 = Search (or replace) REG_MULTI_SZ data types
+# If not specified, Default = 0
+Multi String=0
+
+# *** OPERATIONS BINARY DATA ***
+# 0 = Do not search REG_BINARY data types 
+# 1 = Search REG_BINARY data types
+# If not specified, Default = 0
+Binary=0
+
+# *** OPERATIONS DWORD DATA ***
+# NOTES: 
+# - This must be combined with Regular Expression=1
+# - Use the hex notation form \0xXX where XX is the 
+#   value to search for or replace with. Example, 
+#   to search for decimal dword 1, use \0x01
+# 0 = Do not search REG_DWORD data types 
+# 1 = Search REG_DWORD data types
+# If not specified, Default = 0
+DWORD=0
+
+# *** PROCESS SUBKEYS OR NOT ***
+# By default the program will recurse all subkeys.  To 
+# process values/data only in the immediate key specified 
+# in the Key= switch above, use the Process Subkeys=0 
+# switch.  Also see comments below about the use of 
+# wild cards in the Key= specification.  You should 
+# specify Process Subkeys=0 if you are using a wildcard 
+# in Key= and want to confine the search to the exact key
+# structure specified.
+# 0 = Do not process subkeys
+# 1 = Process Subkeys
+Process Subkeys=1
+
+# *** Undo Files Path= SPECIFICATION ***
+# Use this switch to specify the path for undo/output file for 
+# the script. It can be omitted but we do not recommend doing
+# so. You can specify a different Undo Files Path= path for 
+# each [ActionX] section in a multi-step script. The actual 
+# Undo Files Path= written takes the form of a date & time named
+# file ending in .reg for the name extension. 
+# A machine environment variable can be used in the path string. 
+# Use the syntax %%ENVVAR=variable name%%. (case insensitive)
+# NUL (case insensitive) can be used for the file name to disable
+# the dump for an action.
+Undo Files Path=D:\Scripts\RTOutput1
+
+# *** REPLACEMENT PROMPTING ***
+# Note: When confirm is on, you may chose to skip all further 
+# confirmations in the confirmation dialog after the first prompt 
+# is offered. 
+# 0 = No initial replacement confirmation
+# 1 = Confirm replacement prompt supplied for first replacement
+# If not specified, Default = 0
+Prompts=1
+
+# *** PERMIT REPLACEMENTS? ***
+# Use this when you have a Replace String specified but just want 
+# to preview the results of your replace.  The preview will be 
+# listed in the Output/Undo File.
+# 0 = No replace
+# 1 = Perform a replace
+# If not specified, Default = 0
+Replace=0
+
+# *** DISPLAY PROGRESS METER ***
+# 0 = Standard progress meter
+# 1 = No progress meter is displayed
+# If not specified, Default = 0
+No Progress=0
+
+# *** WRITE REPLACEMENT STRING TO VALUE DATA ***
+# To write the replace string where a value is found 
+# by the search string instead of changing the value 
+# itself, specify the data type with this switch. 
+# In most cases you will not use any setting for this
+# switch so leave it turned off or omit entirely.
+# 1 = REG_SZ
+# 2 = REG_EXPAND_SZ
+# 3 = REG_BINARY
+# 4 = REG_DWORD
+# 4 = REG_DWORD_LITTLE_ENDIAN
+# 5 = REG_DWORD_BIG_ENDIAN
+# 6 = REG_LINK
+# 7 = REG_MULTI_SZ
+# If not specified, Default=0.
+Set Value Data=0
+
+
+[Action2]
+Key=HKEY_CURRENT_USER\Software2
+Search String=Test
+Replace String=Testing
+Replace=1
+Case Sensitive=1
+Whole Word=1
+Regular Expression=0
+Values=1
+Keys=0
+Data=0
+String=1
+Expanded String=0
+Multi String=0
+Binary=0
+Undo Files Path=D:\Scripts\RTOutput2
+Prompts=0
+
+# Note: The below Action does a multiple s/r on 
+# HKEY_CURRENT_USER\Software\Test.  You must use the 
+# numbering as modeled below.  The first Search String= and 
+# Replace String= specs have no number.  The second (and 
+# above) begin with the number 2.  Note that an environment 
+# var is specified in the output file path.
+
+[Action3]
+Key=HKEY_CURRENT_USER\Software\Test
+Search String=FindMe
+Replace String=Replace with this
+Search String2=Another string to find
+Replace String2=Replace with this too
+Search String3=Locate this
+Replace String3=And replace with this
+Replace=1
+Case Sensitive=1
+Whole Word=0
+Regular Expression=0
+Values=1
+Keys=0
+Data=0
+String=1
+Expanded String=0
+Multi String=0
+Binary=0
+Undo Files Path=D:\Scripts\%%envvar=COMPUTERNAME%%\RTOutput3
+Prompts=0
+
+# The below Action uses a wild card in the key spec. 
+# The program will search all the 'S- ' keys under HKEY_USERS 
+# Note that Regular Expression=0 is OK.  It is not necessary to 
+# enable regular expression search to use a wild card in Key=
+# Also note that if you want to search _only_ the exact level of 
+# HKEY_USERS\S-*\Software\Microsoft\Windows NT\CurrentVersion\PrinterPorts 
+# Process Subkeys=0 should be specified.  If Process Subkeys=1 is 
+# specified the program will also search keys under \PrinterPorts if 
+# they exist.
+
+[Action4]
+Key=HKEY_USERS\S-*\Software\Microsoft\Windows NT\CurrentVersion\PrinterPorts
+Search String=Canon 100
+Replace String= Canon S880
+Case Sensitive=1
+Whole Word=0
+Regular Expression=0
+Values=1
+Keys=0
+Data=0
+String=1
+Expanded String=0
+Multi String=0
+Binary=0
+Undo Files Path=D:\Scripts\RTOutput4
+Replace=1
+Prompts=0
+Process Subkeys=0

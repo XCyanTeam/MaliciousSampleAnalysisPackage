@@ -1,0 +1,80 @@
+#                        Registry Toolkit
+#                       Funduc Software, Inc.
+#     http://www.funduc.com   http://www.searchandreplace.com
+
+# Registry Toolkit has several special registry switches that are
+# available for advanced usage. All of these switches except the
+# toolbar style switch have counterparts for use during script
+# operations. We present the information below (in REGEDIT4 style)
+# in case you need to use any of them during interactive use through
+# the graphical interface.
+
+# If you are doing a script operation it is NOT necessary to make
+# any change to the Windows registry settings for the program.
+# Script-based switches over-ride default settings for
+# the program.
+
+# Below are some special registry switches available in 
+# Registry Toolkit version 3.6+
+
+[HKEY_CURRENT_USER\Software\funduc Software Inc.\Registry Toolkit\Settings]
+# *** SET VALUE DATA ***
+# To write the replace string where a value is found, set this value
+# to the data type desired for the value ie:
+# REG_SZ                      ( 1 )   // Unicode nul terminated string
+# REG_EXPAND_SZ               ( 2 )   // Unicode nul terminated string
+#                                     // (with environment variable references)
+# REG_BINARY                  ( 3 )   // Free form binary
+# REG_DWORD                   ( 4 )   // 32-bit number
+# REG_DWORD_LITTLE_ENDIAN     ( 4 )   // 32-bit number (same as REG_DWORD)
+# REG_DWORD_BIG_ENDIAN        ( 5 )   // 32-bit number
+# REG_LINK                    ( 6 )   // Symbolic Link (unicode)
+# REG_MULTI_SZ                ( 7 )   // Multiple Unicode strings
+"Set Value Data"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\funduc Software Inc.\Registry Toolkit\Settings]
+# *** FLAT TOOLBAR ***
+# To be used if you wish to see regular toolbars instead of flat
+# Uncomment line below and remove the one after
+#"Flat Toolbar"=dword:00000000
+"Flat Toolbar"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\funduc Software Inc.\Registry Toolkit\Settings]
+# *** SETTINGS FILE PATH ***
+# Path to settings file.  Usually set to a path on a user's machine 
+# if the program is installed on the network.
+"Settings File"="C:\\tools\\RegTkt\\default.srt"
+
+[HKEY_CURRENT_USER\Software\funduc Software Inc.\Registry Toolkit\Settings]
+# *** UNDO FILE LIMIT ***
+# To change the number of undo files the program maintains during
+# interactive use, modify the dword value below.  The default is 
+# decimal 10.  You can also modify this value by using Registry 
+# Toolkit to edit the registry.  The program reads the value at 
+# startup so exit and restart for a new setting to take effect.
+"Maximum Undo Files"=dword:0000000a
+
+[HKEY_CURRENT_USER\Software\funduc Software Inc.\Registry Toolkit\Settings]
+# *** PROGRESS METER ***
+# To disabled the progress meter during interactive program use,
+# uncomment the line below and remove the one after. 
+# This switch has no effect on script functionality. To disable
+# the progress meter during scripts, add No Progress=1 to your
+# script. See the program hlp and example scripts for more info
+# on script switches.
+# "No Progress"=dword:00000001
+"No Progress"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\funduc Software Inc.\Registry Toolkit\Settings]
+# *** PROCESS SUBKEYS ***
+# By default the program will recurse all subkeys.  To 
+# process values/data only in the immediate key specified 
+# in the main dialog, use the Process Subkeys=0 
+# switch.  Also see comments below about the use of 
+# wild cards in the Key= specification.  You should 
+# specify Process Subkeys=0 if you are using a wildcard 
+# in Key= and want to confine the search to the exact key
+# structure specified.
+# "Process Subkeys"=dword:00000000
+"Process Subkeys"=dword:00000001
+
