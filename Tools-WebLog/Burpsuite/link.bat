@@ -1,0 +1,2 @@
+java -Dfile.encoding=utf-8  -Xmx1024m -noverify -Xbootclasspath/p:burp-loader-keygen-2.jar -jar burpsuite_pro_v2.1.jar
+//java -Dfile.encoding=utf-8 -javaagent:BurpSuiteCn.jar -Xmx1024m -noverify -Xbootclasspath/p:burp-loader-keygen-2.jar -jar burpsuite_pro_v2.1.jar
