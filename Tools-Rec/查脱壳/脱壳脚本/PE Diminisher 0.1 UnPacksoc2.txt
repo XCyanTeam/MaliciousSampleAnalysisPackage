@@ -1,0 +1,25 @@
+bc
+bpmc
+bphwc
+
+var addr
+
+find eip,#FFE0#
+cmp $RESULT,0
+je end
+
+mov addr,$RESULT
+
+bp addr
+esto
+bc eip
+
+sto
+
+msg "Find OEP By UnPacKcN風戀"
+cmt eip,"Find OEP By UnPacKcN風戀！"
+ret
+
+end:
+msg"没有找到与FFE0相关的特征码"
+ret

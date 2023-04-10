@@ -1,0 +1,44 @@
+var oep
+var fi
+var tmpesp
+var tmp
+
+bc
+bphwc
+bphws 009D2847 ,"x"
+mov oep,eip
+mov tmpesp,esp
+mov fi,00450114
+loop:
+mov esp,tmpesp
+add fi,4
+cmp fi,004506D4
+jae exit
+cmp [fi],0
+je loop
+mov eip,[fi]
+esto
+mov tmp,[esp]
+cmp tmp,00F6C000
+ja fix1
+
+cmp tmp,00A80000
+ja moni
+
+moni:
+add tmp,5C6F0000
+mov [fi],tmp
+jmp loop
+
+
+
+
+fix1:
+mov [fi],tmp
+jmp loop
+
+exit:
+bphwc
+mov eip,oep
+mov esp,tmpesp
+ret

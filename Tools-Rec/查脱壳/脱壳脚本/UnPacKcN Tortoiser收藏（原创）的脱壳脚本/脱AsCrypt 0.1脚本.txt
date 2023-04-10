@@ -1,0 +1,35 @@
+
+var addr
+
+find eip,#C30000#
+cmp $RESULT,0
+je end
+
+mov addr,$RESULT
+
+bp addr
+esto
+bc eip
+
+sto   //F8
+
+find eip,#68????????C3#
+cmp $RESULT,0
+je end
+
+mov addr,$RESULT
+bp addr
+esto
+bc eip
+
+sto
+sto
+
+msg "已经找到OEP"
+cmt eip,"find oep by Tortoiser"
+ret
+
+
+end:
+msg "未找到特征码！！！"
+ret

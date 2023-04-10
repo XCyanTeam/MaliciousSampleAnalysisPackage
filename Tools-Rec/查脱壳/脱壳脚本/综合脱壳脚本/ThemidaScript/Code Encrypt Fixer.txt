@@ -1,0 +1,77 @@
+//Winlicense Code Encrypt Finder&Fixer
+//2009.07.17
+//作者：ffzy
+
+var oep
+var tempeip
+var tempeip2
+var js
+
+mov oep, eip
+gmemi eip, memorybase
+mov eip, 401000
+
+find:
+find eip, #E8????????????0000??000000????????20#
+cmp $RESULT, 0
+je next
+mov tempeip, $RESULT
+mov tempeip2, $RESULT
+eval "发现 Code Encrypt 特性在 {tempeip}"
+log $RESULT
+
+add tempeip2, 9
+cmp [tempeip2], 1
+je f1
+
+mov eip, tempeip
+add tempeip, 12
+bphws tempeip, "x"
+esto
+bphwc tempeip
+add tempeip, -12
+
+f1:
+mov [tempeip], #EB1090909090909090909090909090909090#
+add js, 1
+jmp find
+
+next:
+mov eip, 401000
+find eip, #E8????????????0000??000000????????AA#
+cmp $RESULT, 0
+je no found
+mov tempeip, $RESULT
+mov tempeip2, $RESULT
+eval "发现 Code Encrypt 特性在 {tempeip}"
+log $RESULT
+
+add tempeip2, 9
+cmp [tempeip2], 1
+je f2
+
+mov eip, tempeip
+add tempeip, 12
+bphws tempeip, "x"
+esto
+bphwc tempeip
+add tempeip, -12
+
+f2:
+//mov [tempeip], #EB1090909090909090909090909090909090#
+add js, 1
+jmp next
+
+no found:
+cmp js, 0
+jne end
+eval "搜索完成，没有发现 Code Encrypt 特性!"
+log $RESULT
+mov eip, oep
+ret
+
+end:
+eval "一共{js}个Code Encrypt 特性!"
+log $RESULT
+mov eip, oep
+ret

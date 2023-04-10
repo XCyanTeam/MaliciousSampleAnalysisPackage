@@ -1,0 +1,23 @@
+
+var addr
+
+find eip,#FFE05F5E5BC9C3#
+cmp $RESULT,0
+je end
+
+mov addr,$RESULT
+
+bp addr
+esto
+bc eip
+
+sto
+
+
+msg "已经找到程序的OEP！！注意IAT有没有被偷取！！"
+cmt eip, "find OEP by UnpacKcN FengLian"
+ret
+
+end:
+msg "没有找到与FFE05F5E5BC9C3相同的特征码！！"
+ret

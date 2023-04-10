@@ -1,0 +1,13 @@
+var addr
+
+sto
+mov addr,esp
+bphws addr,"r"
+run
+bphwc
+sto
+sto
+
+msg "This is OEP!"
+cmt eip, "find OEP By UnPacKcNïL‘Ù"
+ret

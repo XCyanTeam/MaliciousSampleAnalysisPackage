@@ -1,0 +1,19 @@
+Bphwcall
+Bpmc
+bc
+
+
+var addr
+
+sto  //F8
+mov addr,esp
+
+bphws addr,"r"
+esto
+bphwc addr
+
+sto
+sto
+cmt eip,"find oep by Tortoiser"
+
+ret

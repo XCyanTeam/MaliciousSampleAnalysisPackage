@@ -1,0 +1,78 @@
+pause
+pause
+var jmp_address
+var cmp_ecx_eax_address
+var esitemp
+mov jmp_address,0116C7A0    // 此处需根据实际情况更改
+mov cmp_ecx_eax_addresss,0102A810    // 此处需根据实际情况更改
+BC
+bphwcall
+
+
+bphws jmp_address,"x"
+esto
+bp cmp_ecx_eax_addresss
+
+
+Loop1:
+esto
+cmp eax,0
+je Loop1
+log "补丁地址："
+log eip
+log "eax值 1："
+log eax
+log "ESI值 1："
+log esi
+mov ecx,eax
+mov esitemp,esi
+
+sto
+sto
+sto
+sto
+log "jmp地址:"
+log eip
+
+
+
+
+Loop2:
+esto
+cmp eax,0
+je Loop2
+cmp esitemp,esi
+je Loop2
+log "eax值 2："
+log eax
+log "ESI值 2："
+log esi
+
+
+mov ecx,eax
+mov esitemp,esi
+
+Loop3:
+esto
+cmp eax,0
+je Loop3
+cmp esitemp,esi
+je Loop3
+log "ESI值 3："
+log esi
+
+mov ecx,eax
+mov esitemp,esi
+
+Loop4:
+esto
+cmp eax,0
+je Loop4
+cmp esitemp,esi
+je Loop4
+log "ESI值 4："
+log esi
+mov ecx,eax
+BC
+bphwcall
+run

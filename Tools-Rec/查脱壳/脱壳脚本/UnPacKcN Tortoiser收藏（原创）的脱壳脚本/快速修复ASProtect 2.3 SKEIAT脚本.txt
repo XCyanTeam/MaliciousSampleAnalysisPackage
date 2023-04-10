@@ -1,0 +1,219 @@
+var OEP_start
+var A1
+var codeB
+var B1
+var B2
+var B3
+var API_L
+var H1
+var G1
+var pointer
+var K1
+var L1
+var D1
+var A3
+var A4
+var C1
+var M1
+var T1
+var temp2
+var new1
+var R1
+var HH
+var II
+var codeB2
+
+var r1
+var r2
+var r3
+var r4
+var r5
+var r6
+var r7
+var r8
+
+//////////////////////////////////////
+//保护现场
+mov r1,eax
+mov r2,ecx
+mov r3,edx
+mov r4,ebx
+mov r5,esp
+mov r6,ebp
+mov r7,esi
+mov r8,edi
+///////////////////////////////////////
+
+dbh
+lc
+
+mov OEP_start,eip        //   OEP_start=0041C39E  
+
+GMI eip,MODULEBASE      //获取模块基址=00400000                           
+mov A1, $RESULT         //A1=00400000 
+gmemi A1, MEMORYSIZE    //获取内存大小=1000
+add A1, $RESULT             // A1=模块基址+内存大小= 00401000（代码段起始地址）
+
+mov codeB, A1               // codeB = 00401000
+mov new1 , A1               // new1  = 00401000        
+mov codeB2,A1               // codeB2= 00401000
+/////////////////////////////////////////////
+gmemi new1,MEMORYSIZE       //获取代码段内存大小 = 31000
+add new1, $RESULT           //new1=代码段内存大小+00401000=00401000+31000=00432000（数据段起始地址）
+
+//////////////////////////////////////////////
+
+Z2:
+
+
+find codeB, #ff25????????#               //找FF25型JMP [xx] （API函数）
+cmp $RESULT,0                            //判断是否找到
+je ende_full_2                           //没找到则跳到ende_full_2标签 
+
+
+mov HH,$RESULT+2                         //将找到的地址+2存到CodeB里面 =004017D4+2=004017D6  
+mov codeB,HH                       
+mov II,[HH]                             //将找到的地址里面存放的值给II=4324C8
+cmp [II],40000000                      //4324C8里面存放的API函数地址与40000000比较
+
+jb Z2                                  //小于则跳向Z2，找下一个
+
+Z3:
+
+cmp [II],80000000                     //4324C8里面存放的API函数地址与80000000比较
+ja Z2                                  ////大于则跳向Z2，找下一个
+
+///////////////////////////////////////////////////////////
+//下面Z1操作是为了找数据段，然后将我们的API函数地址写进去//
+///////////////////////////////////////////////////////////
+Z1:                                   
+
+mov B1, [$RESULT+2]                     //B1=4324C8
+gmemi B1, MEMORYBASE          //找到数据段的起始地址=432000
+mov B2, $RESULT               //B2=432000
+gmemi B2, MEMORYSIZE          //获得数据段的大小=D000
+mov B3, $RESULT               //B3=D000
+
+
+/////////////////////////////////////////////
+
+gpa "LoadLibraryA", "kernel32.dll"          //对LoadLibraryA下断点
+mov API_L, $RESULT
+/////////////////////////////////////////////
+start:
+
+BP API_L                           
+run                                  //运行到LoadLibraryA断点处
+
+mov H1,[esp+250]                      //H1=42145D
+sub H1,5                             // 找到调用这个API的CALL地址=H1=42145D-5=421458
+mov G1,eip                           //将此时LoadLibraryA函数地址给G1=7c801D7B
+mov eip,H1                           //H1=421458(也就是来到调用函数的CALL)
+
+mov K1,esp                           //将此时的ESP值给K1=12FD10
+
+mov pointer, $RESULT                 //pointer=LoadLibraryA函数地址=7c801D7B
+add $RESULT, [$RESULT]               //这里是将7c801D7B+[7c801D7B]=7D61D47
+add $RESULT, 4                       //
+mov temp, $RESULT                    //temp=7D61D47+4=7D61D4B
+
+sti                                 //F7
+mov esp,K1                          //ESP=K1=12FD10
+
+mov L1,eip                         // L1=此时EIP地址=01D30000
+mov eip,G1                         //EIP改为G1=LoadLibraryA函数地址
+
+BC API_L                       
+rtu                                //执行到用户代码
+/////////////////////////////////////////////
+//下面是找到RETN 4处，返回到处理API地方/////
+////////////////////////////////////////////
+find eip, #C20400#              
+go $RESULT
+sti
+
+mov D1,eip                   //将此时EIP给D1=A6AFFB                   
+////////////////////////////////////////////
+start2:
+
+bphwc D1                     //在A6AFFB清除硬件断点      
+
+mov A4, [ebp-10]             //A4=[0012FEA0]=421458
+
+
+find eip,#8B45FC508B45F8#    //找到寄存器窗口出现API的地方=00A6b054
+go $RESULT                    //来到此处
+sti                           //F7，来到寄存器窗口出现API的地方，EAX
+mov A3, eax                   //将API地址给A3
+
+fkk:
+mov eip, A4                   //来到421458也就是我们需要PATCH call的地方
+/////////////////////////////////////////////////////////////
+//下面操作时将API地址填充到数据段，并且将CALl改为FF15型jmp//
+////////////////////////////////////////////////////////////
+find B2,#0000000000000000#
+mov C1,$RESULT
+mov [C1],A3
+mov [eip],#ff15#
+add eip,2
+mov [eip],C1
+add C1,4
+mov M1,eip
+///////////////////////////////////////////
+W1:
+
+find codeB2,#E8#                     //在codeB2= 00401000处开始找E8型CAll=00401013
+cmp $RESULT,0                        //判断是否找到
+je ende2                             //没找到则跳到end2标签
+
+mov R1, $RESULT                      //找到的地址给R1=00401013
+cmp R1, new1                        //R1=00401013与new1=00432000（数据段起始地址）比较
+ja ende2                            //大于则跳到end2标签
+
+W4:
+mov T1, $RESULT                     //将E8call的地址给T1=00401013
+inc $RESULT                         //然后地址+1=00401014
+mov pointer, $RESULT                //pointer=00401014
+add $RESULT, [$RESULT]             //$RESULT=00401014+[00401014]=00401014+05F7=40160B
+add $RESULT, 4                     //$RESULT=40160B+4=40160F
+mov temp2, $RESULT                 //temp2=40160F
+cmp temp2,L1                    //temp2与L1=01D30000比较
+je W2                            //等于则跳到W2
+jne W3                          //不等于则跳到W3
+///////////////////////////////////////////
+ende2:
+
+jmp ende_full_2                //跳到ende_full_2  结束脚本
+
+
+//////////////////////////////////////////
+W2:
+
+mov codeB2,T1+1               //codeB2=00401014
+mov eip,T1                    //跳到T1=00401013
+bphws D1, "x"                 //下硬件执行断点
+run                           //F9运行
+
+jmp start2                    //跳到start2 处
+/////////////////////////////////////////
+W3:
+
+mov codeB2,pointer+1          //codeB2=004010145
+jmp W1                        //跳到W1找下一个E8
+
+///////////////////////////////////
+//恢复现场
+///////////////////////////////////
+ende_full_2:
+mov eip, OEP_start     //OEP地址
+mov eax,r1            
+mov ecx,r2
+mov edx,r3
+mov ebx,r4
+mov esp,r5
+mov ebp,r6
+mov esi,r7
+mov edi,r8
+
+MSG "所有的call修复完成!!!"
+ret

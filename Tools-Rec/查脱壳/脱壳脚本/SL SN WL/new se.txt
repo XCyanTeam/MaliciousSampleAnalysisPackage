@@ -1,0 +1,455 @@
+call vars
+call find_dll 
+call set_addr 
+/*******************************************************************************************/
+lc
+mov ibase,401000
+log "__________________________________________________________________"
+fix_call:
+cmp v,0
+je 1_1
+add ibase,5
+1_1:
+cmp ibase,max
+ja fix_reg_Or_call_dword
+findop ibase,#e8??????00# 
+cmp $RESULT,0           
+je fix_reg_Or_call_dword
+mov search,$RESULT
+mov ibase,search          
+gci search,SIZE
+cmp $RESULT,5
+jne fix_call              
+gci search,DESTINATION    
+mov temp,$RESULT
+cmp temp,405000           
+jl fix_call               
+mov temp,search
+add temp,5
+cmp [temp],#c3#,1
+jne vv0
+mov eax_ok,1
+vv0:
+cmp v,0
+je vv                   // 第一次因为 t 必定是 0 ，也就是说放过第一次不去比较
+sub search,t
+cmp search,300    
+ja fix_reg_Or_call_dword
+mov search,ibase
+cmp search,fix_j
+jne vv
+mov ibase,401000
+vv:
+inc v
+mov t,search
+mov eip,search     
+bphws 4130ce,"x"   
+erun
+m_1:
+sti                
+bphwcall  
+mov api,eax        
+mov s,eip          
+mov i,0
+mov j,0
+mov i_1,0
+Simulation_sti:
+inc i_1          
+cmp i_1,1A       
+je mov_regs      
+cmp i,0          
+je find_0        
+inc i            
+                 
+find_0:          
+cmp [s],#e9#,1   
+je get_j_addr    
+cmp [s],#EB#,1   
+je get_j_addr    
+cmp [s],#E8#,1   
+je get_j_addr    
+                 
+cmp [s],#75#,1   
+je calc_1        
+cmp [s],#0F85#,2 
+je calc_1
+cmp [s],#89442424#,4  
+je call_api           
+                      
+cmp [s],#89442428#,4  
+je jmp_dword          
+                      
+cmp i,5               
+je mov_regs           
+                      
+gci s,SIZE            
+add s,$RESULT         
+jmp Simulation_sti
+get_j_addr:
+gci s,DESTINATION             
+mov s,$RESULT       
+jmp Simulation_sti  
+                    
+calc_1:             
+gci s,DESTINATION   
+mov s,$RESULT       
+inc i               
+jmp Simulation_sti  
+jmp_dword:
+inc c
+mov [jmp_addr],search 
+add jmp_addr,4
+eval "{search}   find   jmp dword ptr[xxxxxx]     :   {c}"
+log $RESULT
+eval "jmp dword ptr[{CCCCCCCC}]"
+asm search,$RESULT
+add search,2
+call Save_data
+jmp fix_call
+call_api:
+inc j
+cmp j,7
+je call_jmp
+cmp [s],#e9#,1
+je get_next_addr
+cmp [s],#EB#,1
+je get_next_addr
+cmp [s],#E8#,1
+je get_next_addr
+cmp [s],#FF442408#,4
+je FF15
+gci s,SIZE
+add s,$RESULT
+jmp call_api
+get_next_addr:
+gci s,DESTINATION             
+mov s,$RESULT
+jmp call_api
+
+FF15:
+inc a
+eval "{search}   find   call dword ptr[xxxxxx]    :   {a}"
+log $RESULT
+eval "call dword ptr[{CCCCCCCC}]"
+asm search,$RESULT
+add search,2
+call Save_data
+jmp fix_call
+call_jmp:
+inc b
+mov [three],api
+add three,4
+mov [three],search
+add three,4
+mov search,0
+call Save_data 
+jmp fix_call
+mov_regs:
+inc d
+call fix_mov
+jmp fix_call
+fix_mov:
+cmp eax_ok,1
+je e_ax
+findop search,#ffD?#             // call e??
+mov tmp,$RESULT
+cmp [tmp],#FFD0#,2
+je e_ax
+cmp [tmp],#FFD1#,2
+je e_cx
+cmp [tmp],#FFD3#,2
+je e_bx
+cmp [tmp],#FFD5#,2
+je e_bp
+cmp [tmp],#FFD6#,2
+je e_si
+cmp [tmp],#FFD7#,2
+je e_di
+e_ax:
+mov [search],#A1#,1
+mov api,eax
+inc search         
+call Save_data
+mov eax_ok,0
+ret
+e_cx:
+eval "mov ecx,dword ptr[{CCCCCCCC}]"
+asm search,$RESULT
+mov api,eax
+add search,2
+call Save_data
+ret
+e_bx:
+eval "mov ebx,dword ptr[{CCCCCCCC}]"
+asm search,$RESULT
+mov api,eax
+add search,2
+call Save_data
+ret
+e_bp:
+eval "mov ebp,dword ptr[{CCCCCCCC}]"
+asm search,$RESULT
+mov api,eax
+add search,2
+call Save_data
+ret
+e_si:
+eval "mov esi,dword ptr[{CCCCCCCC}]"
+asm search,$RESULT
+mov api,eax
+add search,2
+call Save_data
+ret
+e_di:
+eval "mov edi,dword ptr[{CCCCCCCC}]"
+asm search,$RESULT
+mov api,eax
+add search,2
+call Save_data
+ret
+/*******************************************************************************************/
+vars:
+var search
+var temp
+var i
+var i_1
+var j
+var MEM
+var modbas
+var t
+var api
+var mov_api
+var tmp
+var iat
+var dec_search         // 转为修复第二种 call 是，作为标志的
+var LoadString
+var s
+var cc
+var v                   // 判断是否初次进入修复流程
+var iat_0
+var Temp
+var e_ip
+var ibase
+var tmp1
+var tmp2
+var tmp3
+var PE
+var DLL
+var DLL_S
+var new_sec        
+var count          
+var p1           
+var p2 
+var dispatch      // 修复调用时用
+var three
+var jmp_addr
+var a
+var b
+var c
+var d
+var eax_ok
+mov iat,402000
+mov fix_jmp,004ff500
+mov [iat],#00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000#
+bphwcall
+bc
+gmi 401000,CODEBASE
+mov ibase,$RESULT
+gmi 401000,CODESIZE
+mov max,$RESULT
+add max,ibase
+find 401000,#C3909090E8??????????E8??????????E8??????????E8??????????E8??????????E8??????????E8??????????E8??????????E8#
+mov fix_j,$RESULT+4
+find_max:
+mov [fix_j-1],#90#
+add fix_j,6            
+cmp [fix_j],#e8#,1
+je find_max
+mov ibase,$RESULT+4
+mov e_ip,eip
+ret
+/*******************************************************************************************/
+find_dll:
+mov MEM,60000000  
+alloc 400000      
+mov new_sec, $RESULT
+mov p1,$RESULT
+mov p2,$RESULT
+mov three,$RESULT
+add three,250000       
+mov jmp_addr,three     
+add jmp_addr,10000     
+mov i,0                
+NO_DLL:                
+add MEM,500            
+inc i                  
+cmp i,5                
+je MEM_END             
+find_dll_0:            
+findmem #4D5A#, MEM    
+cmp $RESULT, 00        
+je MEM_END             
+mov DLL, $RESULT       
+mov DLL_S,$RESULT      
+mov DLL_S,[DLL+3C]     
+add DLL_S, DLL         
+cmp [DLL_S], 4550 , 02 
+jne NO_DLL             
+GMI DLL, NAME          
+cmp $RESULT, 00        
+je NO_DLL              
+mov edi, DLL           
+and edi, 0ffff         
+cmp edi, 0             
+jne NO_DLL             
+gmemi DLL, MEMORYSIZE  
+cmp $RESULT, 00        
+je NO_DLL              
+gmi DLL, MODULESIZE    
+add DLL, $RESULT       
+mov [new_sec], DLL     
+add new_sec,4          
+inc count              
+mov MEM,DLL            
+jmp find_dll_0         
+MEM_END:
+mov p1,p2
+add p1,200
+mov new_sec,p1
+mov cc,count
+mov p1,p2
+ret
+set_addr:
+add p1,5000
+mov [new_sec],p1
+add new_sec,4
+dec cc
+cmp cc,0
+jne set_addr
+ret
+fix_reg_Or_call_dword:
+mov tmp1,5000		
+mov  p1,p2
+add  p1,200
+next_addr:
+cmp count,0
+je fix_call_jmp
+next_set:
+mov ss,p1
+mov ss,[ss] 
+call calc   
+dec count   
+cmp temp,0  
+ja mov_apis 
+p_dll:      
+add p1,4
+jmp next_addr
+                  
+mov_apis:         
+sub  ss,temp      
+div temp,8        
+
+mov_api:
+cmp [ss],0      
+je add_iat      
+cmp [ss+4],0    
+je two          
+mov  api,[ss]   
+mov  [iat],api  
+mov tmp2,ss     
+call cmp_api    
+add ss,4
+mov dispatch,[ss]  
+mov [dispatch],iat 
+add iat,4          
+add  ss,4          
+jmp mov_api    
+two:           
+add ss,8       
+jmp mov_api    
+add_iat:       
+add iat,4      
+jmp p_dll      
+cmp_api:       
+add tmp2,8     
+cmp_api_1:     
+cmp [tmp2],0
+je r
+cmp [tmp2],api
+je o
+jmp cmp_api
+o:                     
+add tmp2,4             
+mov dispatch,[tmp2]    
+mov [dispatch],iat     
+mov [tmp2],#00000000#  
+add tmp2,4             
+cmp [tmp2],0           
+je r                   
+jmp cmp_api_1          
+r:
+ret
+calc:
+mov temp,ss   
+sub temp,p2   
+sub temp,tmp1 
+add tmp1,5000 
+ret           
+ 
+Save_data:
+mov p1,p2
+mov cc,0       
+loop_cmp:      
+inc cc         
+loop_1:        
+cmp api,[p1]   
+jb find_api    
+add p1,4       
+jmp loop_cmp   
+find_api:      
+mov p1,p2      
+add p1,200     
+mul cc,4       
+add cc,p1          
+mov iat_0,[cc]     
+mov [iat_0],api    
+add iat_0,4        
+mov [iat_0],search 
+add iat_0,4        
+mov [cc],iat_0     
+ret
+
+fix_call_jmp:
+mov temp,p2
+add temp,250000      
+find_api_loop:       
+mov jmp_addr,temp    
+add jmp_addr,FFFC    
+mov api,[temp]       
+add temp,4           
+mov dispatch,[temp]  
+eval "{dispatch}   :  {api}"
+log $RESULT
+add temp,4 
+cmp api,0
+je fix_end
+loop:
+add jmp_addr,4
+cmp [jmp_addr],0
+je find_api_loop
+mov tmp1,[jmp_addr]
+add tmp1,2
+mov tmp1,[tmp1] 
+cmp [tmp1],api
+jne loop
+mov tmp3,[jmp_addr]
+eval "call {tmp3}"
+asm dispatch,$RESULT
+jmp find_api_loop
+/*******************************************************************************************/
+fix_end:
+mov eip,e_ip
+msg "ok"
+pause
+ret
+/*******************************************************************************************/

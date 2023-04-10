@@ -1,0 +1,46 @@
+pause
+pause
+BC
+bphwcall
+var BPRegOpenKeyExA
+var ZwProtectVirtualMemoryAddress
+var bptimes
+var FirstTimeEncryptWordsAddress
+var SecondTimeEncryptWordsAddress
+var EncryptWords
+//瞧，这个就是半自动
+mov FirstTimeEncryptWordsAddress,06fc18
+mov SecondTimeEncryptWordsAddress,06f960
+mov EncryptWords,#D7E2CAB50008010061060100001F926C83BF060738988AF4974006A4#
+mov bptimes,0
+GPA "ZwProtectVirtualMemory","ntdll.dll"
+log $RESULT
+mov ZwProtectVirtualMemoryAddress,$RESULT
+GPA "ZwReadFile","ntdll.dll"
+log $RESULT
+bp $RESULT
+
+check_bptimes:
+esto
+inc bptimes
+cmp bptimes,5  
+jnz check_bptimes
+bc $RESULT
+
+findmem #8BFF558BEC83EC0C8365FC0053568B750881FE0400008057#
+mov BPRegOpenKeyExA,$RESULT
+bp BPRegOpenKeyExA+17 
+esto
+pause
+pause
+bphws FirstTimeEncryptWordsAddress+18,"w" 
+esto
+bphwc FirstTimeEncryptWordsAddress+18
+mov [FirstTimeEncryptWordsAddress],EncryptWords 
+esto
+bphws SecondTimeEncryptWordsAddress+18,"w" 
+esto
+bphwc SecondTimeEncryptWordsAddress+18
+mov [SecondTimeEncryptWordsAddress],EncryptWords 
+bc BPRegOpenKeyExA
+run

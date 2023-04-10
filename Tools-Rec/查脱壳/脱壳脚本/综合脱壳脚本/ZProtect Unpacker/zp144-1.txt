@@ -1,0 +1,376 @@
+var CreateFileAaddr
+var VirtualAllocaddr
+var vmaddr
+var apiaddr
+var iats
+var iate
+var vmapiaddr
+var oep
+var exx
+var tmp1
+var tmp2
+var passreg
+var passregaddr
+
+var tmpy
+var tmpx
+
+var addr1
+var addr2
+var addr3
+
+mov passreg, 1
+
+F0:
+sti
+
+findesp:
+cmp [eip], 60, 1
+jne F01
+sti
+mov exx, esp
+jmp start
+
+F01:
+cmp [eip], E8, 1
+je F0
+sto
+jmp findesp
+
+start:
+cmp passreg, 0
+jne noreg
+call passreg
+
+noreg:
+BPHWS exx, "r"
+
+GPA "CreateFileA", "kernel32.dll"
+cmp $RESULT, 0
+je error
+mov CreateFileAaddr, $RESULT
+BPHWS CreateFileAaddr, "x"
+
+GPA "VirtualAlloc", "kernel32.dll"
+cmp $RESULT, 0
+je error
+mov VirtualAllocaddr, $RESULT
+BPHWS VirtualAllocaddr, "x"
+
+ALLOC 1000
+mov tmpy, $RESULT
+mov tmpx, $RESULT
+
+findCreateFileAaddr:
+run
+cmp eip, CreateFileAaddr
+jne FX
+
+findapis:
+mov addr3, esp+100
+mov [tmpx], [addr3]
+run
+rtu
+add tmpx, 4
+cmp eax, 0
+je findoep3
+mov [tmpx], eax
+run
+add tmpx, 4
+cmp eip, CreateFileAaddr
+je findapis
+jmp findoep
+
+FX:
+run
+jmp findCreateFileAaddr
+
+findoep:
+cmp [eip], E8, 1
+je findoep2
+pause
+sto
+sto
+mov oep, eip
+jmp fixiat
+
+findoep2:
+sti
+sto
+sto
+sto
+sto
+sto
+mov oep, eip
+jmp fixiat
+
+findoep3:
+sto
+mov oep, eip
+
+fixiat:
+mov iats, 005C51E0
+mov iate, 005C5A74
+pause
+mov eip, [iats]
+find:
+
+test0F86:
+cmp [eip], 860F,2
+jne test0F82
+call is0F86
+
+test0F82:
+cmp [eip], 820F,2
+jne testE8
+jmp is0F82
+
+testE8:
+cmp [eip], E8,1
+jne in
+
+sti
+jmp find
+
+in:
+sto
+jmp find
+
+is0F86:
+mov addr2, eip
+GCI addr2, DESTINATION
+mov addr1, $RESULT
+EVAL "jmp {addr1}"
+asm eip, $RESULT
+mov [eip+5],#90#
+ret
+
+is0F82:
+mov addr2, eip
+GCI addr2, DESTINATION
+mov addr1, $RESULT
+EVAL "jmp {addr1}"
+asm eip, $RESULT
+mov [eip+5],#90#
+sto
+bp eip
+
+fix:
+mov eip, [iats]
+gn [iats]
+cmp $RESULT, 0
+jne skipfix2
+cmp [eip], 68,1
+jne test5060
+cmp [eip+5], E9,1
+jne test5060
+jmp normal
+
+test5060:
+cmp [eip], 50,1
+jne fix2
+cmp [eip+5], 60,1
+jne normal
+jmp fix2
+
+normal:
+run
+sto
+mov apiaddr, ecx
+
+gn apiaddr
+cmp $RESULT, 0
+je fix3
+
+mov [iats], apiaddr
+add iats,4
+cmp iats, iate
+ja fixcall
+cmp [iats], 0
+je skipfix
+jmp fix
+
+fix2:
+cmp [iats], 0
+je skipfix
+GPA "GetModuleHandleA", "kernel32.dll"
+mov apiaddr, $RESULT
+mov [iats], apiaddr
+add iats,4
+cmp iats, iate
+ja fixcall
+cmp [iats], 0
+je skipfix
+jmp fix
+
+fix3:
+mov tmpx, tmpy
+
+testvmapi:
+mov vmapiaddr, ecx
+sub vmapiaddr, [tmpx+4]
+add vmapiaddr, [tmpx]
+gn vmapiaddr
+cmp $RESULT, 0
+jne vmapiok
+add tmpx, 8
+jmp testvmapi
+
+vmapiok:
+mov tmpx, tmpy
+mov [iats], vmapiaddr
+add iats,4
+cmp iats, iate
+ja fixcall
+cmp [iats], 0
+je skipfix
+jmp fix
+
+skipfix:
+add iats,4
+cmp [iats], 0
+je skipfix
+jmp fix
+
+skipfix2:
+add iats,4
+jmp fix
+
+error:
+msg "³ö´íÁË!"
+ret
+
+passreg:
+gpa "DialogBoxIndirectParamA","user32.dll" 
+cmp $RESULT, 0
+je error
+mov passregaddr, $RESULT
+bphws passregaddr, "x"
+mov [passregaddr], #B82C230000C21400#
+ret
+
+fixcall:
+mov eip, 401000
+
+findcallapi:
+find eip, #E8??????0090#
+cmp $RESULT,0
+je fixjmp
+mov eip, $RESULT
+mov addr1, $RESULT
+GCI eip, DESTINATION
+mov eip, $RESULT
+cmp [eip], 68,1
+jne skipfixcall
+cmp [eip+5], E9,1
+jne skipfixcall
+
+run
+sto
+mov apiaddr, ecx
+gn apiaddr
+cmp $RESULT, 0
+je fixcall2
+mov eip, 401000
+find eip, apiaddr
+mov addr2, $RESULT
+mov eip, addr1
+eval "call [{addr2}]"
+asm eip, $RESULT
+add eip, 1
+jmp findcallapi
+
+fixcall2:
+mov tmpx, tmpy
+
+testvmapi2:
+mov vmapiaddr, ecx
+sub vmapiaddr, [tmpx+4]
+add vmapiaddr, [tmpx]
+gn vmapiaddr
+cmp $RESULT, 0
+jne vmapiok2
+add tmpx, 8
+jmp testvmapi2
+
+vmapiok2:
+mov tmpx, tmpy
+mov eip, 401000
+find eip, vmapiaddr
+mov addr2, $RESULT
+mov eip, addr1
+eval "call [{addr2}]"
+asm eip, $RESULT
+add eip, 1
+jmp findcallapi
+
+fixjmp:
+mov eip, 401000
+
+findjmpapi:
+find eip, #E9??????0090#
+cmp $RESULT,0
+je end
+mov eip, $RESULT
+mov addr1, $RESULT
+GCI eip, DESTINATION
+mov eip, $RESULT
+cmp [eip], 68,1
+jne skipfixjmp
+cmp [eip+5], E9,1
+jne skipfixjmp
+
+run
+sto
+mov apiaddr, ecx
+gn apiaddr
+cmp $RESULT, 0
+je fixjmp2
+mov eip, 401000
+find eip, apiaddr
+mov addr2, $RESULT
+mov eip, addr1
+eval "jmp [{addr2}]"
+asm eip, $RESULT
+add eip, 1
+jmp findjmpapi
+
+fixjmp2:
+mov tmpx, tmpy
+
+testvmapi3:
+mov vmapiaddr, ecx
+sub vmapiaddr, [tmpx+4]
+add vmapiaddr, [tmpx]
+gn vmapiaddr
+cmp $RESULT, 0
+jne vmapiok3
+add tmpx, 8
+jmp testvmapi3
+
+vmapiok3:
+mov tmpx, tmpy
+mov eip, 401000
+find eip, vmapiaddr
+mov addr2, $RESULT
+mov eip, addr1
+eval "jmp [{addr2}]"
+asm eip, $RESULT
+add eip, 1
+jmp findjmpapi
+
+end:
+BPHWCALL
+mov eip, oep
+AN eip
+ret
+
+skipfixcall:
+mov eip, addr1
+add eip, 1
+jmp findcallapi
+
+skipfixjmp:
+mov eip, addr1
+add eip, 1
+jmp findjmpapi

@@ -1,0 +1,23 @@
+
+  var addr   
+  sto        
+  mov addr,esp 
+  bphws addr,"r"
+  run
+  sto
+  sto
+  sto
+  sto
+  sto
+  run
+  BPHWC addr
+  sto
+  sto
+  sto
+  sto
+
+msg "“—æ≠’“µΩOEP"
+cmt eip,"find oep by UnPacKcNÔLëŸ"
+ret
+
+  

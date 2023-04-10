@@ -1,0 +1,29 @@
+mov fi,401000
+
+loop:
+inc fi
+find fi,#68????????FF15F2006500#
+cmp $RESULT,0
+je next
+mov fi,$RESULT
+mov eip,fi
+bphws eip+B,"x"
+esto
+fill fi,B,90
+bphwc
+jmp loop
+
+next:
+mov fi,401000
+
+loop1:
+inc fi
+find fi,#68????????FF15FA006500#
+cmp $RESULT,0
+je exit
+mov fi,$RESULT
+fill fi,B,90
+jmp loop1
+
+exit:
+ret

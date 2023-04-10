@@ -1,0 +1,188 @@
+//////////////////////////////////////
+//TMD IAT修复脚本改进版 by Tortoiser
+////////////////////////////////////
+//QQ:2532029373
+//////////////////////////////////
+//谢谢大家的支持!!!
+////////////////////////////////
+
+
+
+
+
+
+dbh
+bphwcall
+bc
+bpmc
+
+var OEP_ADDR
+var SHOW_API_ADDR
+var API_ADDR
+var API_ADDR_2
+var WRITE_API_ADDR
+var WRITE_API_ADDR_2
+var CODE_BASE
+var CODE_SIZE
+var GetWindowThreadProcessId_ADDR
+var ExitProcess_ADDR
+var GetWindow_ADDR
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////
+////手动添加数据栏/////
+////////////////////////////////////////////////////////////////
+mov OEP_ADDR,0044ca98
+mov SHOW_API_ADDR,00519CA6
+mov CODE_BASE,00401000
+mov CODE_SIZE,59000
+///////////////////////////////////////////////////////////
+
+
+
+bphws SHOW_API_ADDR,"x"
+bpwm CODE_BASE,CODE_SIZE
+
+gpa "ExitProcess","kernel32.dll"
+cmp $RESULT,0
+je end
+mov ExitProcess_ADDR,$RESULT
+
+
+
+gpa "GetWindowThreadProcessId","user32.dll"
+cmp $RESULT,0
+je end
+mov GetWindowThreadProcessId_ADDR,$RESULT
+
+gpa "GetWindow","user32.dll"
+cmp $RESULT,0
+je end
+mov GetWindow_ADDR,$RESULT
+
+     esto
+     esto
+     esto
+     sti
+     sto
+     esto
+     esto
+
+find:
+
+
+
+
+
+
+     cmp eax,ExitProcess_ADDR
+     je spacial 
+     cmp eax,GetWindowThreadProcessId_ADDR
+     je spacial2 
+     cmp eax,GetWindow_ADDR
+     je spacial3
+     cmp eax,80000000
+     ja end
+     cmp eax,50000000
+     jb end
+     mov API_ADDR,eax
+
+
+find1:
+esto
+find eip,#8F02#,2
+cmp $RESULT,eip
+je loop1
+find eip,#8F008128#,4
+cmp $RESULT,eip
+je loop2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+loop1:
+     mov FILL_API_ADDR,edx     
+     esto   
+     mov [FILL_API_ADDR],API_ADDR 
+     mov WRITE_API_ADDR,edx    
+     esto
+     esto
+     mov [WRITE_API_ADDR],25ff
+     add WRITE_API_ADDR,2
+     mov [WRITE_API_ADDR],FILL_API_ADDR
+     jmp find
+
+
+loop2:
+     mov FILL_API_ADDR,eax
+     esto
+     esto
+     mov [FILL_API_ADDR],API_ADDR 
+     mov WRITE_API_ADDR,edi
+     esto
+     esto
+     esto
+     mov [WRITE_API_ADDR],25ff
+     add WRITE_API_ADDR,2
+     mov [WRITE_API_ADDR],FILL_API_ADDR
+     jmp find
+
+
+
+spacial:
+pause
+mov API_ADDR,eax
+esto
+jmp find1
+
+spacial2:
+     pause
+     mov API_ADDR,eax
+     esto
+     mov FILL_API_ADDR,edx     
+     esto   
+     mov [FILL_API_ADDR],API_ADDR 
+     mov WRITE_API_ADDR,edx    
+     esto
+     esto
+     mov WRITE_API_ADDR_2,edx
+     esto
+     esto
+     mov [WRITE_API_ADDR],25ff
+     add WRITE_API_ADDR,2
+     mov [WRITE_API_ADDR],FILL_API_ADDR
+     mov [WRITE_API_ADDR_2],25ff
+     add WRITE_API_ADDR_2,2
+     mov [WRITE_API_ADDR_2],FILL_API_ADDR
+     jmp find
+
+spacial3:
+    pause
+    jmp spacial2
+
+
+    
+end:
+   pause
+   bphwcall
+   bc
+   bpmc
+   mov eip,OEP_ADDR
+   ret

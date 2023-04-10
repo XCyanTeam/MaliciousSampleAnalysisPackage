@@ -1,0 +1,159 @@
+var jmpcall
+var temp
+var temp1
+var jmpadds
+var eaxsave
+
+//需要按实际修改的变量
+var count
+var he1
+var he2
+var codestart
+var codeend
+var callcode
+var callbianxing
+
+//mov count,1320000             //存放需要手动修复代码地址
+//mov he1,01811bbb            //跳转类型断点（记为he1)
+//mov he2,018400bb            //跳转地址断点(记为he2)
+//mov codestart,01810000        //stolen代码段开始地址
+//mov codeend,01813000          //stolen代码段结束地址
+//mov callbianxing,1930000     //call xxxxxxx变形要CALL的地址
+
+ask "请输入存放需要手动修复代码地址（在某一空白处或用插件申请一块内存）"
+cmp $RESULT, 0
+je error
+mov count, $RESULT
+
+ask "请输入第一硬断点（eax值为判断跳转类型）"
+cmp $RESULT, 0
+je error
+mov he1, $RESULT
+
+ask "请输入第二硬断点（jmp [esp-4]）"
+cmp $RESULT, 0
+je error
+mov he2, $RESULT
+
+ask "请输入stolen代码段开始地址"
+cmp $RESULT, 0
+je error
+mov codestart, $RESULT
+
+ask "请输入stolen代码段结束地址"
+cmp $RESULT, 0
+je error
+mov codeend, $RESULT
+
+ask "请输入call xxxxxxx变形中CALL的地址"
+cmp $RESULT, 0
+je error
+mov callbianxing, $RESULT
+
+BPHWS he1,"x"
+BPHWS he2,"x"
+
+
+eoe error
+mov jmpcall ,codestart
+
+cmp:
+inc jmpcall
+cmp jmpcall,codeend
+jae end
+find jmpcall,#e8#
+mov jmpcall,$RESULT
+cmp jmpcall,0
+je end
+mov temp,jmpcall
+inc temp
+mov callcode,[temp]
+add callcode,jmpcall
+add callcode,5
+cmp callcode,callbianxing
+jne cmp
+
+mov eip,jmpcall
+jmp start
+
+
+
+start: 
+run
+
+
+l2:
+cmp eip,he1              //判断四种跳转类型的地址
+jne l3
+mov eaxsave,eax
+jmp start
+
+
+l3:
+cmp eip,he2                    //JMP [ESP-4]跳转地址
+jne error
+mov jmpadds,[esp-4]
+cmp eaxsave,0                 //比较四种代码变形类型
+je r0
+cmp eaxsave,1
+je r1
+cmp eaxsave,2
+je r2
+cmp eaxsave,3
+je r3
+jmp error
+
+
+
+
+r0:
+mov [jmpcall],0E8
+mov temp,jmpadds
+sub temp,jmpcall
+sub temp,5
+mov temp1,jmpcall
+inc temp1
+mov [temp1],temp
+eval "类型0:{jmpadds}"
+cmt jmpcall,$RESULT
+jmp cmp
+r1:
+mov [jmpcall],0E9
+mov temp,jmpadds
+sub temp,jmpcall
+sub temp,5
+mov temp1,jmpcall
+inc temp1
+mov [temp1],temp
+eval "类型1:{jmpadds}"
+cmt jmpcall,$RESULT
+jmp cmp
+r2:
+mov [count],jmpcall
+add count,4
+eval "类型2:{jmpadds}"
+cmt jmpcall,$RESULT
+jmp cmp
+r3:
+mov [count],jmpcall
+add count,4
+eval "类型3:{jmpadds}"
+cmt jmpcall,$RESULT
+jmp cmp
+
+
+end:
+msg "代码修复完成"
+ret
+
+error:
+log jmpcall
+log jmpadds
+log eaxsave
+
+msg "错误中止!"
+ret
+
+
+
+

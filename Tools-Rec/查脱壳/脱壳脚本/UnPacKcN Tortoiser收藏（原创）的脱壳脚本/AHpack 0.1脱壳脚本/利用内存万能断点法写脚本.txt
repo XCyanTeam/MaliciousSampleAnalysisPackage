@@ -1,0 +1,70 @@
+bphwcall
+bpmc
+bc
+
+
+
+ask "«Î ‰»ÎPEID≤È’“µΩµ√oepµÿ÷∑£∫"
+mov addr,$RESULT
+bprm addr,4
+
+label0:
+esto
+
+
+
+label1:
+//’“Borland Delphi
+find eip,#558BEC83C4#
+cmp $RESULT,0
+je label2
+bpmc
+cmt eip,"Borland Delphi,find oep by Tortoiser"
+ret
+
+
+label2:
+//’“MicrosoftVisual C++
+find eip,#558BEC6A#
+cmp $RESULT,0
+je label3
+bpmc
+cmt eip,"MicrosoftVisual C++,find oep by Tortoiser"
+ret
+
+
+
+label3:
+//’“MicrosoftVisual Basic 
+find eip,#68????????E8#
+cmp $RESULT,0
+je label4
+bpmc
+cmt eip,"MicrosoftVisual Basic ,find oep by Tortoiser"
+ret
+
+
+label4:
+//’“Masm32
+find eip,#6A00E8#
+cmp $RESULT,0
+je label5
+cmt eip,"Masm32,find oep by Tortoiser"
+bpmc
+ret
+
+
+
+label5:
+//’“BC++
+find eip,#EB10#
+cmp $RESULT,0
+je label0
+bpmc
+cmt eip,"BC++,find oep by Tortoiser"
+ret
+
+
+end:
+msg "Œ¥’“µΩoep"
+ret

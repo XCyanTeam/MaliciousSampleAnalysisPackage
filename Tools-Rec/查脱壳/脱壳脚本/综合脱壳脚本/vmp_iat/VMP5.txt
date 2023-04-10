@@ -1,0 +1,295 @@
+var addr1
+var addr2
+var addr3
+var addr4
+var oep
+var tempesp
+var oldver
+
+var vmpsec1
+var vmpsec2
+var vmpsec3
+var vmretn
+
+mov vmpsec1, 406000
+mov vmpsec2, 40C000
+mov vmpsec3, 40C000
+mov oldver, 1
+
+mov tempesp, esp
+mov oep, eip
+mov eip, vmpsec1
+
+find1:
+find eip, #FF74????C2??00#
+cmp $RESULT, 0
+je next
+mov eip, $RESULT
+add $RESULT, 4
+mov vmretn, $RESULT
+bp vmretn
+add eip, 1
+jmp find1
+
+next:
+mov eip, vmpsec2
+
+find2:
+find eip, #FF74????C2??00#
+cmp $RESULT, 0
+je next2
+mov eip, $RESULT
+add $RESULT, 4
+mov vmretn, $RESULT
+bp vmretn
+add eip, 1
+jmp find2
+
+next2:
+mov eip, vmpsec3
+
+find3:
+find eip, #FF74????C2??00#
+cmp $RESULT, 0
+je start
+mov eip, $RESULT
+add $RESULT, 4
+mov vmretn, $RESULT
+bp vmretn
+add eip, 1
+jmp find3
+
+start:
+mov eip, 401000
+
+findcall:
+find eip, #E9??????00#
+cmp $RESULT,0
+je end
+mov addr1, $RESULT
+mov eip, addr1
+
+GCI addr1, DESTINATION
+cmp $RESULT, vmpsec3
+jb F1
+jmp skip
+
+F1:
+cmp $RESULT, vmpsec1
+ja isvmcall
+jmp skip
+
+isvmcall:
+run
+cmp oldver, 1
+je fixoldver
+
+finded:
+mov addr3, eip
+gn [esp]
+cmp $RESULT, 0
+je finder2
+
+mov addr2, [esp]
+mov eip, addr1
+eval "call {addr2}"
+asm eip, $RESULT
+call clean
+mov esp, tempesp
+jmp findcall
+
+finder2:
+mov eip, addr3
+sti
+find eip, #FFD?#
+cmp $RESULT, 0
+je end
+mov addr4, $RESULT
+call testexx
+mov eip, addr1
+eval "call {addr2}"
+asm eip, $RESULT
+call clean
+mov esp, tempesp
+jmp findcall
+
+fixoldver:
+mov addr2, eax
+mov eip, addr1
+eval "call {addr2}"
+asm eip, $RESULT
+//call clean
+mov esp, tempesp
+jmp findcall
+
+testexx:
+cmp [addr4], D0FF,2
+je iseax
+
+cmp [addr4], D1FF,2
+je isecx
+
+cmp [addr4], D2FF,2
+je isedx
+
+cmp [addr4], D3FF,2
+je isebx
+
+cmp [addr4], D4FF,2
+je isesp
+
+cmp [addr4], D5FF,2
+je isebp
+
+cmp [addr4], D6FF,2
+je isesi
+
+cmp [addr4], D7FF,2
+je isedi
+msg "什么都不是!"
+ret
+
+
+iseax:
+mov addr2, eax
+ret
+
+isecx:
+mov addr2, ecx
+ret
+
+isedx:
+mov addr2, edx
+ret
+
+isebx:
+mov addr2, ebx
+ret
+
+isesp:
+mov addr2, esp
+ret
+
+isebp:
+mov addr2, ebp
+ret
+
+isesi:
+mov addr2, esi
+ret
+
+isedi:
+mov addr2, edi
+ret
+
+end:
+mov eip, oep
+ret
+
+skip:
+add eip, 1
+log addr1, "不是被vm的call: "
+jmp findcall
+
+clean:
+cmp [addr1+5],A0,1
+je special3
+cmp [addr1+5],A1,1
+je cleanup
+cmp [addr1+5],A3,1
+je cleanup
+cmp [addr1+5],3B,1
+je cleanup
+cmp [addr1+5],8B,1
+je special3
+cmp [addr1+5],89,1
+je cleanup
+cmp [addr1+5],33,1
+je cleanup
+cmp [addr1+5],83,1
+je cleanup
+cmp [addr1+5],39,1
+je cleanup
+cmp [addr1+5],85,1
+je special3
+cmp [addr1+5],68,1
+je cleanup
+cmp [addr1+5],6A,1
+je cleanup
+cmp [addr1+5],E8,1
+je cleanup
+cmp [addr1+5],EB,1
+je cleanup
+//cmp [addr1+5],E9,1
+//je cleanup
+cmp [addr1+5],8D,1
+je cleanup
+cmp [addr1+5],C3,1
+je cleanup
+cmp [addr1+5],CC,1
+je cleanup
+cmp [addr1+5],C9,1
+je cleanup
+cmp [addr1+5],50,1
+je cleanup
+cmp [addr1+5],56,1
+je cleanup
+cmp [addr1+5],C7,1
+je cleanup
+
+cmp [addr1+5],75,1
+je special
+cmp [addr1+5],74,1
+je special
+
+cmp [addr1+5],FF,1
+je special2
+
+cmp [addr1+5],53,1
+je special4
+
+cleandown:
+mov [addr1+5], #90#
+ret
+
+cleanup:
+mov [addr1-1], #90#
+ret
+
+special:
+cmp [addr1+6],6A,1
+je cleandown
+cmp [addr1+6],68,1
+je cleandown
+cmp [addr1+6],8B,1
+je cleandown
+jmp cleanup
+
+special2:
+cmp [addr1+6],D0,1
+je cleanup
+cmp [addr1+6],D1,1
+je cleanup
+cmp [addr1+6],D2,1
+je cleanup
+cmp [addr1+6],D3,1
+je cleanup
+cmp [addr1+6],D4,1
+je cleanup
+cmp [addr1+6],D5,1
+je cleanup
+cmp [addr1+6],D6,1
+je cleanup
+cmp [addr1+6],D7,1
+je cleanup
+jmp cleandown
+
+special3:
+cmp [addr1+6],8B,1
+je cleandown
+jmp cleanup
+
+special4:
+cmp [addr1+6],53,1
+je cleanup
+jmp cleandown

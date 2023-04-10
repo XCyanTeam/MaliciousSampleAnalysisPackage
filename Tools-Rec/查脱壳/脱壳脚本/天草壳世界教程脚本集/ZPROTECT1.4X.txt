@@ -1,0 +1,40 @@
+var fi
+var oep
+var tmpesp
+var tmp
+
+bphwc
+bc
+loop1:
+sti
+find eip,#60#,1
+cmp $RESULT,0
+je loop1
+sti
+bphws esp,"r"
+esto
+bphwc
+sti
+sti
+bphws 009D2847,"x" 
+mov oep,eip
+mov tmpesp,esp
+mov fi,00450114
+loop:
+mov esp,tmpesp
+add fi,4
+cmp fi,004506D4
+jae exit
+cmp [fi],0
+je loop
+mov eip,[fi]
+esto
+mov tmp,[esp]
+mov [fi],tmp
+jmp loop
+
+exit:
+mov eip,oep
+mov esp,tmpesp
+bphwc
+ret

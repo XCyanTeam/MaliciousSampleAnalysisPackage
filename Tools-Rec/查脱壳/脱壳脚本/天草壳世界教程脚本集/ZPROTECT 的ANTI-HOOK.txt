@@ -1,0 +1,90 @@
+var oep
+var fi
+var tmpesp
+var tmp
+
+bc
+bphwc
+bphws 009D2847 ,"x"
+mov oep,eip
+mov tmpesp,esp
+mov fi,00450114
+loop:
+mov esp,tmpesp
+add fi,4
+cmp fi,004506D4
+jae exit
+cmp [fi],0
+je loop
+mov eip,[fi]
+esto
+mov tmp,[esp]
+cmp tmp,00F6C000
+ja fix1
+cmp tmp,00DD0000
+ja comctl32
+cmp tmp,00D80000
+ja Gdi32
+cmp tmp,00D70000
+ja Version
+cmp tmp,00CE0000
+ja Oleaut32
+cmp tmp,00C30000
+ja Advapi32
+cmp tmp,00BA0000
+ja USER32
+cmp tmp,00A80000
+ja Kernel32
+
+Kernel32:
+sub tmp,00A80000
+add tmp,7C800000
+mov [fi],tmp
+jmp loop
+
+USER32:
+sub tmp,00BA0000
+add tmp,77D10000
+mov [fi],tmp
+jmp loop
+
+Advapi32:
+sub tmp,00C30000
+add tmp,77DA0000
+mov [fi],tmp
+jmp loop
+
+Oleaut32:
+sub tmp,00CE0000
+add tmp,770F0000
+mov [fi],tmp
+jmp loop
+
+Version:
+sub tmp,00D70000
+add tmp,77BD0000
+mov [fi],tmp
+jmp loop
+
+Gdi32:
+sub tmp,00D80000
+add tmp,77EF0000
+mov [fi],tmp
+jmp loop
+
+comctl32:
+sub tmp,00dd0000
+add tmp,5D170000
+mov [fi],tmp
+jmp loop
+
+
+fix1:
+mov [fi],tmp
+jmp loop
+
+exit:
+bphwc
+mov eip,oep
+mov esp,tmpesp
+ret

@@ -1,0 +1,33 @@
+bphwcall
+bpmc
+bc
+
+
+
+var addr
+
+find eip,#FFE290C3#
+cmp $RESULT,0
+mov addr,$RESULT
+je end
+
+bp addr
+esto
+bc eip
+sto
+cmt eip,"find OEP by Tortoiser"
+
+good:
+
+ret
+
+
+
+
+
+
+
+
+end:
+msg " Î´ÕÒµ½ÌØÕ÷Âë£¡"
+ret

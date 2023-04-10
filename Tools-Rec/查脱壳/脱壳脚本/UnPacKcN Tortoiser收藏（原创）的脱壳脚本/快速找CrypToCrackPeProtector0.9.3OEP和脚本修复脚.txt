@@ -1,0 +1,39 @@
+//////////////////////////////////////////////////////////
+//快速找CrypToCrackPeProtector0.9.3OEP和脚本修复脚本//////
+//////////////////////////////////////////////////////////
+var addr1
+
+find eip, #893C8A#
+cmp $RESULT,0
+je end
+
+mov addr1,$RESULT
+bphws addr1,"x"
+esto
+bphwc eip
+
+asm addr1,  "MOV DWORD PTR DS:[EDX+ECX*4],Eax"
+
+
+sub addr1,100
+
+find addr1,#E9????????57FF3424#
+cmp $RESULT,0
+je end
+
+bp $RESULT
+esto
+bc 
+
+sto
+
+
+cmt eip, "find oep by Tortoiser"
+
+ret
+
+
+end:
+msg "对不起!!!请修复你的脚本"
+ret
+

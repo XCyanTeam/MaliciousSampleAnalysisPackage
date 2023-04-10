@@ -1,0 +1,77 @@
+/*
+VMProtect 2.07 Unpacker
+by ximo[LCG][DFJG]
+just for fun
+*/
+
+var getfunc
+var dllname
+var apiname
+var writeaddr
+var addr
+var apiaddr
+var key
+var info
+var end
+
+var logfile
+mov logfile,"FkIAT.txt"
+
+
+/*
+VM_WmDs32:       
+01050DA5    8910                  mov dword ptr ds:[eax],edx
+*/
+
+mov writeaddr,005392DF
+//OEP or stop script addr
+mov end,00477720
+
+bc
+bphwc
+
+gpa "CreateFileA", "kernel32"
+cmp $RESULT, 0
+je err
+bp $RESULT+26
+esto
+bc 
+rtu
+
+mov getfunc,eip
+bphws getfunc, "x"
+bphws end, "x"
+
+loop:
+run
+cmp eip,end
+je end
+gn eax
+cmp $RESULT,0
+je next
+
+do:
+mov apiaddr,eax
+mov dllname,$RESULT_1
+mov apiname,$RESULT_2
+bp writeaddr
+esto
+bc eip
+mov addr,eax
+mov key,apiaddr
+sub key,edx
+eval "{addr},{key},{dllname},{apiname}"
+mov info,$RESULT
+wrta logfile,info
+
+next:
+jmp loop
+
+end:
+ret
+
+err:
+bc
+bphwc
+ret
+

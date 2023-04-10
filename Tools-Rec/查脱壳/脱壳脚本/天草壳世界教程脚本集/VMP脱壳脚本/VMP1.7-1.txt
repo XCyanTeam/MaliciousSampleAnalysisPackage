@@ -1,0 +1,44 @@
+var fi
+var tmpesp
+var oep
+var tmp
+bc
+bphwc
+
+
+
+bphws 006A28E3   ,"x"
+mov fi,401000
+mov tmpesp,esp
+mov oep,eip
+
+loop:
+mov esp,tmpesp
+inc fi
+find fi,#E9??????00??8BC0#
+cmp $RESULT,0
+je exit
+mov fi,$RESULT
+cmp fi,00403E66
+je loop
+gci fi,DESTINATION
+cmp $RESULT,005EF000
+jb loop
+cmp $RESULT,006E2000
+jae loop
+mov eip,fi
+esto
+eval "jmp {eax}"
+asm fi,$RESULT
+jmp loop
+
+
+
+
+
+
+exit:
+mov eip,oep
+mov esp,tmpesp
+bphwc
+ret

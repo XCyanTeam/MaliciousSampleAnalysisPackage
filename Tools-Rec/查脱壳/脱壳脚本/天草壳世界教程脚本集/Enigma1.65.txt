@@ -1,0 +1,48 @@
+var fi
+var tmp
+var tmp1
+
+mov fi,401000
+loop:
+inc fi
+find fi,#FF25????2401#
+cmp $RESULT,0
+je exit
+mov fi,$RESULT
+gci fi,DESTINATION
+cmp $RESULT,00A63000
+jb loop
+cmp $RESULT,00BB0000
+jae loop
+cmp $RESULT,00B88000
+jae disasm
+cmp $RESULT,00B4B000
+jae informer
+mov tmp,[fi+2]
+mov tmp1,tmp
+mov tmp,[tmp]
+sub tmp,00A63000
+add tmp,10000000
+mov [tmp1],tmp
+jmp loop
+
+disasm:
+mov tmp,[fi+2]
+mov tmp1,tmp
+mov tmp,[tmp]
+sub tmp,00B88000
+add tmp,1850000
+mov [tmp1],tmp
+jmp loop
+
+informer:
+mov tmp,[fi+2]
+mov tmp1,tmp
+mov tmp,[tmp]
+sub tmp,00B4B000
+add tmp,1810000
+mov [tmp1],tmp
+jmp loop
+
+exit:
+ret

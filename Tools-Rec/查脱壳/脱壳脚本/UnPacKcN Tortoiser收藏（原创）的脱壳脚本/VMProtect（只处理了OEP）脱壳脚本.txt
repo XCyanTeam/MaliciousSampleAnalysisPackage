@@ -1,0 +1,311 @@
+//清除断点
+bc
+bpmc
+bphwc
+dbh
+
+
+
+//申请变量
+VAR:
+var VP_BPHWS_POINT
+var VP_BP_POINT
+var EXE_FILE_NAME
+var EXE_FILE_NAME_LEN
+var CHECK_EXE_FILE_NAME_ADDR
+var STR_FILE_EXETENSION
+var EXE_Processid
+var EXE_Processname
+var EXE_Processname_LEN
+var EXE_Processname_FREE_SPACE
+var EXE_Processname_FREE_SPACE_2
+var EIP_STORE
+var ModuleBase
+var PE_HEADER
+var CurrentDir
+var CodeSection_ModuleBase
+var CodeSection_Size
+var ModuleBase_And_ModuleSize
+var PE_SIGNATURE
+var PE_SIZE
+var PE_INFO_START
+var PE_TEMP
+var VB_YES
+var EXE_Processname_2
+var Cmp_Value
+var VB_ThunRTMain_Addr
+
+
+gpi EXEFILENAME
+mov EXE_FILE_NAME,$RESULT
+len EXE_FILE_NAME
+mov EXE_FILE_NAME_LEN,$RESULT
+sub EXE_FILE_NAME_LEN,03
+alloc 1000
+mov CHECK_EXE_FILE_NAME_ADDR,$RESULT
+mov [CHECK_EXE_FILE_NAME_ADDR],EXE_FILE_NAME
+add CHECK_EXE_FILE_NAME_ADDR,EXE_FILE_NAME_LEN
+scmpi [CHECK_EXE_FILE_NAME_ADDR],"exe"
+je Start
+scmpi [CHECK_EXE_FILE_NAME_ADDR],"EXE"
+je Start
+scmpi [CHECK_EXE_FILE_NAME_ADDR],"dll"
+je Start
+scmpi [CHECK_EXE_FILE_NAME_ADDR],"DLL"
+je Start
+msg "请确定载入的文件是EXE文件或者DLL文件吗？？？"
+pause
+ret
+
+
+
+
+Start:
+readstr [CHECK_EXE_FILE_NAME_ADDR],03
+str $RESULT
+mov STR_FILE_EXETENSION,$RESULT
+gpi PROCESSID
+mov EXE_Processid,$RESULT
+gpi PROCESSNAME
+mov EXE_Processname,$RESULT
+mov EXE_Processname_2,$RESULT
+len EXE_Processname
+mov EXE_Processname_LEN,$RESULT
+buf EXE_Processname_LEN
+alloc 1000
+mov EXE_Processname_FREE_SPACE,$RESULT
+mov EXE_Processname_FREE_SPACE_2,$RESULT
+mov EIP_STORE,eip
+mov eip,EXE_Processname_FREE_SPACE
+mov [EXE_Processname_FREE_SPACE],EXE_Processname
+
+EXE_Processname_CHECK:
+cmp [EXE_Processname_FREE_SPACE],00
+je EXE_Processname_CHECK_2
+cmp [EXE_Processname_FREE_SPACE],#20#, 01
+je EXE_Processname_CHECK_1
+cmp [EXE_Processname_FREE_SPACE],#2E#, 01
+je EXE_Processname_CHECK_1
+inc EXE_Processname_FREE_SPACE
+jmp EXE_Processname_CHECK
+
+
+EXE_Processname_CHECK_1:
+mov [EXE_Processname_FREE_SPACE], #5F#, 01
+jmp EXE_Processname_CHECK
+
+EXE_Processname_CHECK_2:
+readstr [EXE_Processname_FREE_SPACE_2], 08
+mov EXE_Processname, $RESULT
+str EXE_Processname
+mov eip, EIP_STORE
+free EXE_Processname_FREE_SPACE
+
+
+
+
+GMA EXE_Processname,MODULEBASE
+cmp $RESULT,0
+jne Get_MoudleBase
+pause
+pause
+
+
+Get_MoudleBase:
+mov ModuleBase,$RESULT
+mov PE_HEADER,$RESULT
+
+Get_CurrentDir:
+GPI CURRENTDIR
+mov CurrentDir, $RESULT
+
+Get_PE_HEADER_Size:
+gmemi PE_HEADER, MEMORYSIZE
+mov PE_HEADER_SIZE, $RESULT
+
+Get_CodeSection_ModuleBase_And_Size:
+add CodeSection_ModuleBase,ModuleBase
+add CodeSection_ModuleBase, PE_HEADER_SIZE
+
+Get_ALL_Section_Size:
+GMI ModuleBase, MODULESIZE
+mov ModuleSize, $RESULT
+add ModuleBase_And_ModuleSize, ModuleBase
+add ModuleBase_And_ModuleSize, ModuleSize
+
+
+
+gmemi CodeSection_ModuleBase,MEMORYSIZE
+mov CodeSection_Size,$RESULT
+add PE_HEADER,03C
+mov PE_SIGNATURE,PE_HEADER
+sub PE_HEADER,03C
+mov PE_SIZE,[PE_SIGNATURE]
+add PE_INFO_START,PE_HEADER
+add PE_INFO_START,PE_SIZE
+
+
+
+
+
+
+eval "\r\n{***********************}\r\n你确定是找OEP吗???\r\n{***********************}"
+
+msgyn $RESULT
+cmp $RESULT,1
+je find_oep
+jmp end
+
+
+
+
+
+
+find_oep:
+ask "请输入代码段的基址："
+cmp $RESULT,0
+je end 
+mov CodeSection_ModuleBase,$RESULT
+
+ask "请输入代码段的大小："
+cmp $RESULT,0
+je end 
+mov CodeSection_Size,$RESULT
+
+eval "\r\n{***********************}\r\n你的程序是VB程序吗?如果是请点击YES,不是点击NO\r\n{***********************}"
+
+msgyn $RESULT
+cmp $RESULT,1
+je VB_OEP
+cmp $RESULT,0
+je Normal
+jmp end
+
+
+VB_OEP:
+
+bpmc
+bc
+bphwc
+
+gpa "ThunRTMain","MSVBVM60.dll"
+cmp $RESULT,0
+je end
+mov VB_ThunRTMain_Addr,$RESULT
+add VB_ThunRTMain_Addr,1
+bp VB_ThunRTMain_Addr
+
+CMP_VB_RETN:
+esto
+
+cmp [esp+4],CodeSection_ModuleBase
+jb CMP_VB_RETN
+cmp [esp+4],CodeSection_ModuleBase+CodeSection_Size
+ja CMP_VB_RETN
+bc VB_ThunRTMain_Addr
+mov VB_OEP_ADDR,[esp+4]
+sub VB_OEP_ADDR,0A
+mov eip,VB_OEP_ADDR
+cmt eip,"这里是OEP或者OEP附近"
+
+jmp end
+
+
+
+
+
+
+
+
+Normal:
+
+eval "\r\n{***********************}\r\n对VirtualProtect函数设置普通断点请按YES,下硬件执行断点请按NO???\r\n{***********************}"
+
+msgyn $RESULT
+cmp $RESULT,1
+je SET_BP_POINT
+cmp $RESULT,0
+je SET_BPHWS_POINT
+jmp end
+
+
+SET_BP_POINT:
+gpa "VirtualProtectEx","kernel32.dll"
+cmp $RESULT,0
+je end
+mov VP_BP_POINT,$RESULT
+bp VP_BP_POINT
+esto
+mov Cmp_Value,[esp+8]
+jmp cmp_retntime
+
+SET_BPHWS_POINT:
+gpa "VirtualProtectEx","kernel32.dll"
+cmp $RESULT,0
+je end
+mov VP_BPHWS_POINT,$RESULT
+bphws VP_BPHWS_POINT
+esto
+mov Cmp_Value,[esp+8]
+jmp cmp_retntime
+
+
+
+
+cmp_retntime:
+esto
+cmp [esp+8],Cmp_Value,4
+je Set_ESP_BPHWS_X
+jmp cmp_retntime
+
+
+
+
+Set_ESP_BPHWS_X:
+bc
+bpmc
+bphwc
+cmp esp,60000
+jb end
+cmp esp,70000
+ja cmp_esp
+bphws 6ffc0,"w"
+jmp Start_Find_OEP
+
+
+cmp_esp:
+bphws 0012FFC0,"w"
+jmp Start_Find_OEP
+
+Start_Find_OEP:
+esto
+bphwc 0012ffc0
+bphwc 6ffc0
+bprm CodeSection_ModuleBase,CodeSection_Size
+
+cmp_code_eip:
+esto
+cmp eip,CodeSection_ModuleBase
+jb cmp_code_eip
+cmp eip,CodeSection_ModuleBase+CodeSection_Size
+ja cmp_code_eip
+
+
+finish:
+msg "请PATCH OEP代码,然后再次继续运行脚本脱壳"
+pause
+jmp Dump_APP
+
+
+Dump_APP:
+eval "{CurrentDir}{EXE_Processname_2}_Dump_.{STR_FILE_EXETENSION}"
+dpe $RESULT,eip
+
+
+ret
+
+end:
+
+ret
+
+

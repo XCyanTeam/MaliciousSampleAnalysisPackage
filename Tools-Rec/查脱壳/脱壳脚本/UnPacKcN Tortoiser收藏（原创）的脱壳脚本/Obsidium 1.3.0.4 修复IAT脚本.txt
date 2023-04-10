@@ -1,0 +1,93 @@
+///////////////////////////////////////////////////
+///////   Obsidium 1.3.0.4 修复IAT脚本       /////
+//////           by Tortoiser               /////
+////////////////////////////////////////////////
+///////////////////////////////////////////////
+///          2012.8.10                   /////
+//                                      /////
+////////////////////////////////////////////
+
+
+bpmc
+bc
+bphwcall
+dbh
+
+
+
+
+var IAT_START_ADDR
+var IAT_END_ADDR
+var OEP_ADDR
+var SHOW_API_ADDR
+var API_ADDR
+var FILL_API_ADDR
+
+///////////////////////////////////////////////////////////
+/////////////////手动添加数据栏///////////////////////////
+/////////////////////////////////////////////////////////
+mov FILL_API_ADDR_START,00400FFc //IAT的起始地址-4 /////
+mov FILL_API_ADDR_END,00401088  //IAT的结束地址   /////
+mov OEP_ADDR,00401171          // (伪)OEP地址    /////
+/////////////////////////////////////////////////////
+////////////////////////////////////////////////////
+
+bphws OEP_ADDR,"x"
+esto
+bphwcall
+
+
+
+loop:
+pusha
+add FILL_API_ADDR_START,4
+cmp FILL_API_ADDR_START,FILL_API_ADDR_END
+ja end
+mov IAT_KEY_ADDR,[FILL_API_ADDR_START],4
+cmp IAT_KEY_ADDR,0
+je loop
+
+mov eip,IAT_KEY_ADDR
+sti
+sti
+sti
+sti
+
+find eip,#0FB706#
+cmp $RESULT,0
+je end
+bp $RESULT
+esto
+bc eip
+sto
+cmp eax,1
+je loop
+cmp eax,2
+je GET_2
+
+
+GET_2:
+find eip,#FF5354EB01#
+cmp $RESULT,0
+je end
+mov SHOW_API_ADDR,$RESULT
+
+bp SHOW_API_ADDR
+esto
+bc eip
+sto
+
+mov API_ADDR,eax
+mov [FILL_API_ADDR_START],API_ADDR
+
+popa
+jmp loop
+
+
+
+end:
+
+msg "IAT已经处理完成，剩下几个没有处理完的请手动处理....."
+mov eip,OEP_ADDR
+
+ret

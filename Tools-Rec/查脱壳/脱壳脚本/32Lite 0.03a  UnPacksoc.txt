@@ -1,0 +1,15 @@
+bc
+bpmc
+bphwc
+
+var addr
+
+sto
+mov addr,esp
+bphws addr,"r"
+run
+sto
+
+msg "Find OEP By UnPacKcNïL‘Ù!"
+cmt eip,"Find OEP By UnPacKcNïL‘Ù!"
+ret

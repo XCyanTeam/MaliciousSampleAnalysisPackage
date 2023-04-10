@@ -1,0 +1,360 @@
+////////////////////////////////////////////////////////////
+/// TMD/WL patch key script         	 	 	 ///
+/// by starfall                                          ///
+///                           2009.07.25                 ///
+////////////////////////////////////////////////////////////
+
+/*
+0.6	增加对win7的支持
+0.5	增加对CodeVirtualizer的支持
+0.4	增加对Themida的支持
+0.3	修改patch UserName, Org, CustomData, MachineID的CheckSum的方式，支持2080，并更具通用性
+0.2	支持WL2060，2090，不支持2080
+0.1	支持WL1990-2050版本
+*/
+
+var pNtAllocateVirtualMemory
+var pVM
+var nVMLen
+var pDecode
+var nCount
+var nAllocLen
+var pKeySec
+var pbp
+var nCheck
+var nMax
+var nCur
+var nSum0
+var nSum1
+var pSearch
+var nLeft
+var pCmp
+var nSetZ
+var nStack
+var nStackLen
+var nSub
+var nCheckSum
+var nCmpType
+var pStack
+var nCmpType
+var nType
+
+var pFirst
+var pSecond
+var pHashLen
+
+bc
+bpmc
+bphwcall
+
+gpa "NtAllocateVirtualMemory", "ntdll.dll"
+mov pNtAllocateVirtualMemory, $RESULT
+cmp pNtAllocateVirtualMemory, 0
+jz end
+add pNtAllocateVirtualMemory, C
+bphws pNtAllocateVirtualMemory, "x"
+
+start1:
+mov nCount, 0
+
+loop1:
+esto
+//mov nAllocLen, [ebp+10]
+mov nAllocLen, [esp+10]
+mov nAllocLen, [nAllocLen]
+cmp nAllocLen, 1000
+jnz findVM
+add nCount, 1
+jmp loop1
+
+findVM:
+cmp nCount, 3
+jb start1
+cmp nAllocLen, 100000
+jb start1
+//mov pVM, [ebp+C]
+mov pVM, [esp+8]
+mov pVM, [pVM]
+mov nVMLen, nAllocLen
+
+findDecodeSection:
+esto
+//mov len, [ebp+10]
+mov len, [esp+10]
+mov len, [len]
+cmp len, A000
+jnz findDecodeSection
+
+//mov pDecode, [ebp+C]
+mov pDecode, [esp+8]
+mov pDecode, [pDecode]
+cmp pDecode, 10000000
+jae findDecodeSection
+
+bphwc pNtAllocateVirtualMemory
+
+bprm pDecode, A000
+esto
+bpmc
+bprm pVM, nVMLen
+esto
+bpmc
+
+First:
+find pDecode, #558BEC81C4????????608D85????????50FF7518FF7514#, A000
+mov nFirst, $RESULT
+bphws nFirst, "x"
+
+Second:
+find pDecode, #55E8000000005D81ED????????8D8D????????898D????????5D#, A000
+mov nSecond, $RESULT
+bphws nSecond, "x"
+
+esto
+mov nFirst, esp
+add nFirst, 10
+mov pHashLen, nFirst
+add pHashLen, 4
+mov nFirst, [nFirst]
+
+//增加对主程序的自动识别
+mov nType, nFirst
+add nType, 4
+find nType, #7DCB24B1#, 4
+cmp $RESULT, 0
+jnz find_TMD
+
+find nType, #6505D536#, 4
+cmp $RESULT, 0
+jnz find_WL
+
+find nType, #7D00FF0E#, 4
+cmp $RESULT, 0
+jnz find_CV
+
+jmp end
+
+find_TMD:
+mov nType, 0
+jmp patchHash1
+
+find_WL:
+mov nType, 1
+jmp patchHash1
+
+find_CV:
+mov nType, 2
+
+patchHash1:
+mov [nFirst],#028181006cf10486aa2744df01792001558aea403f3ce66634358896d2aff4d7ae4ecdc3a50fbe4c1733113bb213d14e95550ecbf64ae307b4b822432d1831884777636645ba037d33a05d7ff628085718beaaab3313d518c62b69ddb7cb20c337e6786f36fc60fbd08cb7fd398a6b2ccaaa2d5ba068463f1e266cd66784db812f9ef18f0203010001#
+
+mov [pHashLen], 89
+
+esto
+mov nSecond, esp
+add nSecond, 4
+mov pHashLen, nSecond
+add pHashLen, 4
+mov nSecond, [nSecond]
+mov [nSecond],#02820100d2799f5a3a91027aac68696f9ed833c4033d6ab3147a2dda718c1804eb881aab6f8caf1d08820b3055218a02332cd1f6d5d7194124f1b2aa29d877c6bb4f8c724788b58b536e41a8d92cfaf36a0c23de18b5c91900f8cdb54f41ef6a6cfeb8476375849af25afd19d940a37ce65f3f304c3a7132e4703da7f676524215eadd406503cf6a7d88b295656af233597fe1ed37cbba5d46e4514a06796b001ce49c93adce25b01bdde129f136caf31a31a0d4029c984577754250175ba6df8198c665bd3e83d81e3ef30a3a59d314647363704915da462e0ee90d6214c4df6bd6240e094645b89e29acffcec1f82cb3b8aaed9f7417a20a6d999701b2f3c8fa67ac7b0203010001#
+
+mov [pHashLen], 109
+
+bphwcall
+mov pKeySec, esp
+add pKeySec, C
+mov pKeySec, [pKeySec]
+
+mov pbp, pKeySec
+add pbp, 2F
+bphws pbp, "w"
+
+esto
+
+mov pbp, pKeySec
+add pbp, 20
+
+cmp nType, 0
+jz TMD1
+
+cmp nType, 1
+jz WL1
+
+cmp nType, 2
+jnz end
+
+mov [pbp], #9E2B208A22FA24E3#
+jmp patch1_end
+
+WL1:
+mov [pbp], #EACCC6400EF42929#
+jmp patch1_end
+
+TMD1:
+mov [pbp], #0AA8FB914267E5A7#
+
+patch1_end:
+
+esto
+bphwcall
+
+//试用清0
+mov pbp, pKeySec
+add pbp, 25
+fill pbp, 2, 0
+
+mov pbp, pKeySec
+add pbp, 2C
+bphws pbp, "r"
+esto
+bphwcall
+
+//下or r32,r32断点
+mov pSearch, pVM
+
+A:
+mov nLeft, nVMLen
+add nLeft, pVM
+sub nLeft, pSearch
+find pSearch, #09??9CE9#, nLeft
+mov pCmp, $RESULT
+cmp pCmp, 0
+jz B
+mov nSub, pCmp
+sub nSub, 1
+mov nSub, [nSub]
+and nSub, FF
+cmp nSub, 66
+jz next1
+bp pCmp
+next1:
+mov pSearch, pCmp
+add pSearch, 1
+jmp A
+
+B:
+mov pSearch, pVM
+or2:
+mov nLeft, nVMLen
+add nLeft, pVM
+sub nLeft, pSearch
+find pSearch, #09??9C????70#, nLeft
+mov pCmp, $RESULT
+cmp pCmp, 0
+jz out1
+mov nSub, pCmp
+sub nSub, 1
+mov nSub, [nSub]
+and nSub, FF
+cmp nSub, 66
+jz next2
+bp pCmp
+next2:
+mov pSearch, pCmp
+add pSearch, 1
+jmp or2
+
+out1:
+esto
+bc
+mov nCmpType, [eip+1]
+and nCmpType, 7
+sti
+mov pbp, pKeySec
+add pbp, 35
+cmp nCmpType, 1
+jz write_ecx
+cmp nCmpType, 2
+jz write_edx
+cmp nCmpType, 3
+jz write_ebx
+cmp nCmpType, 0
+jnz end
+
+mov eax, [pbp]
+and eax, FFFF
+jmp patchCheckSum
+
+write_ebx:
+mov ebx, [pbp]
+and ebx, FFFF
+jmp patchCheckSum
+
+write_ecx:
+mov ecx, [pbp]
+and ecx, FFFF
+jmp patchCheckSum
+
+write_edx:
+mov edx, [pbp]
+and edx, FFFF
+
+patchCheckSum:
+//下cmp r16,r16断点
+mov pSearch, pVM
+setbp:
+mov nLeft, nVMLen
+add nLeft, pVM
+sub nLeft, pSearch
+
+find pSearch, #6639??9C#, nLeft
+mov pCmp, $RESULT
+cmp pCmp, 0
+jz out
+bp pCmp
+mov pSearch, pCmp
+add pSearch, 1
+jmp setbp
+
+out:
+esto
+//bc
+sto
+sto
+mov nSetZ, 200246
+mov [esp], nSetZ
+
+mov pbp, pKeySec
+add pbp, 22
+bphws pbp, "w"
+esto
+bphwcall
+
+mov pbp, pKeySec
+
+cmp nType, 0
+jz TMD2
+
+cmp nType, 1
+jz WL2
+
+cmp nType, 2
+jnz end
+
+mov [pbp], #91A5C9AF#
+add pbp, 16
+mov [pbp], #6CACA7A1#
+jmp patch2_end
+
+WL2:
+mov [pbp], #B2DA896D#
+add pbp, 16
+mov [pbp], #CCA9A97D#
+jmp patch2_end
+
+TMD2:
+mov [pbp], #7C7AD97F#
+add pbp, 16
+mov [pbp], #DB78E8C3#
+
+patch2_end:
+
+bc
+bpmc
+bphwcall
+
+run
+
+end:
+msg "something wrong"
+ret

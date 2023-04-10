@@ -1,0 +1,10 @@
+gmi eip,MODULEBASE
+mov modbase,$RESULT
+sub modbase,10000
+
+allocloop:
+alloc 10000     //申请的内存大小
+mov mem, $RESULT
+cmp mem,modbase   //比较是否与当前基址相等
+jne allocloop
+ret 

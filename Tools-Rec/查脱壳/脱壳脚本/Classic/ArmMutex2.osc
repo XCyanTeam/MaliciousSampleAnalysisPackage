@@ -1,0 +1,24 @@
+var OpenM
+
+dbh
+gpa "OpenMutexA", "kernel32.dll"
+mov OpenM, $RESULT
+bp OpenM
+eob DumMutex
+run
+
+DumMutex:
+bc OpenM
+cob
+exec
+pushad
+pushfd
+push edx
+push 0
+push 0
+call CreateMutexA
+popfd
+popad
+jmp OpenMutexA
+ende
+ret

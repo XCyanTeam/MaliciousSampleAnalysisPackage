@@ -1,0 +1,96 @@
+
+bphwcall
+bc
+dbh
+
+var bpesp1
+var bpesp2
+var retn10addr
+
+sti
+mov bpesp1,esp
+bphws bpesp1,"r"
+esto
+bphwc bpesp1
+
+
+mov bpesp2,esp
+bphws bpesp2,"r"
+
+gpa "VirtualAlloc","kernel32.dll"
+cmp $RESULT,0
+je end
+add $RESULT,19
+mov retn10addr,$RESULT
+bp retn10addr
+esto
+bc eip
+sto
+
+find eip,#74086A00FF95A62C4000#
+cmp $RESULT,0
+je end
+
+mov [$RESULT],#EB#,1
+
+add $RESULT,a
+find $RESULT,#FF95A62C4000#
+cmp $RESULT,0
+je end
+sub $RESULT,2
+mov [$RESULT],#EB#,1
+
+find $RESULT,#ff25#
+cmp $RESULT,0
+je end
+
+add $RESULT,4
+mov [$RESULT],#9090#,2
+
+gpa "VirtualAlloc","kernel32.dll"
+cmp $RESULT,0
+je end
+bp $RESULT
+esto
+bc eip
+
+rtu
+
+
+find eip,#E8??000000#
+cmp $RESULT,0
+je end
+bp $RESULT
+esto
+bc eip
+
+sti
+sti
+sti
+sti
+sti
+sti
+sti
+sti
+sti
+sti
+sti
+mov [eip],#890290#,3
+esto
+bphwc bpesp2
+mov [004048AD],#6892484000E8410C000068777940006A016A00E8BB0B0000E8E00B000035B7000000#
+
+mov eip,004048AD
+cmt eip,"OEP修复完成by Tortoiser"
+msg "现在请脱壳和修复吧!!!"
+ret
+
+
+
+
+
+
+end:
+
+msg "脚本出现错误,请检查!!!"
+ret

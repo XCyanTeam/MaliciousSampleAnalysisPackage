@@ -1,0 +1,237 @@
+////////////////////////////////////////////////////////////
+/// SDProtector SDK 修复脚本                             ///
+/// by fxyang                                            ///
+///                           2010.05.21                 ///
+////////////////////////////////////////////////////////////
+
+/*
+************************说明*******************************
+SDProtector SDK 特征--
+这个壳的SDK有两种，一种是用于程序初始化时，这个SDK的特点是运行
+后被SDK保护的代码会被清零。这种模式特点是CALL到PE头里面的跳转表。
+另外一种是使用是解密，运行完再次加密。这种模式特点是直接CALL栈
+里的跳转表。
+
+脚本功能--    
+本脚本用于脱壳后存在SDK代码修复。
+
+脚本运行环境--
+修复壳的SDK代码必须在带壳的环境下进行。因为修复使用的数据和环境
+脱壳后无法生成。这个环境获得有两种--正在运行的原程序或者是脱壳到
+OEP时的环境（脱壳脚本存在问题，到OEP时会丢失PE头里面的跳转指令）。
+
+修复环境的搭建--
+完整代码数据获得，一般是使用脱壳脚本到代码OEP处保存下来的代码数据。
+或者是脱壳机脱壳后代码数据。
+
+壳的环境获得，一般是正在运行的原程序，使用OD Attach进程，修改EIP
+到代码的第一条指令（这时不用管原程序能不能运行，修复只是需要壳的
+这个环境）。
+
+把拿到的完整代码数据覆盖OD中的代码数据。完成环境搭建。
+
+通过以上步骤就可以运行脚本，得到解密的SDK代码数据，贴回到脱壳后的
+代码中，保存完成修复工作。
+*/
+
+
+data:
+var codebase
+var codeend
+var modulebase
+var tmp
+var temp
+var tmpbp
+var codeip
+var endip
+var i
+var j 
+
+var Sdkendflag
+var sdkflag
+var notfixflag
+cmp $VERSION,"1.65"     
+jb Err_ver
+lc
+LOG "------------Statr--------------"
+
+mov Sdkendflag,0
+mov sdkflag,0
+mov notfixflag,0
+mov i,0
+mov j,0
+bphwcall
+bpmc
+
+// 获取代码段参数
+gmi eip,MODULEBASE
+mov modulebase,$RESULT
+gmemi eip,MEMORYBASE     
+mov codebase,$RESULT
+//取代码段大小，这个不准确，最好自己找
+gmemi eip,MEMORYSIZE     
+mov codesize,$RESULT
+add codesize,codebase
+mov codeend,codesize
+mov codeip,codebase
+
+loop:
+find codeip,#E8????????EB#
+cmp $RESULT,0
+je stop
+cmp codeend,$RESULT
+jb end
+mov temp,$RESULT
+inc temp
+mov tmp,[temp]
+add tmp,$RESULT
+cmp tmp,codebase
+jb findsdk
+mov codeip,$RESULT
+inc codeip
+jmp loop
+
+//发现SDK_START
+findsdk:
+
+mov codeip,$RESULT
+inc codeip
+cmp Sdkendflag,1
+je findsdkend
+cmp tmp,modulebase
+jb findsdk1
+//第一种模式：从PE头里查表
+//发现脚本跑完后这种模式的PE头跳转表未赋值,所以要结合起来修复
+mov temp,$RESULT
+add temp,0e
+mov al,[temp]
+cmp al,0E8
+je sdkdataerr
+mov al,[tmp]
+cmp al,0E9
+je beginsdk1
+lognotfix:
+mov temp,codeip
+dec temp
+eval "存在未修复的SDK地址：{temp}"
+Msg $RESULT
+log $RESULT
+mov sdkflag,1
+mov notfixflag,1
+mov Sdkendflag,1
+inc j
+jmp loop
+
+beginsdk1:
+mov eip,$RESULT
+sti
+mov [$RESULT],90
+inc $RESULT
+mov [$RESULT],90909090
+sti
+sti
+find eip,#5DC3#
+cmp $RESULT,0
+je stop
+inc $RESULT
+mov tmp,$RESULT
+bp tmp
+find $RESULT,#5DC3#
+cmp $RESULT,0
+je begin1
+inc $RESULT
+bp $RESULT
+begin1:
+esto
+
+bc tmp
+cmp $RESULT,0
+je end1
+bc $RESULT
+end1:
+sti
+add codeip,04
+cmp eip,codeip
+jne error
+mov Sdkendflag,1
+mov sdkflag,1
+inc i
+log $RESULT
+jmp loop
+
+sdkdataerr:
+eval "SDK加密数据被清零，请在脱壳的代码中找到这个数据，恢复数据，重新运行脚本！"
+Msg $RESULT
+jmp lognotfix
+
+findsdk1:
+//第二种模式：在栈中查表
+mov eip,$RESULT
+sti
+mov [$RESULT],90
+inc $RESULT
+mov [$RESULT],90909090
+sti
+find eip,#5DC3#
+cmp $RESULT,0
+je stop
+inc $RESULT
+mov tmp,$RESULT
+bp tmp
+find $RESULT,#5DC3#
+cmp $RESULT,0
+je begin2
+inc $RESULT
+bp $RESULT
+begin2:
+esto
+
+bc tmp
+cmp $RESULT,0
+je end2
+bc $RESULT
+end2:
+sti
+add codeip,04
+cmp eip,codeip
+jne error
+mov Sdkendflag,1
+mov sdkflag,1
+inc i
+log $RESULT
+jmp loop
+
+//发现SDK_END
+findsdkend:
+mov endip,$RESULT
+mov Sdkendflag,0
+mov [$RESULT],90
+inc $RESULT
+mov [$RESULT],90909090
+add codeip,04
+jmp loop
+
+stop:
+cmp sdkflag,0
+je notsdkcode
+jmp end
+notsdkcode:
+Msg "未发现SDK！"
+pause
+
+end:
+cmp notfixflag,0
+je fixover
+eval "存在未修复的SDK地址,请在脚本Log中查询！"
+Msg  $RESULT
+fixover:
+eval "完成修复！共修复{i}处SDK，未修复的SDK {j}处，最后修复的SDK地址：{endip},请复制这个地址以上数据到脱壳程序中完成修复。"
+Msg  $RESULT
+log "------------End--------------"
+pause
+
+error:
+Msg "杯具了！请重新来过！"
+pause
+
+

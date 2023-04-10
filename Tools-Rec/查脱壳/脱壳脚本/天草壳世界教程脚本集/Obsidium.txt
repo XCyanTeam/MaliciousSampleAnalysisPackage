@@ -1,0 +1,27 @@
+var fi
+var fix
+var oep
+var tmpesp
+
+mov oep,eip
+mov tmpesp,esp
+mov fi,405ffc
+loop:
+mov esp,tmpesp
+add fi,4
+cmp fi,00406174
+jae exit
+mov fix,[fi]
+cmp fix,10000000
+jae loop
+mov eip,fix
+esto
+cmp eip,00934F13 
+jnz loop
+mov [fi],eax
+jmp loop
+
+exit:
+mov eip,oep
+mov esp,tmpesp
+ret

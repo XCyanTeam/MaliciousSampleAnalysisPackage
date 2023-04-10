@@ -1,0 +1,49 @@
+/*
+VMProtect 2.01-2.06 Unpacker of GetAPI
+by ximo[LCG][DFJG]
+just for fun
+*/
+
+var tmp
+var end
+
+mov end,0100739d
+
+bc
+bphwc
+
+gpa "VirtualProtect", "kernel32"
+cmp $RESULT, 0
+je err
+bp $RESULT+13
+esto
+bc
+rtu
+
+
+mov tmp,eip
+bphws tmp,"x"
+bphws end,"x"
+
+loop:
+run
+cmp eip,end
+je end
+gn eax
+cmp $RESULT,0
+je loop
+log eax
+jmp loop
+
+end:
+bphwc
+ret
+
+
+err:
+bc 
+bphwc
+ret
+
+ 
+

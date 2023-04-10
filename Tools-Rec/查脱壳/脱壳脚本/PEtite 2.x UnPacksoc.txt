@@ -1,0 +1,24 @@
+msg "请确认您所使用的系统是windows 7 或windows 8 32位的系统，再从菜单处运行此脚本！"
+pause
+
+bc
+bpmc
+bphwc
+
+var addr
+
+sto
+sto
+sto
+sto
+sto
+mov addr,esp
+bphws addr,"r"
+run
+bphwc
+sto
+sto
+
+msg "Find OEP By UnPacKcN風戀"
+cmt eip,"Find OEP By UnPacKcN風戀"
+ret

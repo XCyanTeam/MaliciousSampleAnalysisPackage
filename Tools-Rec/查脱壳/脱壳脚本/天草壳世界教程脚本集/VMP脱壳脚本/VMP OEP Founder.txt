@@ -1,0 +1,93 @@
+/*
+VMProtect OEP Founder 1.2
+by ximo[LCG][DFJG]
+Code By Brent
+just for fun
+*/
+
+var imagebase
+var tmp
+var pNtHeader
+var sectionaddr
+var sectionsize
+var sum
+var protection
+var firstpro
+var isfirst
+var retn
+
+mov isfirst,1
+
+//VM_Retn
+mov retn,0079EEAC
+
+bc
+bphwc
+
+
+GMI eip, MODULEBASE
+mov imagebase, $RESULT
+mov tmp,[imagebase+3c]
+add tmp,imagebase
+mov pNtHeader,tmp
+add pNtHeader,f8
+mov tmp,pNtHeader
+add tmp,c
+mov sectionaddr,[tmp]
+add sectionaddr,imagebase
+mov tmp,pNtHeader
+add tmp,8
+mov sectionsize,[tmp] 
+mov sum,sectionaddr
+add sum,sectionsize
+
+ 
+
+gpa "VirtualProtect", "kernel32"
+cmp $RESULT, 0
+je err
+findop $RESULT,#C21000#
+cmp $RESULT, 0
+je err
+bp $RESULT
+
+loop:
+esto
+cmp isfirst,1
+je firstt
+mov protection,[esp+4]
+cmp protection,firstpro
+je next
+jmp loop
+
+firstt:
+mov firstpro,[esp+4]
+mov isfirst,0
+jmp loop
+
+
+next:
+bc
+rtu
+
+find:
+bp retn
+esto
+bc
+
+
+bprm sectionaddr,sectionsize
+esto
+
+cmp eip,sum
+bpmc
+ja find
+
+finded:
+cmt eip,"this is OEP or Near OEP!"
+ret
+
+err:
+ret
+ 
+

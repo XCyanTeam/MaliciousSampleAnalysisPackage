@@ -1,0 +1,32 @@
+var fi
+var tmp
+var oep
+var tmpesp
+mov oep,eip
+mov tmpesp,esp
+mov fi,401000
+bphws 00A3ADC3 ,"x"
+
+loop:
+mov esp,tmpesp
+find fi,#E9??????0090#
+cmp $RESULT,0
+je exit
+mov fi,$RESULT
+gci fi,DESTINATION
+mov tmp,$RESULT
+find tmp,#68#,1
+cmp $RESULT,0
+je loop
+mov eip,fi
+esto
+mov tmp,[esp]
+eval "jmp {tmp}"
+asm fi,$RESULT
+jmp loop
+
+exit:
+mov eip,oep
+mov esp,tmpesp
+bphwc
+ret

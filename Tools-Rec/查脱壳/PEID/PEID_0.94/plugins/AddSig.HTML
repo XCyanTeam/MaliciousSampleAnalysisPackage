@@ -1,0 +1,71 @@
+<html><head><meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<!-- page title -->
+<title>Add Signature PEiD Plugin v1.04 - By BoB - Neil / BobSoft</title>
+<style type="text/css">
+<!--
+  .style1 {font-family: Verdana, Arial, Helvetica, sans-serif}
+  .style3 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small; }
+  .style4 {font-size: x-small}
+     body {background:#eeeeff;font-family: verdana,geneva,arial,helvetica,sans-serif;font-size:8pt;text-align: justify}
+        a {color:#000000;}
+      pre {margin: 1% 0% 0% 5%;font-size:8px;font-family:terminal;}
+  .header {background:#B2BFF2;font-weight:800;border: 1px #000000 solid;text-align:center;
+           letter-spacing: 0.3em;margin-bottom:1%;}
+    .attn {color:#FF0000;}
+   .title {text-align:center; font-weight:800; font-size: x-large; margin-bottom:1%;}
+-->
+</style>
+</head><body>
+
+<div class="title">
+  <!--title -->
+  Add Signature PEiD Plugin v1.04
+</div>
+  <!-- author name -->
+<Div style="text-align:center">by BoB <br>
+  <!-- date -->
+  03.10.2006  
+</Div>
+
+<span class="style3"><br>
+<br>
+</span>
+<div class=header>Description</div>
+<p class="style3">This plugin is used to add a signature from the entrypoint of a file, and to edit your UserDB.TXT list easily.&nbsp;<BR>
+Signature data is entered in the same way as in the UserDB.TXT file, eg 11   22 33 44 55 66 77 ?? ?? ?? ?? 11 22 33 44 ?? 55 66 </p>
+<p class="style3">There are a number of crap sigs around,  any sig that is not of a PE file is pointless, any sig that is all ?? bytes is very stupid..<br>
+If people are going to copy their sigs from ancient programs like FA, then they are going to have lots of dodgy sigs. </p>
+<p class="style3">Sigs like : 90 90 90 90 ?1 EB 5? 90 90 90 - Are invalid! It is either ?? or not.. </p>
+<p class="style3">In this version, you can read any number of bytes from the entrypoint to the signature   box on the window, and edit it if necessary, and save it to the UserDB.TXT file in the PEiD installation directory.</p>
+<p class="style3">New in V1.04 -- Now when you grab bytes from EntryPoint, a disassembly will be shown in the log window. </p>
+<p class="style3">Signatures will be marked as dodgy if the length &lt; 5 bytes, there are any bytes with ? but not ??, or any chars are not valid (0-9, A-F and ?) .. <br>
+  You can remove the dodgy entries by clicking 'Remove Dodgy' ..<br> 
+  <br>
+  Note: You can sort a coloumn by clicking it's header, the UserDB.TXT will be saved in the order of the list..<br>
+  Note: Nothing is saved until 'Save to UserDB' is clicked.. <br>
+  <br>
+  If you don't understand a word of this, you probably downloaded the wrong   file.<BR>
+</p>
+<p class="style3"><br>
+</p>
+<div class=header>Changes</div>
+<p class="style3">V1.02 - Fixed error where I left the directory path to PEiD fixed instead of read from   the registry.&nbsp;&nbsp;&nbsp; Thanks to Tori for pointing this out.</p>
+<p class="style3">V1.03 - Added Editor for signatures, scan duplicate signatures, remove relocs from signature, sorted list..<br>
+  - BugFix : If 'Scan with PEiD' not in reg, had error! Now uses Param path to find userdb.txt .. <br>
+-  Added : 'Remove dodgy' and listing of dodgy sigs.. <br>
+<br>
+V1.04 - Added disassembly of Entrypoint to help with locating bytes that need masking..<br>
+- Added : 'Show DisAsm' button to view disasm of sig bytes in Signature Editor (Uses $401000 as base address) <br>
+  - Uses CADt 1.1 by MS-REM for all DisAssembling.. <br>
+  <BR>
+  <br>
+</p>
+<div class=header>Info</div>
+<p class="style3">Greets to: MS-REM, snaker, Jibs &amp; Qwerton, and all peeps on 
+<a href="http://peidforums.has.it">PEiD forum</a><br>
+</p>
+<p class="style3">Comments? email : <a href=mailto:BobSoft@GMail.com>BobSoft@GMail.com</a></p>
+<p class="style3">Thanks again to whoever invented coffee, without which I would never get anything done.. ;)</p>
+<p class="style3">&nbsp; </p>
+</body>
+</html>

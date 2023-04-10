@@ -1,0 +1,146 @@
+已完成插件:
+	压缩壳插件:
+	upx, upack, aspack, nspack, mew, hmimys, pecompact, expressor, fsg, kbys, packman, PEncrypt
+	加密壳插件:
+        telock, yoda's,pelock, armadillo, pespin, morphine, pe-armor0.4x
+
+待完成: 
+        加密壳插件:
+   pe-armor0.7x,  aspr, acpr, execrypt, pc-guard, safedisc,themida, enigma, obsidium, starforce, epe, svkp, sdp, rlpack
+
+日期:2008.03.05
+版本:1.0beta4
+更新:1.去掉beta3中加入的无用换肤功能
+     2.加入动态区段loader
+     3.加入动态区段dumpper
+     4.fix SaveAsFunc函数中指针可能越界的bug
+     5.fix CreateDumpFile函数中当文件create失败时内存可能重复释放的bug
+     6.fcg插件增加对某些fsg2.0加壳exe的通用性。
+
+日期:2008.03.08
+版本:1.0beta4
+更新:1.导入表分析函数和RVA2Offset函数 增强健壮性，fix分析某些upack加壳的程序时飞掉的bug
+
+日期:2008.03.10
+版本:1.0beta4
+更新:1.upack插件增加对某些版本的upack壳的支持
+
+日期:2008.03.13
+版本:1.0beta4
+更新:1.增加对驱动程序的判断
+
+日期:2008.03.13
+版本:1.0beta4
+更新:1.execryptor插件正式开始开发,已经能过旧版anti
+
+日期:2008.03.22
+版本:1.0beta4
+更新:1.增加文件大小优化功能,脱exeinfo可以脱出来很小很小...
+     2.增加pe有效性检测，验证pe文件能被windows加载的必要条件(基本是抄袭linxer的代码)
+     3.开始增加对dll脱壳的支持，已经能脱aspack加壳的dll了
+
+日期:2008.03.22
+版本:1.0beta5
+更新:1.增加telock插件，支持0.98,0.98x,0.99版本telock的脱壳,暂不支持jingulong版本的telock
+
+日期:2008.03.22
+版本:1.0beta5
+更新:1.开始开发dbpe插件
+     2.hmimys插件增加对1.2版本的支持.
+
+日期:2008.04.04
+版本:1.0beta5
+更新:1.fix pecommpact插件修复iat的一个潜在的bug
+     2.脱壳时计算imagesize不准确的bug
+
+日期:2008.04.07
+版本:1.0beta5
+更新:1.移动脱壳文件的tls,fix部分脱壳文件无法运行的bug(tls表丢失...)
+
+日期:2008.04.10
+版本:1.0beta5
+更新:1.fix tls入口有效性判断的一个bug
+     2.fix 区段优化时一些边际条件下优化不彻底
+
+日期:2008.04.11
+版本:1.0beta5
+更新:1.脱壳机根据插件的设置自动选择最佳配置(移除区段数和输入表修复方式)
+     2.去掉脱壳时第一区段的PointerToRawData的对齐(因为cooldumpper的脱壳文件第一区段的PointerToRawData=sizeofheader),避免当sizeofheader < FileAlign 时PointerToRawData计算错误
+
+日期:2008.04.15
+版本:1.0beta5
+更新:1.插件接口增加部分内存转存功能(为了morphine壳的完美脱壳)
+     2.新增morphine插件(支持ver 2.7,完美脱壳,脱下来和加壳前一模一样)。
+     3.新增petite插件(支持 1.2,1.3,1.4,2.x, 仅测试过ver 2.x的, 没例子测试呀...)
+
+日期:2008.04.16
+版本:1.0beta5
+更新:1.新增pcshrink插件
+     2.增加disasm代码功能
+     3.增加自动选壳功能(依赖查壳能力...)
+
+日期:2008.04.22
+版本:1.0beta5
+更新:1.将脱壳后是否移除dos_stub作为可选项
+     2.分析导入表部分由以前的直接读取文件改为map到内存后分析(模仿windows的load来加载,因为在文件中分析存在一个潜在的       bug,petools等都有这样的问题)
+
+日期:2008.04.26
+版本:1.0beta6
+更新:1.增加资源表重建功能!!!(貌似只支持aspack的壳...一般不建议勾选)
+     2.fix hidedebugger中内存补丁的一处bug(将VirtualAllocEx中参数PAGE_READWRITE改为PAGE_EXECUTE_READWRITE,确保执行补丁时不会内存异常)
+
+日期:2008.04.30
+版本:1.0beta6
+更新:1.开始开发pespin插件
+     2.fix判断tls入口有效性的一处bug
+     3.armadillo插件增加对OpenMutexA的处理
+
+
+日期:2008.05.01
+版本:1.0beta6
+更新:1.保留原有tls部分代码完善了一下，直接从原文件中读tls表，因为在dump时从内存中读是不安全的。
+
+日期:2008.05.05
+版本:1.0beta6
+更新:1.保留原有tls部分代码再次完善了下。(为了对delphi程序的兼容)
+
+日期:2008.05.06
+版本:1.0beta6
+更新:1.pe修复功能针对某些区段大小比较特殊(区段大小超过文件大小)的exe增加支持
+
+
+日期:2008.05.10
+版本:1.0beta6
+更新:1.fix重建资源功能的一个bug(脱壳后的文件部分资源目录名丢失)
+     2.已经完全避开execryptor的anti,无论是调试模式还是用execryptor插件注入模式都可以跑execryptor的壳了。
+
+
+日期:2008.05.14
+版本:1.0beta6
+更新:1.yoda插件增加对coolcrypt的支持(800年前的老壳)
+
+日期:2008.06.04
+版本:1.0beta6
+更新:1. upx壳插件增加对autoit程序上的upx的支持(该壳会改pe头区段的属性为只读导致dump下来的exe加载不了)
+
+日期:2008.08.23
+版本:1.0beta6
+更新:1. telock壳插件增强通用性(支持xikug的那个例子文件...)。
+     2. 主程序修复一个潜在的bug(粘贴PE头失去实效。)
+
+日期:2008.08.25
+版本:1.0beta6
+更新:1. hying壳插件修正，给0.49版本打的内存补丁中一个bug。(FF25给写成FF15了,粗心啊)
+     2. 主程序修复一个潜在的bug 继续上次的,上次少了粘贴节表.... (粘贴PE头失去实效。)
+
+日期:2008.08.26
+版本:1.0beta6
+更新:1. 将dump下来文件默认目录设置为目标文件所在路径,而不是脱壳机的路径。
+     2. hying 0.4x插件支持PEQuake0.06的脱壳了。
+
+日期:2008.09.03
+版本:1.0beta6
+更新:1. pespin插件完成,支持所有外面出现过的版本(0.1 ~ 1.32)。
+     2. 主程序验证PE文件函数增加对pe头节容量的检查。
+     3. pespin插件修复跳转表的一个小bug
+     4. 主程序反汇编引擎用od的那个引擎替换。

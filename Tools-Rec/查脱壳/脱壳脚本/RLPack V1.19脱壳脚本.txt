@@ -1,0 +1,19 @@
+
+find eip,#60# 		
+cmp eip,$RESULT 
+je next 				
+go $RESULT 		
+next:
+sto						
+bphws esp,"r"		
+run						
+cob						
+sto
+sto
+sto
+sto
+sto
+sto
+msg "已经找到程序的OEP！！"
+cmt eip, "Find OEP By UnPacKcN FengLian"
+ret

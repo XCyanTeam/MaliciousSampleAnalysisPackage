@@ -1,0 +1,217 @@
+
+
+
+///////////////////////////////////////////////////
+///////   Obsidium v1.3.0.4 重定位修复脚本   /////
+//////           by Tortoiser               /////
+////////////////////////////////////////////////
+///////////////////////////////////////////////
+///          2012.8.10                   /////
+//                                      /////
+////////////////////////////////////////////
+
+
+
+dbh
+bc
+bpmc
+bphwcall
+
+
+
+var IAT_START_ADDR
+var IAT_END_ADDR
+var OEP_ADDR
+var SHOW_API_ADDR
+var API_ADDR
+var FILL_API_ADDR
+var STOP_RELOC_ADDRs
+var BP_VirtualAllocEx_ADDR
+var VirtualProtectEx
+var RELOC_BASE
+var RELOC_SIZE
+var RELOC_NUM
+
+
+
+
+
+///////////////////////////////////////////////////////////
+/////////////////手动添加数据栏///////////////////////////
+/////////////////////////////////////////////////////////
+mov FILL_API_ADDR_START,00A10114 //IAT的起始地址-4 /////
+mov FILL_API_ADDR_END,00A106D4  //IAT的结束地址   /////
+mov OEP_ADDR,009C5BC8          // (伪)OEP地址  
+mov STOP_RELOC_ADDR,0040C23C
+mov RELOC_BASE,9c000
+mov RELOC_SIZE,55000                            /////
+/////////////////////////////////////////////////////
+////////////////////////////////////////////////////
+
+
+bphws STOP_RELOC_ADDR,"x"
+
+
+gpa "VirtualAllocEx","kernel32.dll"
+cmp $RESULT,0
+je end
+mov BP_VirtualAllocEx_ADDR,$RESULT
+
+
+gpa "VirtualProtectEx","kernel32.dll"
+cmp $RESULT,0
+je end
+mov BP_VirtualProtectEx_ADDR,$RESULT
+
+
+bp BP_VirtualAllocEx_ADDR
+bp BP_VirtualProtectEx_ADDR
+
+
+CHANGE:
+esto
+cmp eip,BP_VirtualProtectEx_ADDR
+je CHANGE_CHARECT
+cmp eip,BP_VirtualAllocEx_ADDR
+je CHANGE
+
+
+
+
+
+
+
+
+CHANGE_CHARECT:
+cmp [esp+10],1
+jne CHANGE
+mov [esp+10],4
+jmp BP_RELOC
+
+BP_RELOC:
+
+esto
+sto
+mov eax,0
+find eip,#FF5374EB01#
+cmp $RESULT,0
+je end
+bp $RESULT
+esto
+bc $RESULT
+sto
+sto
+sto
+sto
+sto
+sto
+
+
+
+
+find eip,#FF4DFC#,3
+cmp $RESULT,0
+je end 
+cmp $RESULT,eip
+je CONTINUE
+
+bp $RESULT
+esto
+bc $RESULT
+
+CONTINUE:
+mov RELOC_NUM,[ebp-4]
+cmp RELOC_NUM,1
+je REACH_OEP
+
+jmp BP_RELOC
+
+
+
+
+REACH_OEP:
+
+bc
+bpmc
+bphwcall
+bphws OEP_ADDR,"x"
+esto
+
+
+
+
+loop:
+pusha
+add FILL_API_ADDR_START,4
+cmp FILL_API_ADDR_START,FILL_API_ADDR_END
+ja end
+mov IAT_KEY_ADDR,[FILL_API_ADDR_START],4
+cmp IAT_KEY_ADDR,0
+je loop
+
+mov eip,IAT_KEY_ADDR
+cmp [eip],#B8#,1
+je SPECIAL
+mov eip,IAT_KEY_ADDR
+cmp [eip],#E8#,1
+je SPECIAL
+sti
+sti
+sti
+sti
+
+find eip,#0FB706#
+cmp $RESULT,0
+je end
+bp $RESULT
+esto
+bc eip
+sto
+cmp eax,40
+je SPECIAL
+cmp eax,1
+je loop
+cmp eax,2
+je GET_2
+
+
+GET_2:
+find eip,#FF5354EB01#
+cmp $RESULT,0
+je end
+mov SHOW_API_ADDR,$RESULT
+
+bp SHOW_API_ADDR
+esto
+bc eip
+sto
+
+mov API_ADDR,eax
+mov [FILL_API_ADDR_START],API_ADDR
+
+popa
+jmp loop
+
+
+
+
+
+
+SPECIAL:
+popa
+jmp loop
+
+
+
+
+
+
+
+
+
+end:
+
+msg "IAT已经处理完成，剩下几个没有处理完的请手动处理....."
+mov eip,OEP_ADDR
+
+ret

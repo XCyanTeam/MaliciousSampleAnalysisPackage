@@ -1,0 +1,20 @@
+var tmp
+var fi
+
+mov fi,4dd000
+loop:
+inc fi
+find fi,#9C810424#
+cmp $RESULT,0
+je exit
+mov fi,$RESULT
+mov tmp,fi
+add tmp,63
+find tmp,#9d#,1
+cmp $RESULT,0
+je loop
+fill fi,64,90
+jmp loop
+
+exit:
+ret

@@ -1,0 +1,111 @@
+/*
+VMProtect 2.01-2.06 Unpacker
+by ximo[LCG][DFJG]
+just for fun
+*/
+var tmp
+var lastapi
+var getapi
+var getkey
+var end
+var apiaddr
+var dllname
+var apiname
+var addr
+var key
+var info
+var isover
+mov isover,0
+
+var logfile
+mov logfile,"FkIAT.txt"
+
+/* 
+ÏûÏ¢=eax: 77D317F7 | user32.SetWinEventHook
+*/
+mov lastapi,77D317F7
+/*
+VM_RmSs32:
+01051CC3    36:8B00             mov eax,dword ptr ss:[eax]
+*/
+mov getapi,01051CC3
+/*
+VM_WmDs32:
+01052AB6    8910                mov dword ptr ds:[eax],edx
+*/
+mov getkey,01052AB6
+
+mov end,0100739d
+
+bc
+bphwc
+
+gpa "VirtualProtect", "kernel32"
+cmp $RESULT, 0
+je err
+bp $RESULT+13
+esto
+bc
+rtu
+
+mov tmp,eip
+//eval "eax=={lastapi}"
+//bpcnd tmp, $RESULT
+bphws tmp,"x"
+
+begin:
+esto
+cmp eax,lastapi
+jne begin
+
+bphwc
+bphws getapi,"x"
+esto
+
+loop:
+run
+mov tmp,[eax]
+gn tmp
+cmp $RESULT,0
+je loop
+
+bphws getkey, "x"
+
+do:
+mov apiaddr,[eax]
+gn apiaddr
+cmp $RESULT,0
+je next
+mov dllname,$RESULT_1
+mov apiname,$RESULT_2
+esto
+mov addr,eax
+mov key,apiaddr
+sub key,edx
+eval "{addr},{key},{dllname},{apiname}"
+mov info,$RESULT
+wrta logfile,info
+
+next:
+cmp isover,1
+je end
+run
+mov tmp,[eax]
+cmp tmp,lastapi
+jne do
+mov isover,1
+jmp do
+
+
+end:
+bphwc 
+bphws end,"x"
+run
+bphwc
+ret
+
+
+err:
+bc 
+bphwc
+ret

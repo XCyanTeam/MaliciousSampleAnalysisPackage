@@ -1,0 +1,47 @@
+var addr
+
+sto
+sto
+sto
+sto
+
+mov addr,esp
+bphws addr,"r"
+
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+
+
+BPHWC addr
+
+find eip,#619DE9????????#
+cmp $RESULT,0
+je end
+
+mov addr,$RESULT
+
+bp addr
+run
+bc eip
+sto
+sto
+sto
+
+msg find OEP By UnPacKcN風戀"
+cmt eip, "find OEP By UnPacKcN風戀"
+ret
+
+
+
+end:
+msg "没有找到特征码！！！"
+ret
+

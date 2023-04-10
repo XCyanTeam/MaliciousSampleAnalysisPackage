@@ -1,0 +1,110 @@
+var fi
+var fix
+var nVirtualProtect
+var ncodesize
+var ncodebase
+var ff25start
+var ff25end
+var tmpesp
+var oep
+var bp1
+var bp2
+var tmp
+var breakpoint
+
+
+gpa "VirtualProtect","kernel32.dll"
+mov nVirtualProtect,$RESULT
+add nVirtualProtect,13
+bp nVirtualProtect
+
+findprotect:
+esto
+cmp [esp+c],1
+jnz findprotect
+mov [esp+c],40
+bc
+rtu
+
+mov ncodebase,esi
+add ncodebase,1000
+gmi ncodebase,CODESIZE
+mov ncodesize,$RESULT
+bprm ncodebase,ncodesize
+esto
+bpmc
+mov oep,eip
+mov tmpesp,esp
+gci eip,DESTINATION
+mov tmp,$RESULT
+gci tmp,DESTINATION
+mov tmp,$RESULT
+add tmp,8
+gci tmp,DESTINATION
+mov tmp,$RESULT
+mov breakpoint,tmp
+add breakpoint,7C9
+bp breakpoint
+mov breakpoint,tmp
+add breakpoint,13D
+bp breakpoint
+mov breakpoint,tmp
+add breakpoint,122
+bp breakpoint
+mov bp1,breakpoint
+mov breakpoint,tmp
+add breakpoint,C23
+bp breakpoint
+mov breakpoint,tmp
+add breakpoint,1EF
+bp breakpoint
+mov breakpoint,tmp
+add breakpoint,CA
+bp breakpoint
+mov bp2,breakpoint
+
+mov [4015FC],#EB1066623A432B2B484F4F4B90E998305800A18B305800C1E002A38F305800526A00#
+//ÐÞ¸´STOLEN BYTES
+
+mov ff25start,00581B9C
+mov ff25end,005829B6 
+
+mov fi,ff25start
+sub fi,6
+
+loop:
+mov esp,tmpesp
+add fi,6
+cmp fi,ff25end
+jae exit
+loop_1:
+find fi,#FF#,1
+cmp $RESULT,0
+je cc
+gci fi,DESTINATION
+mov fix,$RESULT
+find fix,#60#,1
+cmp $RESULT,0
+je loop
+mov eip,fix
+esto
+cmp eip,bp1
+je fixloop
+cmp eip,bp2
+je fixloop
+jmp loop
+
+fixloop:
+mov iat,[fi+2]
+mov [iat],eax
+jmp loop
+
+cc:
+inc fi
+jmp loop_1
+
+exit:
+bc
+mov eip,oep
+mov esp,tmpesp
+ret

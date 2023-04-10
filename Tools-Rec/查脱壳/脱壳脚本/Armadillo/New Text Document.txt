@@ -1,0 +1,25 @@
+dbh;
+eoe LABEL; 
+eob BABEL; 
+run; F9
+
+LABEL:
+this; Shift+F9 
+jmp LABEL
+
+BABEL:
+cmp eip, 01196F1C; 
+cmp eax, 1; 
+jne SIGPAS; 
+msgyn “To continue”      ; 
+cmp $RESULT, 1; 
+je SIGPAS;c
+slow down; 
+
+SIGPAS:
+mov!ZF, 1; 
+run; F9
+jmp BABEL
+
+AIM:
+ret; 

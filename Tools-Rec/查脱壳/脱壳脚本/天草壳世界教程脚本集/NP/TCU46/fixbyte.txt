@@ -1,0 +1,58 @@
+var fi
+var tmp
+var sFile
+var bytesize
+mov sFile,"left.txt"
+mov fi,401000
+bc
+bphwc
+
+alloc 1000
+mov funalloc,$RESULT
+mov [funalloc],#F3A49090909090909090#
+mov alloctmp,funalloc
+add alloctmp,4
+bp alloctmp
+
+
+loop:
+inc fi
+find fi,#E8??????00# //如果在壳段搜索则去掉00
+cmp $RESULT,0
+je exit
+mov fi,$RESULT
+gci fi,DESTINATION
+cmp $RESULT,4DD000
+jb loop
+cmp $RESULT,7A2000
+jae loop
+mov tmp,$RESULT
+find tmp,#90#,1
+cmp $RESULT,0
+je loop
+add tmp,F5
+find tmp,#9C#,1
+cmp $RESULT,0
+je loop
+add tmp,11
+loopfix:
+call fix
+find tmp,#90#,1
+cmp $RESULT,0
+je loopfix
+jmp loop
+
+fix:
+gci tmp,SIZE
+mov bytesize,$RESULT
+mov eip,funalloc
+mov ecx,bytesize
+mov edi,fi
+mov esi,tmp
+esto
+add fi,bytesize
+add tmp,bytesize
+ret
+
+exit:
+ret

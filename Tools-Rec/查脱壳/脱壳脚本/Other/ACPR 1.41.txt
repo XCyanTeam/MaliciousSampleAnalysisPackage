@@ -1,0 +1,71 @@
+/////////// ACPR 1.41 code splicing fix script by KaGra
+///////////no breakpoints of any kind,except the magic hardware on execution breakpoint...also no exceptionz checked
+
+
+var start
+var iatstart
+var aa
+var temp
+
+
+
+mov start,01001000
+mov iatstart,01032000
+
+bphws 01013807, "x" //JMP [LLLLLLLL] breakpoint,cause here jmps to valid api
+
+again:
+
+find start, #90E8????# //nop-call for call dword ptr ds:[]
+cmp $RESULT,0
+je endit
+
+
+mov temp,$RESULT
+mov eip,$RESULT
+
+
+
+niox:
+sti
+cmp eip,55555555
+ja again2
+sti
+cmp eip,55555555
+ja again2
+sti
+cmp eip,55555555
+ja again2
+sti
+cmp eip,55555555
+ja again2
+esto
+cmp eip,55555555
+ja again2
+jmp niox
+
+
+
+again2:
+mov [temp],15ff //eip has invalid pointer
+add temp,2
+mov aa,iatstart //scan IAT
+
+again3:
+cmp [aa],eip
+je xxx
+add aa,4
+jmp again3
+
+
+
+xxx:
+mov [temp],aa
+add temp,4
+mov start,temp
+jmp again
+
+
+
+endit:
+ret

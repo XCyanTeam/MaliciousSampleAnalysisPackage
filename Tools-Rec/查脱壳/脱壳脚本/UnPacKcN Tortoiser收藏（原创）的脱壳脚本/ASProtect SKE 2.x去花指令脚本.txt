@@ -1,0 +1,142 @@
+var search
+var tmp
+var tmp1
+var flag
+var sFile
+var imgbase
+var imgsize
+var tmp3
+mov sFile,"fuck.txt"
+gci eip,DESTINATION
+mov stbegin,$RESULT
+mov search,stbegin
+mov flag,0
+mov flag1,0
+
+GMI eip, MODULEBASE
+mov imgbase, $RESULT
+mov tmp1, [imgbase+3C]    //获取代码段大小=1000
+add tmp1, imgbase         //tmp1=代码段起始地址=00401000
+add tmp1,50
+mov imgsize,[tmp1]
+
+
+//带参数EB
+caneb:
+inc search
+findop search,#??EB0?#
+cmp $RESULT,0
+je flagcheck
+mov search,$RESULT
+gci search,TYPE
+cmp $RESULT,58
+jne caneb
+gci search,SIZE
+cmp $RESULT,3
+jne caneb
+mov tmp,search
+add tmp,2
+mov tmp,[tmp]
+and tmp,000000FF
+add tmp,3
+fill search,tmp,90
+jmp caneb
+
+//循环3次补上findop漏掉的
+flagcheck:
+mov search,stbegin
+inc flag
+cmp flag,3
+jb caneb
+
+
+//F2类花指令
+canf2_tmp:
+mov search,stbegin
+canf2:
+inc search
+find search,#F2EB0?#
+cmp $RESULT,0
+je eb_tmp
+find search,#F3EB0?#
+cmp $RESULT,0
+je eb_tmp
+mov search,$RESULT
+gci search,SIZE
+cmp $RESULT,1
+jne canf2
+mov tmp1,search
+mov tmp1,[tmp1]
+and tmp1,000000FF
+sub tmp1,F2
+cmp tmp1,0
+jne canf2
+mov tmp,search
+add tmp,2
+mov tmp,[tmp]
+and tmp,000000FF
+add tmp,3
+fill search,tmp,90
+jmp canf2
+
+
+
+
+
+
+//EB0?类
+eb_tmp:
+mov search,stbegin
+eb:
+inc search
+findop search,#EB0?#
+cmp $RESULT,0
+je flagcheck1
+mov search,$RESULT
+gci search,SIZE
+cmp $RESULT,2
+jne eb
+mov tmp,search
+inc tmp
+mov tmp,[tmp]
+and tmp,000000FF
+add tmp,2
+fill search,tmp,90
+jmp eb
+
+
+
+
+//总循环3次 补上漏掉的
+flagcheck1:
+mov search,stbegin
+inc flag1
+cmp flag1,3
+jb caneb
+
+
+
+//遗漏的F3
+f3_tmp:
+mov search,stbegin
+f3:
+inc search
+find search,#F390#
+cmp $RESULT,0
+je exit
+mov search,$RESULT
+mov tmp3,search
+dec tmp3
+gci tmp3,SIZE
+cmp $RESULT,2
+je f3
+fill search,1,90
+jmp f3
+
+
+
+
+
+exit:
+MSG "现在请再次DUMP程序"
+ret

@@ -1,0 +1,36 @@
+Advanced Loader Generator Patches for 2.05
+
+NOTE: JUMP PATCH ADDRESS is INSIDE from our TARGET!YOU CAN CREATE A LOADER WITH THIS SCRIPT!
+
+Address First Original
+
+VA: 5B3E17
+
+Bytes: E99F08FFFF
+
+Address First Patched
+
+VA: 5B3E17
+
+Bytes: E9F37DFEFF
+
+
+
+Address Second Original
+
+VA: 59BC0F
+
+Bytes: #00# x 25 HEX Value
+
+Address Second Patched
+
+VA: 59BC0F
+
+Bytes: #81FA8DDC5900741581FA25EC59007405E9978A0000C70200050000EBF3C70202000000EBEB#
+
+
+
+*************************
+
+gRn @ LCF-AT
+

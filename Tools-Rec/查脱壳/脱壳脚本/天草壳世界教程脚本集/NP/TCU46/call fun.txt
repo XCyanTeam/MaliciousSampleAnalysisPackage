@@ -1,0 +1,42 @@
+var fi
+var tmp
+var sFile
+var bytesize
+mov sFile,"left.txt"
+mov fi,4dd000
+bc
+bphwc
+
+
+loop:
+inc fi
+find fi,#E8#
+cmp $RESULT,0
+je exit
+mov fi,$RESULT
+gci fi,DESTINATION
+cmp $RESULT,4DD000
+jb loop
+cmp $RESULT,7A2000
+jae loop
+mov tmp,$RESULT
+find tmp,#90#,1
+cmp $RESULT,0
+je loop
+add tmp,91
+find tmp,#68????????9C#,6
+cmp $RESULT,0
+je loop
+find tmp,#648F0500000000#
+mov tmp1,$RESULT
+add tmp1,F
+mov tmp2,tmp1
+add tmp2,7
+mov tmp2,[tmp2]
+add tmp1,tmp2
+eval "call {tmp1}"
+asm fi,$RESULT
+jmp loop
+
+exit:
+ret

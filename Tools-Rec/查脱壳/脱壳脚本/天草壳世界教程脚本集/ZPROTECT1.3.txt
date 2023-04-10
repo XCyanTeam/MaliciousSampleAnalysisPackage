@@ -1,0 +1,50 @@
+var fi
+var tmp
+var oep
+var tmpesp
+mov oep,eip
+mov tmpesp,esp
+mov fi,450114
+bphws 00A3ADC3 ,"x"
+
+loop:
+mov esp,tmpesp
+add fi,4
+cmp fi,004506D4
+jae exit
+cmp [fi],0
+je loop
+cmp [fi],00A1FDD0
+je fix3
+cmp [fi],00a00000
+jae fix2
+
+fix1:
+mov eip,[fi]
+esto
+mov tmp,[esp]
+mov [fi],tmp
+jmp loop
+
+
+fix2:
+mov eip,[fi]
+sto
+sto
+sto
+sto
+sto
+mov tmp,[esp]
+mov [fi],tmp
+jmp loop
+
+fix3:
+gpa "GetModuleHandleA","kernel32.dll"
+mov [fi],$RESULT
+jmp loop
+
+exit:
+mov eip,oep
+mov esp,tmpesp
+bphwc
+ret

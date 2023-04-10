@@ -1,0 +1,28 @@
+bc
+bpmc
+bphwc
+
+var addr
+
+sto
+sto
+find eip,#FFE0#
+cmp $RESULT,0
+je end
+
+mov addr,$RESULT
+
+bp addr
+esto
+bc eip
+
+sto
+
+
+msg "find OEP by UnPacKcN風戀！！"
+cmt eip, "find OEP by UnPacKcN風戀!"
+ret
+
+end:
+msg "没有找到代码FFEO！！"
+ret

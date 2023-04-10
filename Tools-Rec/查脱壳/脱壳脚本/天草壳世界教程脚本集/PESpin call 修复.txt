@@ -1,0 +1,29 @@
+var fi
+var tmp
+var tmp1
+
+
+mov fi,401000
+loop:
+inc fi
+find fi,#E8??????FF#
+cmp $RESULT,0
+je exit
+mov fi,$RESULT
+gci fi,DESTINATION
+cmp $RESULT,004001C0 
+jb loop
+cmp $RESULT,00400429 
+jae loop
+mov tmp,$RESULT
+find tmp,#EB#,1
+cmp $RESULT,0
+jnz loop
+gci tmp,DESTINATION
+mov tmp1,$RESULT
+eval "call {tmp1}"
+asm fi,$RESULT
+jmp loop
+
+exit:
+ret

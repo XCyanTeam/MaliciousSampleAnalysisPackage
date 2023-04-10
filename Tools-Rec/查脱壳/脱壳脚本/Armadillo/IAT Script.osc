@@ -1,0 +1,18 @@
+dbh
+eoe LABEL 
+eob BABEL 
+run 
+
+LABEL:
+esto 
+jmp LABEL
+
+BABEL:
+cmp eip, 00C656CF
+jne FIN 
+mov !ZF, 1
+run 
+jmp BABEL
+
+FIN:
+ret

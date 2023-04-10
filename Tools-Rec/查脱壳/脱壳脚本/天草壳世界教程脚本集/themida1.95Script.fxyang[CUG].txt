@@ -1,0 +1,300 @@
+Bphwcall
+Bpmc
+bc
+cmp $VERSION, "1.65"
+jb odbgvererr               //脚本的后面会提示这个错误
+
+//变量的声明，有些变量要求全局的，所以要在前面声明。
+data:
+var cbase
+var csize
+var dllimg
+var dllsize
+var loadlib
+var mem
+var getprocadd
+var gatprocadd_2
+var tmp
+var temp
+var tmppn
+var tmpdir
+var tmpefn
+var vbflag
+
+//基础数据，这些数据在脚本中要用到。
+gmi eip,CODEBASE             //获得目标程序的代码段地址
+mov cbase,$RESULT
+bphws cbase,"w"
+gmemi eip,MEMORYBASE      //壳段的基地址
+mov dllimg,$RESULT
+log dllimg
+gmemi eip,MEMORYSIZE        //壳段的长度
+mov dllsize,$RESULT
+log dllsize
+gpi PROCESSNAME             //目标程序名称
+mov tmppn, $RESULT
+gpi CURRENTDIR                 //目标程序路径
+mov tmpdir, $RESULT
+GPI EXEFILENAME               //包含路径的程序名
+mov tmpefn, $RESULT
+
+gmi eip,MODULEBASE             //模块基地址
+mov modbase,$RESULT
+sub modbase,10000
+
+//如果需要补区段修复，请使用下面的代码把低于模块段的地址全部申请掉，防止//themida使用低地址内存。不需要的可以注释掉，这段代码来自okdodo：
+/*
+allocloop0:
+alloc 1000
+mov mem, $RESULT
+cmp mem,modbase
+log mem
+jne allocloop0
+*/
+
+gpa "VirtualAlloc", "kernel32.dll"
+mov tmpbp,$RESULT
+cmp tmpbp,0
+je stop
+
+bphws tmpbp ,"x"
+esto
+rtu
+mov temp,eax
+
+esto
+esto
+
+bphwc tmpbp
+//重定位VirtualAlloc
+gmi tmpbp,MODULEBASE
+sub tmpbp,$RESULT
+sub tmpbp,0c00
+add tmpbp,temp
+
+bphws tmpbp ,"x"
+esto
+
+gpa "GetProcAddress", "kernel32.dll"
+mov getprocadd,$RESULT           //取GetProcAddress函数地址，用于定位加密表
+cmp getprocadd,0
+je stop
+
+findflagloop:                       //用个循环来比较EAX值
+esto
+cmp eip,tmpbp                     //如果断点地址不是VirtualAlloc，即是code
+jne  getcodesize                   //去获取code恢复时被恢复的长度，这个后面要用
+cmp eax,getprocadd                 //定位解码表出现的时机
+je findflag
+jmp findflagloop
+
+getcodesize:
+mov tmp,cbase
+inc tmp
+cmp tmp,edi
+je getcodesizepatch
+jmp findflagloop
+
+getcodesizepatch:
+bphwc cbase                        //取消断点
+mov csize,ecx                       //ECX是长度
+log csize
+jmp findflagloop
+
+findflag:                           //发现EAX= GetProcAddress
+esto
+esto
+
+bphwc tmpbp                       //该取消这个断点的时候了
+rtr                                //返回到壳中
+sti
+
+find eip,#8BB5??????0?#              //查找下面这个指令
+// 005537D3 8BB5 09354607  MOV   ESI,DWORD PTR SS:[EBP+7463509]    
+mov tmpbp,$RESULT
+cmp tmpbp,0
+je stop
+
+bphws tmpbp ,"x"                      //在这个地址下硬件运行断点
+esto
+
+sto                                  //单步运行过上面代码
+var iatprocbegin
+Find  esi,#00000000#           //查找解码表的结束地址
+Mov  iatprocend, $RESULT
+Sub  iatprocend,04
+Log  iatprocend
+mov iatprocbegin,esi            //这个地址后面要用，保存起来
+bphws esi,"w"                 //对解码表第一个dword下写入断点
+esto
+
+Bphwcall                     //取消原来所有的硬件断点
+find eip,#2BD9#                //查找sub ebx，ecx指令
+bphws $RESULT
+esto
+
+sti
+log eax,"API:"                  //记录API
+bphwcall                          
+mov [eip],#909090909090#           //修改修改je指令为NOP
+mov tmdanti195,eip                 //这个修改指令记录下来
+
+find eip,#2BD9#
+bphws $RESULT
+esto
+
+sti
+bphwcall
+mov [eip],#909090909090#            //修改第二个指令
+
+find eip,#2BD9#
+bphws $RESULT
+esto
+
+sti
+bphwcall
+mov [eip],#909090909090#             //修改第三个指令
+
+mov temp,esi                         //此时的ESI是第二个dword数据
+bphws temp,"r"
+esto
+
+bphwcall
+find eip,#0385????????#               //对下面代码下执行断点
+// 00556B5D 0385 0D004607 ADD  EAX,DWORD PTR SS:[EBP+746000D]       
+bphws $RESULT,"x"
+esto
+
+sti
+bphwcall
+mov iattop,eax               
+//此时EAX是iat表中函数写入地址，然后判断这个值最小时就是iat基地址
+log iattop,"EAX是iat表中函数写入地址，然后判断这个值最小时就是iat基地址:"
+mov iattlbbegin,esi
+bphws iattlbbegin,"w"
+esto
+
+bphwcall
+find eip,#0385#                     //查找下面指令
+// 00556CD3  0385 0D004607  ADD    EAX,DWORD PTR SS:[EBP+746000D]  
+bphws $RESULT,"x"
+esto
+sti
+
+bphwcall
+mov codeadd,eax                     //这个值就是第一个写入调用API地址的地方
+log codeadd,"第一个调用API的地址："
+bphws iatprocend, "w"                 //在解码表的结束地址下个断
+bphws tmdanti195,"r"                 //这是我们修改的第一个代码，存在crc校验。
+esto
+
+cmp iatprocend,esi
+je tmd195end
+find eip,#3985????????0F84#,
+mov temp, $RESULT
+bphws temp,"x"
+cmp temp,0
+je iatpatch_195over
+esto
+
+bphwcall
+sti
+mov temp,eip
+mov [temp],#90E9#                   //处理效验
+log temp
+
+
+iatpatch_195over:
+bphwcall
+bphws iatprocend,"w"
+esto
+
+tmd195end:
+Bphwcall
+Mov tmp,cbase
+Add tmp,csize                   //取代码的结束，这个可能不准确。
+bprm cbase,csize
+findvoeploop:                   //循环判断
+esto
+
+cmp tmp,eip
+ja findvoep
+jmp findvoeploop                 
+
+findvoep:
+bpmc
+Find codeadd, #0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000#  
+//利用块对齐的特点，找code真正的结束地址。
+mov temp,$RESULT
+sub temp,cbase
+mov csize,temp                        //代码段实际长度
+
+var iatbegin                           //查找IAT表基地址
+var iatsize
+mov iatbegin,iattop
+findiatbeginloop:
+sub iatbegin,04
+cmp [iatbegin],0
+je findiatbeginnext
+jmp findiatbeginloop
+
+findiatbeginnext:
+sub iatbegin,04
+cmp [iatbegin],0
+je findiatbegin
+jmp findiatbeginloop
+
+findiatbegin:
+add iatbegin,08                       //这个地址才是IAT表基地址
+
+find iatbegin,#0000000000000000#      //查找IAT表结束地址
+mov temp, $RESULT
+sub temp,iatbegin
+mov iatsize,temp                      //IAT表长度
+
+bpmc
+exec                                //保存程序的环境，这样我们就可以使用寄存器了
+pushad
+pushfd
+ende
+
+//传递参数给寄存器
+mov ebp,cbase
+mov ebx,csize
+mov edx,csize
+mov esi,iatbegin
+mov edi,iatsize
+//eax,ecx用于计算。
+
+push eip
+add iatprocbegin,010                   
+mov eip,iatprocbegin
+mov [eip], #8A45003CE9740D3CE87409454B83FB00746BEBEC8BCD418B013BC272EE83F0FF3BC272E78B0103C583C00557568B0E3BC1740F83C60483EF0483FF007FEF5E5FEBC93E807DFF90751A8A45003CE9740B66C745FFFF15897501EBE366C745FFFF25EBF38A45003CE9740B66C74500FF15897502EBC966C74500FF25EBF39090#
+mov temp,eip
+add temp,07e
+bp temp
+esto
+
+bc temp
+pop eip
+bp eip
+
+exec
+popfd
+popad
+ende
+
+bc eip
+eval "脚本完成,停在伪OEP地址，IAT表的基地址：{iatbegin},IAT表长度：{iatsize}。修复的文件保存在你的目录下!"
+msg $RESULT
+eval "{tmpdir}{tmppn}_dump.exe"
+dpe $RESULT, eip
+ret
+
+odbgvererr：
+msg "脚本版本错误!"
+ret
+
+stop:
+msg "出错啦!"
+ret                       

@@ -1,0 +1,33 @@
+var oep
+var tmpesp
+var fi
+bphwc
+bc
+bphws 0044CA98 ,"x"
+esto
+bphwc
+bphws 00466A82 ,"x"
+mov oep,eip
+mov tmpesp,esp
+mov fi,401000
+loop:
+mov esp,tmpesp
+inc fi
+find fi,#FF25????4500#
+cmp $RESULT,0
+JE exit
+mov fi,$RESULT
+gci fi,DESTINATION
+cmp $RESULT,4e3000
+jae loop
+mov eip,fi
+esto
+eval "jmp {eax}"
+asm fi,$RESULT
+jmp loop
+
+exit:
+mov eip,oep
+mov esp,tmpesp
+bphwc
+ret

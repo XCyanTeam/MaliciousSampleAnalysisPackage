@@ -1,0 +1,111 @@
+pause
+pause
+BC
+bphwcall
+var offset
+var BPRegOpenKeyExA
+var ZwProtectVirtualMemoryAddress
+var bptimes
+var FirstTimeEncryptWordsAddress
+var SecondTimeEncryptWordsAddress
+var EncryptWords
+var HWIDOffset_1
+var HWIDOffset_2
+var patchaddress
+var KiFastSystemCall_Address
+var valuetemp
+//mov FirstTimeEncryptWordsAddress,06fc18
+//mov SecondTimeEncryptWordsAddress,06f960
+//mov EncryptWords,#D7E2CAB50008010061060100001F926C83BF060738988AF4974006A4#
+GPA "KiFastSystemCall","ntdll.dll"
+mov KiFastSystemCall_Address,$RESULT
+
+mov bptimes,0
+GPA "ZwProtectVirtualMemory","ntdll.dll"
+log $RESULT
+mov ZwProtectVirtualMemoryAddress,$RESULT
+GPA "ZwReadFile","ntdll.dll"
+log $RESULT
+bp $RESULT
+
+check_bptimes:
+esto
+inc bptimes
+cmp bptimes,5  //ZwReadFile中断5次后则所需的dll文件都被读进自己分配的内存
+jnz check_bptimes
+bc $RESULT//把ZwReadFile断点清除
+
+//find 0010000,#8BFF558BEC83EC0C8365FC0053568B750881FE0400008057#  //find RegOpenKeyExA in Shadows
+findmem #8BFF558BEC83EC0C8365FC0053568B750881FE0400008057#
+//you must change 0d10000,because alloc address is different
+//log "RegOpenKeyExA Shadow Address is:"  //
+log $RESULT
+mov BPRegOpenKeyExA,$RESULT
+bp BPRegOpenKeyExA+17 //防止被断点被检测到
+esto
+
+pause
+pause  //此时运行到获取BIOS信息中，EAX为机器码的偏移值
+
+mov valuetemp,eax
+sub valuetemp,70  //判断是否在获取BIOS的地方
+cmp [valuetemp],0
+je CheckGetValue
+esto
+
+
+CheckGetValue:
+mov valuetemp,eax
+sub valuetemp,64  //判断当前的偏移值该为哪个
+cmp [valuetemp],0
+je GetOffsetValue
+mov offset,4c
+jmp GetValue
+
+GetOffsetValue:
+mov offset,48
+
+GetValue:
+bp KiFastSystemCall_Address
+mov HWIDOffset_1,eax-offset //SL偏移值为4c,SE的为48,设置机器码最后一个WORD写入断点
+bphws HWIDOffset_1,"w"
+esto  //先获得解码所需要的ESP值，此时解码才不会被内存校验到
+bc KiFastSystemCall_Address
+log "ESP值:"
+log esp
+
+
+esto
+mov patchaddress,eip  //获得补丁地址，此时的EIP就是 补丁地址
+log "补丁地址:"
+log patchaddress
+log "机器码所在地址1:"
+log HWIDOffset_1
+
+cmp HWIDOffset_1,ecx
+je LOG_ECX
+cmp HWIDOffset_1,ebx
+je LOG_EBX
+log "注意：版本选择不能确定,或许有SDK，请联系 QQ:9112627"
+jmp GetValue_2
+LOG_ECX:
+log "注意：请不要勾选最新版V2.1.7.0 !!!"
+jmp GetValue_2
+LOG_EBX:
+log "注意：请勾选最新版V2.1.7.0 !!!"
+jmp GetValue_2
+GetValue_2:
+bphwc HWIDOffset_1
+esto //此时再次中断在获取BIOS信息代码
+mov HWIDOffset_2,eax-offset //偏移值为4c,设置机器码最后一个WORD写入断点
+log "机器码所在地址2:"
+log HWIDOffset_2
+
+log "所有变量获取完毕，请对应填入补丁工具！" 
+
+BC
+pause
+pause
+
+//GMEMI $RESULT, MEMORYBASE
+//log $RESULT

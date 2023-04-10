@@ -1,0 +1,87 @@
+/////////////////////////////////////////
+/// www.unpack.cn                         ///
+/// Kissy                     ///
+/// Zprotect1.48 DEMO Fix Scr
+///          2009.4.8 
+///  1.Make sure you spell the "Zprotect.dll" right
+///  2.Load ZProtect.exe
+///  3.Run the scr
+///  4.Select your file
+//   5.Enjoy yourself                    ///
+/////////////////////////////////////////
+
+var dllbase
+var pcreatefile
+var back
+var zpdll
+var tmp
+
+gpi CURRENTDIR
+mov zpdll,$RESULT
+add zpdll,"ZProtect.dll"
+
+bphwcall
+bpmc
+bc
+
+gpa "CreateFileA", "kernel32.dll"
+mov pcreatefile, $RESULT
+bphws pcreatefile, "x"
+findzpdll:
+esto
+len [[esp+4]]
+readstr [[esp+4]], $RESULT
+scmp $RESULT,zpdll
+jne findzpdll
+bphwcall
+mov dllbase,edi
+add dllbase,FC0
+
+fuck:
+mov back,dllbase
+add back,38069
+bphws back, "x"
+esto
+bphwcall
+mov tmp,esi
+add tmp,3FC
+mov [tmp],#01000000#
+
+
+tmpcpu1:
+mov tmp,dllbase
+
+cpu1:
+find tmp,#33DB33C933D2B8000000000FA233C333C133C231442420#
+cmp $RESULT, 0
+je tmpcpu2
+mov tmp,$RESULT
+mov [tmp],#C744242011111111#
+add tmp,8
+fill tmp,10C,90
+jmp cpu1
+
+tmpcpu2:
+mov tmp,dllbase
+
+cpu2:
+find tmp,#741F519D33C00FA2#
+cmp $RESULT, 0
+je nag
+mov tmp,$RESULT
+mov [tmp],#EB1F519D33C00FA2#
+inc tmp
+jmp cpu2
+
+
+nag:
+mov tmp,dllbase
+add tmp,2E2EEE
+mov [tmp],#c3#
+msg "All Done! There you go~~"
+esto
+
+
+
+
+

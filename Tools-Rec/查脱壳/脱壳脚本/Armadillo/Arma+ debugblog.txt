@@ -1,0 +1,54 @@
+log "Breakpoint at WriteProcessMemory+3"
+gpa "WriteProcessMemory", "kernel32.dll" 
+add $RESULT,3
+bp $RESULT
+cob
+esto
+esto
+rtr
+sti
+bc $RESULT
+
+var ep
+var old_val
+
+mov ep,eip
+sub ep,14
+mov ep,[ep]
+mov old_val,[ep]
+log [ep]
+log ep
+log old_val
+
+mov [ep],0000feeb 
+log "Change value to address eip-14"
+
+gpa "WaitForDebugEvent", "kernel32.dll" 
+bp $RESULT
+cob
+esto
+rtr
+sti
+bc $RESULT
+
+msg "Check PID of child process"
+
+ask "Enter PID of child process"
+
+log "PID of child process->"
+log $RESULT
+
+mov eax,$RESULT
+asm eip, "push eax"
+mov ep,eip
+add ep,1
+asm ep, "call kernel32.DebugActiveProcessStop"
+add ep,5
+asm ep, "nop"
+add ep,1
+asm ep, "nop"
+
+sto
+sto
+
+ret
