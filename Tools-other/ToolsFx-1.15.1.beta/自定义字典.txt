@@ -1,0 +1,6 @@
+dict 目录 默认top1000 密码
+可加入1400w rockyou字典  https://leon.lanzoub.com/iNxXG04cfbib
+
+注意,点击crack时,会一次性读入内存,加入rockyou字典后,占用内存约2G,建议cmd5在线破解,若无法再用软件破解
+
+测试 1400W md5 耗时14s左右

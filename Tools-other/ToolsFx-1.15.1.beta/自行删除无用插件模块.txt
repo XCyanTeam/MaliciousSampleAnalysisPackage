@@ -1,0 +1,26 @@
+在ToolsFx.properties关闭不使用的模块
+见README--如何配置
+https://github.com/Leon406/ToolsFx/blob/dev/README-zh.md
+
+按需删除lib目录下相关jar包
+
+压缩插件相关
+
+com.springsource.org.objectweb.asm-3.2.0.jar
+commons-compress-1.21.jar
+dec-0.1.2.jar
+plugin-compress-xxx.jar
+xz-1.9.jar
+zstd-jni-1.5.2-1.jar
+
+
+网络请求
+plugin-apipost-xxx.jar
+
+
+坐标转换
+plugin-location-xxx.jar
+
+插件更新下载地址
+
+https://leon.lanzoub.com/b0d9w4cof 提取码：ax63
