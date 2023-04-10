@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="org.mixctf.flutter_app" platformBuildVersionCode="28" platformBuildVersionName="9">
+        
+    <application android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:icon="@mipmap/ic_launcher" android:label="flutter_app" android:name="io.flutter.app.FlutterApplication">
+                
+        <activity android:configChanges="locale|fontScale|keyboard|keyboardHidden|layoutDirection|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="org.mixctf.flutter_app.MainActivity" android:theme="@style/LaunchTheme" android:windowSoftInputMode="adjustResize">
+                        
+            <intent-filter>
+                                
+                <action android:name="android.intent.action.MAIN"/>
+                                
+                <category android:name="android.intent.category.LAUNCHER"/>
+                            
+            </intent-filter>
+                    
+        </activity>
+                
+        <meta-data android:name="flutterEmbedding" android:value="2"/>
+            
+    </application>
+    
+</manifest>
